@@ -508,34 +508,15 @@ footer {
 	}
 }
 
-#lb-overlay {
-	position: fixed;
-	left: 0;
-	top: 0;
-	height: 100%;
-	width: 100%;
-	background: @darker no-repeat scroll center center;
-}
-
-#lightbox {
-	position: fixed;
-	z-index: 999;
-	cursor: pointer;
-	.close {
-		border: 1px solid; //need mixin
-		border-radius: 50%;
-		padding: 7px 10px;
-		color: @lighter;
+.popup-singlePageInline {
+	position: relative;
+	
+	.popup-navigation {
+		cursor: pointer;
+		display: block;
 		font-size: 2em;
 		position: absolute;
-		right: -2em;
-		top: 50%;		
-		text-shadow: none;
-		.opacity(.9);
-		&:hover {
-			background-color: @brand;
-			border-color: transparent;
-			color: @dark;
-		}
-	}		
+		right: 0;
+		top: 0;
+	}
 }

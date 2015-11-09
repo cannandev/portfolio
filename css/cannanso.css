@@ -6625,34 +6625,14 @@ footer .top-link:hover {
 .social a:hover {
   color: #000;
 }
-#lb-overlay {
-  position: fixed;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  background: #000 no-repeat scroll center center;
+.popup-singlePageInline {
+  position: relative;
 }
-#lightbox {
-  position: fixed;
-  z-index: 999;
+.popup-singlePageInline .popup-navigation {
   cursor: pointer;
-}
-#lightbox .close {
-  border: 1px solid;
-  border-radius: 50%;
-  padding: 7px 10px;
-  color: #fff;
+  display: block;
   font-size: 2em;
   position: absolute;
-  right: -2em;
-  top: 50%;
-  text-shadow: none;
-  opacity: 0.9;
-  filter: alpha(opacity=90);
-}
-#lightbox .close:hover {
-  background-color: #FFA200;
-  border-color: transparent;
-  color: #333;
+  right: 0;
+  top: 0;
 }

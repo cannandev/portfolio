@@ -1,14 +1,15 @@
 function updateSinglePageInline(content){
 	var wrappedContent = '<div class="popup-content">' + content + '</div>';
+			wrappedContent += '<div class="popup-navigation"><i class="fa fa-times-circle-o" title="Close (Esc arrow key)" data-action="close"></i></div>';	
 	var singlePageInline = '<div class="popup-singlePageInline">' + wrappedContent + '</div>';
 
 	$('.grid').prepend(singlePageInline);
 	
 }
 
-var gridContainer = function() {
+var gridContainer = function(url) {
 	$.ajax({
-	    url: 'portfolio-gpcad.html',
+	    url: url,
 	    type: 'GET',
 	    dataType: 'html',
 	    timeout: 5000
@@ -48,7 +49,6 @@ var slideItem = function() {
 
 };
 
-
 var portCells = function() {
 	$(".grid-cell").hover(
 		function() {
@@ -61,7 +61,7 @@ var portCells = function() {
 		});
 	$(".grid-cell").click(function(){
 		var link = $(this).children('.caption').attr('href');
-		window.location = link;
+		gridContainer(link);
 	});
 };
 
@@ -82,17 +82,20 @@ var contactVal = function() {
 
 $(document).ready(function(){
 
-	gridContainer();
 	slideItem();
 	portCells();
 	contactVal();
+
+	$('#intro i').after('<span>line of code</span>');
+
+	$(this).on('click', '.popup-navigation', function(){
+		$('.popup-singlePageInline').remove();
+	});
 
 	//testimonal slideshow
 	/* Since absolute positioning each item removes it from the DOM, 
 	 give a flexible height to the wrapper. */
 	var itemHeight = $('#testimonials .item').outerHeight();
 	$('#testimonials .wrapper').css('height', itemHeight);
-
-	$('#intro i').after('<span>line of code</span>');
 
 });
