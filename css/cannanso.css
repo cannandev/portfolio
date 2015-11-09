@@ -6353,6 +6353,9 @@ header img[src*=black] {
 #about .text p {
   font-size: 16px;
 }
+#portfolio {
+  position: relative;
+}
 #portfolio h2 {
   margin-top: -0.5em;
   margin-bottom: 1em;
@@ -6626,7 +6629,10 @@ footer .top-link:hover {
   color: #000;
 }
 .popup-singlePageInline {
-  position: relative;
+  position: absolute;
+  height: 800px;
+  top: 378px;
+  z-index: 10;
 }
 .popup-singlePageInline .popup-navigation {
   cursor: pointer;

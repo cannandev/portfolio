@@ -216,6 +216,8 @@ header {
 }
 
 #portfolio {
+	position: relative;
+
 	h2 {
 		margin-top: -.5em;
 		margin-bottom: 1em;
@@ -509,8 +511,10 @@ footer {
 }
 
 .popup-singlePageInline {
-	position: relative;
-	
+	position: absolute;
+	height: 800px;
+	top: 378px;
+	z-index: 10;
 	.popup-navigation {
 		cursor: pointer;
 		display: block;

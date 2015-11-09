@@ -1,25 +1,30 @@
-function updateSinglePageInline(content){
-	var wrappedContent = '<div class="popup-content">' + content + '</div>';
-			wrappedContent += '<div class="popup-navigation"><i class="fa fa-times-circle-o" title="Close (Esc arrow key)" data-action="close"></i></div>';	
-	var singlePageInline = '<div class="popup-singlePageInline">' + wrappedContent + '</div>';
+var gridContainer = {
+	wrappedContent: '',
+	singPageInline: '',
+	getPage: function(url) {
+		$.ajax({
+		    url: url,
+		    type: 'GET',
+		    dataType: 'html',
+		    timeout: 5000
+		})
+	  .done(function (result) {
+	      gridContainer.update(result);
+	  })
+	  .fail(function () {
+	      gridContainer.update("Error! Please refresh the page!");
+	  });
+	},
+	update: function(content) {
+		this.wrappedContent = '<div class="popup-content">' + content + '</div>';
+		this.wrappedContent += '<div class="popup-navigation"><i class="fa fa-times-circle-o" title="Close (Esc arrow key)" data-action="close"></i></div>';	
+		this.singlePageInline = '<div class="popup-singlePageInline">' + this.wrappedContent + '</div>';
 
-	$('.grid').prepend(singlePageInline);
-	
-}
+		$('.grid').prepend(this.singlePageInline);
+	},
+	open: function() {
 
-var gridContainer = function(url) {
-	$.ajax({
-	    url: url,
-	    type: 'GET',
-	    dataType: 'html',
-	    timeout: 5000
-	})
-  .done(function (result) {
-      updateSinglePageInline(result);
-  })
-  .fail(function () {
-      updateSinglePageInline("Error! Please refresh the page!");
-  });
+	},
 };
 
 var slideItem = function() {
@@ -61,7 +66,9 @@ var portCells = function() {
 		});
 	$(".grid-cell").click(function(){
 		var link = $(this).children('.caption').attr('href');
-		gridContainer(link);
+		$(this).addClass('singlePageInline-active');
+		$(this).siblings().removeClass('singlePageInline-active');
+		gridContainer.getPage(link);
 	});
 };
 
@@ -90,6 +97,7 @@ $(document).ready(function(){
 
 	$(this).on('click', '.popup-navigation', function(){
 		$('.popup-singlePageInline').remove();
+		$('.singlePageInline-active').removeClass('singlePageInline-active');
 	});
 
 	//testimonal slideshow
