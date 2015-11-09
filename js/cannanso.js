@@ -1,6 +1,12 @@
-// singlePageInline
+function updateSinglePageInline(content){
+	var wrappedContent = '<div class="popup-content">' + content + '</div>';
+	var singlePageInline = '<div class="popup-singlePageInline">' + wrappedContent + '</div>';
+
+	$('.grid').prepend(singlePageInline);
+	
+}
+
 var gridContainer = function() {
-	console.log('in gridContainer');
 	$.ajax({
 	    url: 'portfolio-gpcad.html',
 	    type: 'GET',
@@ -8,12 +14,10 @@ var gridContainer = function() {
 	    timeout: 5000
 	})
   .done(function (result) {
-      // this.updateSinglePageInline(result);
-      console.log(result);
+      updateSinglePageInline(result);
   })
   .fail(function () {
-      // this.updateSinglePageInline("Error! Please refresh the page!");
-      console.log("Error! Please refresh the page!");
+      updateSinglePageInline("Error! Please refresh the page!");
   });
 };
 
