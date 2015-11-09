@@ -1,0 +1,12 @@
+img/
+.mov
+.DS_Store
+.codekit-cache/
+
+# minified js files #
+#####################
+min/
+
+# php files #
+#############
+*.php
