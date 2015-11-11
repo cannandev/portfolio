@@ -1,6 +1,7 @@
 var gridContainer = {
 	wrappedContent: '',
 	singPageInline: '',
+	pushDownHeight: '',
 	getPage: function(url) {
 		$.ajax({
 		    url: url,
@@ -36,18 +37,54 @@ var gridContainer = {
 		$('.singlePageInline').animate({height: "800px"}, 500);
 	},
 	positionPreview: function() {
+		//scrollTop
 		console.log('scroll to position the preview in the right place');
 	},
+	init: function() {
+		// move gridCells function to here
+	}
 };
 
+//move these two functions to gridContainer();
+  function collapseAll(){
+    $('.active').removeClass('active').css({'height': 'auto'});
+    $('.expander').slideUp('fast');    
+  }
+  
+  function setHeight(a,b){
+    return a.outerHeight(true) + b.outerHeight(true);
+  }
+
 var gridCells = function() {
-	//replace with on mouseenter/mouseleave
-	$(".grid-cell").click(function(){
-		var link = $(this).children('.caption').attr('href');
-		var content = gridContainer.getPage(link);
-		gridContainer.update(content);
-		gridContainer.open();
-	});
+  $('.grid-cell a').on('click', function(e) {
+  	e.preventDefault();
+    
+    var activeCell, expander, link, content;
+    
+    activeCell = $(this).parent();
+    expander = $(this).siblings('.expander');
+		link = $(this).children('.caption').attr('href');
+		// content = gridContainer.getPage(link);
+
+    activeCell.addClass('active').css({'height': setHeight(activeCell, expander)});
+    expander.slideDown('fast');
+		// gridContainer.update(content);
+		// gridContainer.open();    
+  })
+    .mouseenter(function(e){
+	    e.preventDefault();
+	    $(this).children('.caption').slideDown('slow');
+  })
+    .mouseleave(function(e){
+	    e.preventDefault();
+	    $(this).children('.caption').slideUp('slow');  
+  });
+  
+  $('.grid-cell .close').on('click', function(e){
+    e.preventDefault();
+    collapseAll();  
+  });
+
 };
 
 var slideItem = function() {
@@ -92,6 +129,11 @@ var contactVal = function() {
 	});
 };
 
+// Should this be in doc.ready?
+$(window).resize(function() {
+  collapseAll();
+});
+
 $(document).ready(function(){
 
 	slideItem();
@@ -100,14 +142,11 @@ $(document).ready(function(){
 
 	$('#intro i').after('<span>line of code</span>');
 
-	$('.grid-cell').on('click', '.popup-navigation', function(){
-		$('.popup-singlePageInline').remove();
-		$('.singlePageInline-active').removeClass('singlePageInline-active');
-	});
+	// $('.grid-cell').on('click', '.popup-navigation', function(){
+	// 	$('.popup-singlePageInline').remove();
+	// 	$('.singlePageInline-active').removeClass('singlePageInline-active');
+	// });
 
-	//testimonal slideshow
-	/* Since absolute positioning each item removes it from the DOM, 
-	 give a flexible height to the wrapper. */
 	var itemHeight = $('#testimonials .item').outerHeight();
 	$('#testimonials .wrapper').css('height', itemHeight);
 
