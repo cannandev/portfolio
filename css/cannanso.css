@@ -6428,6 +6428,7 @@ header img[src*=black] {
   position: absolute;
   padding: 20px;
   background: #F8F8F8;
+  cursor: crosshair;
   display: none;
   min-height: 200px;
   top: auto;

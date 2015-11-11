@@ -1,8 +1,6 @@
 var gridContainer = {
-	wrappedContent: '',
-	singPageInline: '',
-	pushDownHeight: '',
-	getPage: function(url) {
+	anchor: '',
+	setPage: function(url) {
 		$.ajax({
 		    url: url,
 		    type: 'GET',
@@ -17,72 +15,51 @@ var gridContainer = {
 	  });
 	},
 	update: function(content) {
-		this.wrappedContent = '<div class="popup-content">' + content + '</div>';
-		this.wrappedContent += '<div class="popup-navigation"><i class="fa fa-times-circle-o" title="Close (Esc arrow key)" data-action="close"></i></div>';	
-		this.singlePageInline = '<div class="popup-singlePageInline">' + this.wrappedContent + '</div>';
+		$(this.anchor).siblings('.expander').append(content);
+		this.expand();
+	},
+	expand: function() {    
+    var activeCell = $(this.anchor).parent(),
+    		expander = $(this.anchor).siblings('.expander');
 
-		$('.grid').prepend(this.singlePageInline);
+    activeCell.addClass('active');
+    activeCell.css({'height': this.setHeights(activeCell, expander)});
+    expander.slideDown('fast');
 	},
-	open: function() {
-		setTimeout( $.proxy( function() {	
-			// set the height for the preview and the item
-			this.setHeights();
-			// scroll to position the preview in the right place
-			this.positionPreview();
-		}, this ), 25 );
-	},
-	setHeights: function() {
-		// var winsize = { width: $(window).width(), height: $(window).height() };
-		$('.singlePageInline-active').animate({height: "250px"}, 500);
-		$('.singlePageInline').animate({height: "800px"}, 500);
+	setHeights: function(a,b) {
+		return a.outerHeight(true) + b.outerHeight(true);
 	},
 	positionPreview: function() {
 		//scrollTop
 		console.log('scroll to position the preview in the right place');
+	},
+	close: function(){
+    $('.grid-cell.active').removeClass('active').css({'height': 'auto'});
+    $('.grid-cell .expander').slideUp('fast');  
 	},
 	init: function() {
 		// move gridCells function to here
 	}
 };
 
-//move these two functions to gridContainer();
-  function collapseAll(){
-    $('.active').removeClass('active').css({'height': 'auto'});
-    $('.expander').slideUp('fast');    
-  }
-  
-  function setHeight(a,b){
-    return a.outerHeight(true) + b.outerHeight(true);
-  }
-
 var gridCells = function() {
   $('.grid-cell a').on('click', function(e) {
   	e.preventDefault();
-    
-    var activeCell, expander, link, content;
-    
-    activeCell = $(this).parent();
-    expander = $(this).siblings('.expander');
-		link = $(this).children('.caption').attr('href');
-		// content = gridContainer.getPage(link);
-
-    activeCell.addClass('active').css({'height': setHeight(activeCell, expander)});
-    expander.slideDown('fast');
-		// gridContainer.update(content);
-		// gridContainer.open();    
+		gridContainer.anchor = this;
+		gridContainer.setPage(this.getAttribute('href'));
   })
-    .mouseenter(function(e){
-	    e.preventDefault();
-	    $(this).children('.caption').slideDown('slow');
+  .mouseenter(function(e){
+    e.preventDefault();
+    $(this).children('.caption').slideDown('slow');
   })
-    .mouseleave(function(e){
-	    e.preventDefault();
-	    $(this).children('.caption').slideUp('slow');  
+  .mouseleave(function(e){
+    e.preventDefault();
+    $(this).children('.caption').slideUp('slow');  
   });
   
   $('.grid-cell .close').on('click', function(e){
     e.preventDefault();
-    collapseAll();  
+    gridContainer.close();  
   });
 
 };
@@ -131,7 +108,7 @@ var contactVal = function() {
 
 // Should this be in doc.ready?
 $(window).resize(function() {
-  collapseAll();
+  gridContainer.close();
 });
 
 $(document).ready(function(){
@@ -141,11 +118,6 @@ $(document).ready(function(){
 	contactVal();
 
 	$('#intro i').after('<span>line of code</span>');
-
-	// $('.grid-cell').on('click', '.popup-navigation', function(){
-	// 	$('.popup-singlePageInline').remove();
-	// 	$('.singlePageInline-active').removeClass('singlePageInline-active');
-	// });
 
 	var itemHeight = $('#testimonials .item').outerHeight();
 	$('#testimonials .wrapper').css('height', itemHeight);
