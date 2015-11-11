@@ -267,6 +267,16 @@ header {
 	    }
 	  }  
 	}
+	&.expanded > a::after {
+    content: '\f0d8';
+    color: @brand;    
+    font: normal normal normal 48px/1 FontAwesome;
+    position: absolute;
+    left: 50%;
+    top: auto;
+    margin-top: -30px;    
+    z-index: 10;
+	}
 	.caption {
 		display: none;
 		background: fade(@darker, 80%);
@@ -287,17 +297,18 @@ header {
 		}
 	}  
 	.expander {
-    position: absolute;
-    padding: 20px;
-    background: @light;
+		background: @light;
+    border-top: 5px solid @brand;
     cursor: crosshair;
     display: none;
-    min-height: 200px;
+    min-height: 200px;    
+    padding: 20px;
+    position: absolute;
     top: auto;
     left: 0;
-    width: 99%;
     text-align: left;
     overflow: hidden;
+		width: 99%;
 	}
 	.close {
 	  display: block;

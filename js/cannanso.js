@@ -25,7 +25,7 @@ var gridCells = {
     var activeCell = $(this.anchor).parent(), 
     		expander = this.expander;
 
-    activeCell.addClass('active');
+    activeCell.addClass('expanded');
     activeCell.css({'height': this.setHeights(activeCell, expander)});
     expander.slideDown('fast');
 	},
@@ -38,7 +38,7 @@ var gridCells = {
 	},
 	close: function(){
 		console.log('clicked');
-    $('.grid-cell.active').removeClass('active').css({'height': 'auto'});
+    $('.grid-cell.expanded').removeClass('expanded').css({'height': 'auto'});
     $('.grid-cell .expander').slideUp('fast');  
 	},
 	init: function() {
@@ -64,26 +64,27 @@ var gridCells = {
 };
 
 var slideItem = function() {
+	var itemHeight = $('#testimonials .item').outerHeight();
+	$('#testimonials .wrapper').css('height', itemHeight);
+
  	$('#testimonials .next').click(function(){
- 		var activeItem = $('#testimonials .active');
- 		var nextItem = activeItem.next();
+ 		var activeItem = $('#testimonials .active'),
+ 				nextItem = activeItem.next();
 
  		if(nextItem.length === 0) {
  			nextItem = $('.item').first();
  		}
-
  		activeItem.fadeOut(600).removeClass('active');
  		nextItem.fadeIn(600).addClass('active');
  	});
 
  	$('#testimonials .prev').click(function(){
- 		var activeItem = $('#testimonials .active');
- 		var prevItem = activeItem.prev();
+ 		var activeItem = $('#testimonials .active'),
+ 				prevItem = activeItem.prev();
 
  		if(prevItem.length === 0) {
  			prevItem = $('.item').last();
  		}
-
  		activeItem.fadeOut(600).removeClass('active');
  		prevItem.fadeIn(600).addClass('active');
  	}); 	
@@ -117,8 +118,5 @@ $(document).ready(function(){
 	contactVal();
 
 	$('#intro i').after('<span>line of code</span>');
-
-	var itemHeight = $('#testimonials .item').outerHeight();
-	$('#testimonials .wrapper').css('height', itemHeight);
 
 });

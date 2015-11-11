@@ -6405,6 +6405,16 @@ header img[src*=black] {
 .grid-cell > a:hover img {
   transform: scale(1.3);
 }
+.grid-cell.expanded > a::after {
+  content: '\f0d8';
+  color: #FFA200;
+  font: normal normal normal 48px/1 FontAwesome;
+  position: absolute;
+  left: 50%;
+  top: auto;
+  margin-top: -30px;
+  z-index: 10;
+}
 .grid-cell .caption {
   display: none;
   background: rgba(0, 0, 0, 0.8);
@@ -6425,17 +6435,18 @@ header img[src*=black] {
   font-size: 12px;
 }
 .grid-cell .expander {
-  position: absolute;
-  padding: 20px;
   background: #F8F8F8;
+  border-top: 5px solid #FFA200;
   cursor: crosshair;
   display: none;
   min-height: 200px;
+  padding: 20px;
+  position: absolute;
   top: auto;
   left: 0;
-  width: 99%;
   text-align: left;
   overflow: hidden;
+  width: 99%;
 }
 .grid-cell .close {
   display: block;
