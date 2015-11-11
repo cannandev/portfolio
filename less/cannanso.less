@@ -221,21 +221,62 @@ header {
 	h2 {
 		margin-top: -.5em;
 		margin-bottom: 1em;
+		@media ( min-width: @screen-sm-min ) {
+			margin-top: 1em;
+			margin-bottom: 1.5em;				
+		}	
 	}
-	.grid-cell {
-		position: relative;
-		overflow: hidden;
-		background: @darker;
-		cursor: pointer;
+	.grid {
+    width: 100%;
+    position: relative;
+	}
+}
+
+.grid-cell {	
+	background: @darker;
+	cursor: pointer;
+  display: inline-block;
+  margin: 0 0 0 -5px;
+  padding: 0;
+  vertical-align: top;
+  overflow: hidden;
+  transition: height 0.3s ease-in-out; 
+ 	width: 100%;
+
+  @media all and (min-width: 800px){ // use bootstrap screen size
+    width: 49%;
+  }
+  @media all and (min-width: 1200px){ // use bootstrap screen size
+    width: 33%;
+  }
+
+  img {
+		transition: all 0.2s ease-in-out;	  	
+  }
+
+	& > a {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  bottom: 0;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    img {
+      transform: scale(1.5);      
+	    }
+	  }  
 	}
 	.caption {
 		display: none;
-		background: @darker;
+		background: fade(@darker, 10%);
 		color: @light;
 		position: absolute;
 		bottom: 0;
-		width: 100%;
 		padding: 15px;
+		transition: background 0.3s ease-in-out;
+		width: 100%;
+		z-index: 6;
 		h3 {
 			color: @light;
 			margin-top: 0;
@@ -244,17 +285,26 @@ header {
 			text-transform: uppercase;
 			font-size: 12px;
 		}
+	}  
+	.expander {
+    position: absolute;
+    padding: 20px;
+    background: #ddd;
+    display: none;
+    min-height: 200px;
+    top: auto;
+    left: 0;
+    width: 100%;
+    margin-top: 10px;
+    text-align: left;
+    overflow: hidden;
 	}
-	@media ( min-width: @screen-sm-min ) {
-		.grid-cell {
-			padding-left: 0;
-			padding-right: 0;
-		}
-		h2 {
-			margin-top: 1em;
-			margin-bottom: 1.5em;				
-		}		
-	}	
+	.close {
+	  display: block;
+	  text-align: right;
+	  text-decoration: none;
+	  margin-bottom: 10px;
+	}	  
 }
 
 #testimonials {

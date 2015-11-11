@@ -6360,38 +6360,88 @@ header img[src*=black] {
   margin-top: -0.5em;
   margin-bottom: 1em;
 }
-#portfolio .grid-cell {
-  position: relative;
-  overflow: hidden;
-  background: #000;
-  cursor: pointer;
-}
-#portfolio .caption {
-  display: none;
-  background: #000;
-  color: #F8F8F8;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  padding: 15px;
-}
-#portfolio .caption h3 {
-  color: #F8F8F8;
-  margin-top: 0;
-}
-#portfolio .caption span {
-  text-transform: uppercase;
-  font-size: 12px;
-}
 @media (min-width: 768px) {
-  #portfolio .grid-cell {
-    padding-left: 0;
-    padding-right: 0;
-  }
   #portfolio h2 {
     margin-top: 1em;
     margin-bottom: 1.5em;
   }
+}
+#portfolio .grid {
+  width: 100%;
+  position: relative;
+}
+.grid-cell {
+  background: #000;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 0 0 -5px;
+  padding: 0;
+  vertical-align: top;
+  overflow: hidden;
+  transition: height 0.3s ease-in-out;
+  width: 100%;
+}
+@media all and (min-width: 800px) {
+  .grid-cell {
+    width: 49%;
+  }
+}
+@media all and (min-width: 1200px) {
+  .grid-cell {
+    width: 33%;
+  }
+}
+.grid-cell img {
+  transition: all 0.2s ease-in-out;
+}
+.grid-cell > a {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  bottom: 0;
+  transition: all 0.2s ease-in-out;
+}
+.grid-cell > a:hover img {
+  transform: scale(1.5);
+}
+.grid-cell .caption {
+  display: none;
+  background: rgba(0, 0, 0, 0.1);
+  color: #F8F8F8;
+  position: absolute;
+  bottom: 0;
+  padding: 15px;
+  transition: background 0.3s ease-in-out;
+  width: 100%;
+  z-index: 6;
+}
+.grid-cell .caption h3 {
+  color: #F8F8F8;
+  margin-top: 0;
+}
+.grid-cell .caption span {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.grid-cell .expander {
+  position: absolute;
+  padding: 20px;
+  background: #ddd;
+  display: none;
+  min-height: 200px;
+  top: auto;
+  left: 0;
+  width: 100%;
+  margin-top: 10px;
+  text-align: left;
+  overflow: hidden;
+}
+.grid-cell .close {
+  display: block;
+  text-align: right;
+  text-decoration: none;
+  margin-bottom: 10px;
 }
 #testimonials .wrapper {
   position: relative;
