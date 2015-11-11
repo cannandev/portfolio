@@ -6437,6 +6437,7 @@ header img[src*=black] {
 .grid-cell .expander {
   background: #F8F8F8;
   border-top: 5px solid #FFA200;
+  border-bottom: 5px solid #FFA200;
   cursor: crosshair;
   display: none;
   min-height: 200px;
