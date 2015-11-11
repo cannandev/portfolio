@@ -1,5 +1,6 @@
-var gridContainer = {
+var gridCells = {
 	anchor: '',
+	expander: '',
 	setPage: function(url) {
 		$.ajax({
 		    url: url,
@@ -8,19 +9,21 @@ var gridContainer = {
 		    timeout: 5000
 		})
 	  .done(function (result) {
-	      gridContainer.update(result);
+	      gridCells.update(result);
 	  })
 	  .fail(function () {
-	      gridContainer.update("Error! Please refresh the page!");
+	      gridCells.update("Error! Please refresh the page!");
 	  });
 	},
 	update: function(content) {
-		$(this.anchor).siblings('.expander').append(content);
+		this.expander = $(this.anchor).siblings('.expander');
+		this.expander.html(content);
+		this.expander.prepend('<a href="#" class="close">Close <i class="fa fa-times-circle-o"></i></a>');
 		this.expand();
 	},
 	expand: function() {    
-    var activeCell = $(this.anchor).parent(),
-    		expander = $(this.anchor).siblings('.expander');
+    var activeCell = $(this.anchor).parent(), 
+    		expander = this.expander;
 
     activeCell.addClass('active');
     activeCell.css({'height': this.setHeights(activeCell, expander)});
@@ -34,34 +37,30 @@ var gridContainer = {
 		console.log('scroll to position the preview in the right place');
 	},
 	close: function(){
+		console.log('clicked');
     $('.grid-cell.active').removeClass('active').css({'height': 'auto'});
     $('.grid-cell .expander').slideUp('fast');  
 	},
 	init: function() {
-		// move gridCells function to here
+	  $('.grid-cell a').on('click', function(e) {
+	  	e.preventDefault();
+			gridCells.anchor = this;
+			gridCells.setPage(this.getAttribute('href'));
+	  })
+	  .mouseenter(function(e){
+	    e.preventDefault();
+	    $(this).children('.caption').slideDown('slow');
+	  })
+	  .mouseleave(function(e){
+	    e.preventDefault();
+	    $(this).children('.caption').slideUp('slow');  
+	  });
+	  
+	  $('.grid-cell').on('click', ' .close', function(e){
+	    e.preventDefault();
+	    gridCells.close();  
+	  });
 	}
-};
-
-var gridCells = function() {
-  $('.grid-cell a').on('click', function(e) {
-  	e.preventDefault();
-		gridContainer.anchor = this;
-		gridContainer.setPage(this.getAttribute('href'));
-  })
-  .mouseenter(function(e){
-    e.preventDefault();
-    $(this).children('.caption').slideDown('slow');
-  })
-  .mouseleave(function(e){
-    e.preventDefault();
-    $(this).children('.caption').slideUp('slow');  
-  });
-  
-  $('.grid-cell .close').on('click', function(e){
-    e.preventDefault();
-    gridContainer.close();  
-  });
-
 };
 
 var slideItem = function() {
@@ -108,13 +107,13 @@ var contactVal = function() {
 
 // Should this be in doc.ready?
 $(window).resize(function() {
-  gridContainer.close();
+  gridCells.close();
 });
 
 $(document).ready(function(){
 
+	gridCells.init();
 	slideItem();
-	gridCells();
 	contactVal();
 
 	$('#intro i').after('<span>line of code</span>');
