@@ -23,7 +23,20 @@ var gridContainer = {
 		$('.grid').prepend(this.singlePageInline);
 	},
 	open: function() {
-
+		setTimeout( $.proxy( function() {	
+			// set the height for the preview and the item
+			this.setHeights();
+			// scroll to position the preview in the right place
+			this.positionPreview();
+		}, this ), 25 );
+	},
+	setHeights: function() {
+		// var winsize = { width: $(window).width(), height: $(window).height() };
+		$('.singlePageInline-active').animate({height: "250px"}, 500);
+		$('.singlePageInline').animate({height: "800px"}, 500);
+	},
+	positionPreview: function() {
+		console.log('scroll to position the preview in the right place');
 	},
 };
 
@@ -55,6 +68,7 @@ var slideItem = function() {
 };
 
 var portCells = function() {
+	//replace with on mouseenter/mouseleave
 	$(".grid-cell").hover(
 		function() {
 			$(this).children('.caption').slideDown('fast');
@@ -69,6 +83,7 @@ var portCells = function() {
 		$(this).addClass('singlePageInline-active');
 		$(this).siblings().removeClass('singlePageInline-active');
 		gridContainer.getPage(link);
+		gridContainer.open(this);
 	});
 };
 
@@ -95,7 +110,7 @@ $(document).ready(function(){
 
 	$('#intro i').after('<span>line of code</span>');
 
-	$(this).on('click', '.popup-navigation', function(){
+	$('.grid-cell').on('click', '.popup-navigation', function(){
 		$('.popup-singlePageInline').remove();
 		$('.singlePageInline-active').removeClass('singlePageInline-active');
 	});

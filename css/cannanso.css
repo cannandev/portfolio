@@ -6630,9 +6630,8 @@ footer .top-link:hover {
 }
 .popup-singlePageInline {
   position: absolute;
-  height: 800px;
-  top: 378px;
   z-index: 10;
+  border: 1px solid red;
 }
 .popup-singlePageInline .popup-navigation {
   cursor: pointer;
