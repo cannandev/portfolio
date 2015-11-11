@@ -40,6 +40,16 @@ var gridContainer = {
 	},
 };
 
+var gridCells = function() {
+	//replace with on mouseenter/mouseleave
+	$(".grid-cell").click(function(){
+		var link = $(this).children('.caption').attr('href');
+		var content = gridContainer.getPage(link);
+		gridContainer.update(content);
+		gridContainer.open();
+	});
+};
+
 var slideItem = function() {
  	$('#testimonials .next').click(function(){
  		var activeItem = $('#testimonials .active');
@@ -67,26 +77,6 @@ var slideItem = function() {
 
 };
 
-var portCells = function() {
-	//replace with on mouseenter/mouseleave
-	$(".grid-cell").hover(
-		function() {
-			$(this).children('.caption').slideDown('fast');
-			$(this).children('img').animate({marginTop:'-78px', marginBottom: '78px'}, 100);			
-		}, 
-		function() {
-			$(this).children('.caption').slideUp('slow');
-			$(this).children('img').animate({marginTop:'0', marginBottom: '0'}, 100);
-		});
-	$(".grid-cell").click(function(){
-		var link = $(this).children('.caption').attr('href');
-		$(this).addClass('singlePageInline-active');
-		$(this).siblings().removeClass('singlePageInline-active');
-		gridContainer.getPage(link);
-		gridContainer.open(this);
-	});
-};
-
 var contactVal = function() {
 	$('#contact form').on('submit', function() {		
 		$('.form-control').each(function() {
@@ -105,7 +95,7 @@ var contactVal = function() {
 $(document).ready(function(){
 
 	slideItem();
-	portCells();
+	gridCells();
 	contactVal();
 
 	$('#intro i').after('<span>line of code</span>');
