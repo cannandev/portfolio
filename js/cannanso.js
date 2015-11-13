@@ -16,7 +16,8 @@ var gridCells = {
 	  });
 	},
 	update: function(content) {
-		this.expander = $(this.anchor).siblings('.expander');
+		this.close();
+		this.expander = $('<div id="expander"></div>').appendTo($(this.anchor).parent());
 		this.expander.html(content);
 		this.expander.prepend('<a href="#" class="close">Close <i class="fa fa-times-circle-o"></i></a>');
 		this.expand();
@@ -27,9 +28,10 @@ var gridCells = {
 
     activeCell.addClass('expanded');
     activeCell.css({'height': this.setHeights(activeCell, expander)});
-    expander.slideDown('fast');
+    expander.slideDown(400);
 	},
 	setHeights: function(a,b) {
+console.log('b:' + b.outerHeight(true));
 		return a.outerHeight(true) + b.outerHeight(true);
 	},
 	positionPreview: function() {
@@ -37,9 +39,9 @@ var gridCells = {
 		console.log('scroll to position the preview in the right place');
 	},
 	close: function(){
-		console.log('clicked');
     $('.grid-cell.expanded').removeClass('expanded').css({'height': 'auto'});
-    $('.grid-cell .expander').slideUp('fast');  
+    $('#expander').slideUp(400);
+    $('#expander').remove();
 	},
 	init: function() {
 	  $('.grid-cell a').on('click', function(e) {

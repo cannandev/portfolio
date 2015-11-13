@@ -6378,7 +6378,7 @@ header img[src*=black] {
   padding: 0;
   vertical-align: top;
   overflow: hidden;
-  transition: height 0.3s ease-in-out;
+  transition: all 0.4s ease;
   width: 100%;
 }
 @media all and (min-width: 800px) {
@@ -6434,20 +6434,21 @@ header img[src*=black] {
   text-transform: uppercase;
   font-size: 12px;
 }
-.grid-cell .expander {
+.grid-cell #expander {
+  display: none;
   background: #F8F8F8;
   border-top: 5px solid #FFA200;
   border-bottom: 5px solid #FFA200;
   cursor: crosshair;
-  display: none;
   min-height: 200px;
   padding: 20px;
   position: absolute;
   top: auto;
   left: 0;
-  text-align: left;
   overflow: hidden;
+  text-align: left;
   width: 99%;
+  z-index: 100;
 }
 .grid-cell .close {
   display: block;

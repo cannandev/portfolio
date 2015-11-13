@@ -240,7 +240,7 @@ header {
   padding: 0;
   vertical-align: top;
   overflow: hidden;
-  transition: height 0.3s ease-in-out; 
+  transition: all 0.4s ease; 
  	width: 100%;
 
   @media all and (min-width: 800px){ // use bootstrap screen size
@@ -296,20 +296,21 @@ header {
 			font-size: 12px;
 		}
 	}  
-	.expander {
+	#expander {
+    display: none;		
 		background: @light;
     border-top: 5px solid @brand;
     border-bottom: 5px solid @brand;
     cursor: crosshair;
-    display: none;
     min-height: 200px;    
     padding: 20px;
     position: absolute;
     top: auto;
     left: 0;
-    text-align: left;
     overflow: hidden;
+    text-align: left;
 		width: 99%;
+		z-index: 100;
 	}
 	.close {
 	  display: block;
