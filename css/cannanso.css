@@ -6177,10 +6177,10 @@ button.close {
   color: #F8F8F8;
 }
 .dark a {
-  color: #FFA200;
+  color: #40ADE0;
 }
 .dark a:hover {
-  color: #40ADE0;
+  color: #FFA200;
 }
 .darker {
   background: #000;
@@ -6198,17 +6198,18 @@ h3 {
 a {
   color: #40ADE0;
   transition: color 0.3s ease;
+  text-decoration: none;
 }
 a:hover {
-  text-decoration: none;
   color: #FFA200;
+  text-decoration: none;
 }
 p > a {
-  color: #FFA200;
+  color: #40ADE0;
 }
 p > a:hover {
   text-decoration: none;
-  color: #40ADE0;
+  color: #FFA200;
 }
 img {
   max-width: 100%;

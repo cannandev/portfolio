@@ -28,9 +28,9 @@
 	background: @dark;
 	color: @light;
 	a{
-		color: @brand;
+		color: @highlight;
 		&:hover {
-			color: @highlight;
+			color: @brand;
 		}		
 	}
 }
@@ -56,17 +56,18 @@ h3 {
 a {
 	color: @highlight;
 	transition: color 0.3s ease;
+	text-decoration: none;
 	&:hover {
-		text-decoration: none;
 		color: @brand;
+		text-decoration: none;		
 	}	
 }
 
 p > a {
-	color: @brand;
+	color: @highlight;
 	&:hover {
 		text-decoration: none;
-		color: @highlight;
+		color: @brand;
 	}		
 }
 
