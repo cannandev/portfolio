@@ -6375,14 +6375,25 @@ header .navbar-toggle .fa {
   }
 }
 #portfolio .grid {
-  margin: 0 0 0 1em;
+  margin: 0 auto;
   position: relative;
-  width: 100%;
+  width: 400px;
+}
+@media all and (min-width: 768px) {
+  #portfolio .grid {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media all and (min-width: 1200px) {
+  #portfolio .grid {
+    text-align: left;
+  }
 }
 .grid-cell {
   cursor: pointer;
   display: inline-block;
-  margin: 0 -5px 0 0;
+  margin: 0 0 8px 0;
   padding: 0;
   vertical-align: top;
   overflow: hidden;
@@ -6391,12 +6402,14 @@ header .navbar-toggle .fa {
 }
 @media all and (min-width: 800px) {
   .grid-cell {
-    width: 49%;
+    width: 40%;
+    margin: 0 3px 8px 0;
   }
 }
 @media all and (min-width: 1200px) {
   .grid-cell {
     width: 33%;
+    margin: 0 -5px 0 0;
   }
 }
 .grid-cell img {
@@ -6430,6 +6443,7 @@ header .navbar-toggle .fa {
   position: absolute;
   bottom: 0;
   padding: 15px;
+  text-align: left;
   transition: background 0.3s ease-in-out;
   width: 100%;
   z-index: 6;
@@ -6438,25 +6452,14 @@ header .navbar-toggle .fa {
   color: #F8F8F8;
   margin-top: 0;
 }
+@media (max-width: 992px) and (min-width: 768px) {
+  .grid-cell .caption h3 {
+    font-size: 16px;
+  }
+}
 .grid-cell .caption span {
   text-transform: uppercase;
   font-size: 12px;
-}
-.grid-cell #expander {
-  display: none;
-  background: #F8F8F8;
-  border-top: 5px solid #FFA200;
-  border-bottom: 5px solid #FFA200;
-  cursor: crosshair;
-  min-height: 200px;
-  padding: 20px;
-  position: absolute;
-  top: auto;
-  left: 0;
-  overflow: hidden;
-  text-align: left;
-  width: 99%;
-  z-index: 100;
 }
 .grid-cell .close {
   display: block;
@@ -6469,6 +6472,27 @@ header .navbar-toggle .fa {
   font-size: 3em;
   vertical-align: middle;
   padding-left: 10px;
+}
+#expander {
+  display: none;
+  background: #F8F8F8;
+  border-top: 5px solid #FFA200;
+  border-bottom: 5px solid #FFA200;
+  cursor: crosshair;
+  min-height: 200px;
+  padding: 20px;
+  position: absolute;
+  top: auto;
+  left: 0;
+  overflow: hidden;
+  text-align: left;
+  width: 100%;
+  z-index: 100;
+}
+@media all and (min-width: 800px) {
+  #expander {
+    width: 99%;
+  }
 }
 #testimonials .wrapper {
   position: relative;
