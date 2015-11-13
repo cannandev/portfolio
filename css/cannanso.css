@@ -6400,7 +6400,7 @@ header .navbar-toggle .fa {
   transition: all 0.4s ease;
   width: 100%;
 }
-@media all and (min-width: 800px) {
+@media all and (min-width: 768px) {
   .grid-cell {
     width: 40%;
     margin: 0 3px 8px 0;
@@ -6408,8 +6408,7 @@ header .navbar-toggle .fa {
 }
 @media all and (min-width: 1200px) {
   .grid-cell {
-    width: 33%;
-    margin: 0 -5px 0 0;
+    width: 32%;
   }
 }
 .grid-cell img {
@@ -6425,6 +6424,8 @@ header .navbar-toggle .fa {
 }
 .grid-cell > a:hover img {
   transform: scale(1.3);
+  -webkit-filter: sepia(100%) hue-rotate(160deg);
+  filter: sepia(100%) hue-rotate(160deg);
 }
 .grid-cell.expanded > a::after {
   content: '\f0d8';
@@ -6489,9 +6490,9 @@ header .navbar-toggle .fa {
   width: 100%;
   z-index: 100;
 }
-@media all and (min-width: 800px) {
+@media all and (min-width: 768px) {
   #expander {
-    width: 99%;
+    width: 97%;
   }
 }
 #testimonials .wrapper {
