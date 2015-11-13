@@ -6273,7 +6273,7 @@ header .navbar-toggle .fa {
 }
 .navbar-nav li > a:hover,
 .navbar-nav li > a:focus {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.2);
 }
 @media (min-width: 768px) {
   .navbar-nav li > a {
