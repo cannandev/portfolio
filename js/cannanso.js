@@ -31,7 +31,7 @@ var gridCells = {
     expander.slideDown(400);
 	},
 	setHeights: function(a,b) {
-console.log('b:' + b.outerHeight(true));
+// console.log('b:' + b.outerHeight(true));
 		return a.outerHeight(true) + b.outerHeight(true);
 	},
 	positionPreview: function() {
