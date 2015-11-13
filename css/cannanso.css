@@ -6216,7 +6216,7 @@ img {
 }
 /* Pages and Sections */
 body {
-  background: #130804 url('../img/background-intro.jpg') 50% top fixed no-repeat;
+  background: #130804 url('../img/background-laptops.jpg') 50% 0% fixed no-repeat;
   background-size: cover;
   font-size: 16px;
 }
@@ -6232,7 +6232,7 @@ header {
   transition: all 0.5s ease;
 }
 header.fixed {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.1);
   position: fixed;
   top: 0;
   left: 0;
@@ -6245,14 +6245,14 @@ header.fixed {
 header .logo {
   margin-top: 10px;
 }
+header .logo img[src*=black] {
+  display: none;
+}
 header .navbar {
   margin-bottom: 0;
 }
 header .navbar-toggle .fa {
   color: #FFA200;
-}
-header img[src*=black] {
-  display: none;
 }
 @media (min-width: 768px) {
   .navbar-nav {
@@ -6260,7 +6260,7 @@ header img[src*=black] {
   }
 }
 .navbar-nav li > a {
-  color: #F8F8F8;
+  color: #333;
   font-weight: bold;
   font-size: 1.2em;
   border-bottom: 1px solid #666666;
@@ -6269,7 +6269,7 @@ header img[src*=black] {
 }
 .navbar-nav li > a:hover,
 .navbar-nav li > a.active {
-  color: #FFA200;
+  color: #F8F8F8;
 }
 .navbar-nav li > a:hover,
 .navbar-nav li > a:focus {
@@ -6286,7 +6286,8 @@ header img[src*=black] {
   border-bottom: 0;
 }
 #intro p {
-  color: #fff;
+  color: #333;
+  font-size: 20px;
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
@@ -6297,8 +6298,8 @@ header img[src*=black] {
   }
 }
 #intro h2 {
-  color: #ccc;
-  margin: 3.5em 0;
+  color: #666666;
+  margin: 2.5em 0;
   position: relative;
 }
 #intro i {
@@ -6317,12 +6318,19 @@ header img[src*=black] {
   transform: rotate(-5deg);
 }
 #intro .more {
-  color: #FFA200;
-}
-#intro .more:hover,
-#intro .more:hover:after {
   color: #F8F8F8;
   background-color: #FFA200;
+  border: 0;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 12px 16px;
+  outline: 0;
+}
+#intro .more:hover {
+  background-color: rgba(255, 162, 0, 0.5);
+}
+#intro .more:after {
+  color: #F8F8F8;
 }
 #about strong {
   padding-right: .5em;
@@ -6418,7 +6426,7 @@ header img[src*=black] {
 .grid-cell .caption {
   display: none;
   background: rgba(0, 0, 0, 0.8);
-  color: #F8F8F8;
+  color: #40ADE0;
   position: absolute;
   bottom: 0;
   padding: 15px;

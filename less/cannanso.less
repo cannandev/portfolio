@@ -78,7 +78,7 @@ img {
 /* Pages and Sections */
 
 body {
-	background: #130804 url('../img/background-intro.jpg') 50% top fixed no-repeat;
+	background: #130804 url('../img/background-laptops.jpg') 50% 0% fixed no-repeat;
 	background-size: cover;
 	font-size: 16px;
 }
@@ -94,7 +94,7 @@ header {
 	z-index: 999;
 	transition: all 0.5s ease;
 	&.fixed {
-		background: fade(@darker, 80%);
+		background: fade(@darker, 10%);
 		position: fixed;
 		top: 0;
 		left: 0;
@@ -104,6 +104,9 @@ header {
 	}
 	.logo {
 		margin-top: 10px;
+		img[src*=black] {
+			display: none;
+		}		
 	}
 	.navbar {
 		margin-bottom: 0;	
@@ -113,9 +116,6 @@ header {
 			color: @brand;
 		}
 	}
-	img[src*=black] {
-		display: none;
-	}
 }
 
 	.navbar-nav {
@@ -123,14 +123,14 @@ header {
 			margin-top: .5em;	
 		}		
 		li > a {
-			color: @light;
+			color: @dark;
 			font-weight: bold;
 			font-size: 1.2em;
 			border-bottom: 1px solid @medium;
 			margin: 0 10px;
 			transition: all 0.5s ease;
 			&:hover, &.active {
-				color: @brand;
+				color: @light;
 			}
 			&:hover, &:focus {
 				background: fade(@lighter, 10%);
@@ -148,7 +148,8 @@ header {
 
 #intro {
 	p {
-		color: @lighter;
+		color: @dark;
+		font-size: 20px;
 		font-weight: bold;
 		text-align: center;
 		text-transform: uppercase;
@@ -157,8 +158,8 @@ header {
 		}
 	}
 	h2 {
-		color: @medium-light;
-		margin: 3.5em 0;
+		color: @medium;
+		margin: 2.5em 0;
 		position: relative;
 	}
 	i {
@@ -177,10 +178,18 @@ header {
 		transform: rotate(-5deg);		
 	}	
 	.more {
-		color: @brand;
-		&:hover, &:hover:after {
-			color: @light;
-			background-color: @brand;
+		color: @light;
+		background-color: @brand;
+		border: 0;
+		border-radius: 5px;
+		font-size: 16px;
+		padding: 12px 16px;
+		outline: 0;
+		&:hover {
+			background-color: fade(@brand, 50%);
+		}
+		&:after {
+			color: @light;			
 		}
 	}
 }
@@ -280,7 +289,7 @@ header {
 	.caption {
 		display: none;
 		background: fade(@darker, 80%);
-		color: @light;
+		color: @highlight;
 		position: absolute;
 		bottom: 0;
 		padding: 15px;
