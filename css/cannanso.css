@@ -6318,21 +6318,6 @@ header .navbar-toggle .fa {
   -ms-transform: rotate(-5deg);
   transform: rotate(-5deg);
 }
-#intro .more {
-  color: #F8F8F8;
-  background-color: #FFA200;
-  border: 0;
-  border-radius: 5px;
-  font-size: 16px;
-  padding: 12px 16px;
-  outline: 0;
-}
-#intro .more:hover {
-  background-color: rgba(255, 162, 0, 0.5);
-}
-#intro .more:after {
-  color: #F8F8F8;
-}
 #about strong {
   padding-right: .5em;
 }
@@ -6370,12 +6355,12 @@ header .navbar-toggle .fa {
   position: relative;
 }
 #portfolio h2 {
-  margin-top: -0.5em;
+  margin-top: 1em;
   margin-bottom: 1em;
 }
 @media (min-width: 768px) {
   #portfolio h2 {
-    margin-top: 1em;
+    margin-top: 0;
     margin-bottom: 1.5em;
   }
 }
@@ -6499,6 +6484,9 @@ header .navbar-toggle .fa {
   #expander {
     width: 97%;
   }
+}
+#expander a.btn {
+  margin-top: 10px;
 }
 #testimonials .wrapper {
   position: relative;
@@ -6653,26 +6641,27 @@ footer .top-link:hover {
     margin-bottom: 2em;
   }
 }
-.more {
-  color: #333;
+.more.btn {
+  background-color: #FFA200;
+  color: #F8F8F8;
+  border: 0;
+  border-radius: 5px;
+  font-size: 16px;
   font-weight: bold;
+  padding: 12px 16px;
+  outline: 0;
+  text-transform: uppercase;
   transition: all  0.5s ease;
 }
-.more:after {
+.more.btn:after {
   content: "\f054";
+  color: #F8F8F8;
   font-family: FontAwesome;
-  color: #FFA200;
   padding-left: 10px;
 }
-.more:hover {
+.more.btn:hover {
+  background-color: rgba(255, 162, 0, 0.5);
   text-decoration: none;
-  color: #40ADE0;
-}
-.more.btn {
-  border: 1px solid;
-  border-radius: 0;
-  padding: 10px;
-  text-transform: uppercase;
 }
 .lead {
   font-size: 1.8em;
@@ -6734,17 +6723,4 @@ footer .top-link:hover {
 }
 .social a:hover {
   color: #000;
-}
-.popup-singlePageInline {
-  position: absolute;
-  z-index: 10;
-  border: 1px solid red;
-}
-.popup-singlePageInline .popup-navigation {
-  cursor: pointer;
-  display: block;
-  font-size: 2em;
-  position: absolute;
-  right: 0;
-  top: 0;
 }

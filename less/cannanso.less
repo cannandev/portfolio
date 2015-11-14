@@ -178,21 +178,6 @@ header {
 		-ms-transform: rotate(-5deg);
 		transform: rotate(-5deg);		
 	}	
-	.more {
-		color: @light;
-		background-color: @brand;
-		border: 0;
-		border-radius: 5px;
-		font-size: 16px;
-		padding: 12px 16px;
-		outline: 0;
-		&:hover {
-			background-color: fade(@brand, 50%);
-		}
-		&:after {
-			color: @light;			
-		}
-	}
 }
 
 #about {
@@ -233,10 +218,10 @@ header {
 	position: relative;
 
 	h2 {
-		margin-top: -.5em;
+		margin-top: 1em;
 		margin-bottom: 1em;
 		@media ( min-width: @screen-sm-min ) {
-			margin-top: 1em;
+			margin-top: 0;
 			margin-bottom: 1.5em;				
 		}	
 	}
@@ -354,7 +339,10 @@ header {
 		z-index: 100;
 		@media all and (min-width: @screen-sm-min){
 			width: 97%;
-		}		
+		}
+		a.btn {
+			margin-top: 10px;
+		}
 	}
 
 #testimonials {
@@ -523,25 +511,26 @@ footer {
 	}
 }
 
-.more {
-	color: @dark;
+.more.btn {
+	background-color: @brand;
+	color: @light;
+	border: 0;
+	border-radius: 5px;
+	font-size: 16px;
 	font-weight: bold;
+	padding: 12px 16px;
+	outline: 0;
+	text-transform: uppercase;
 	transition: all  0.5s ease;		
 	&:after {
 		content: "\f054";
+		color: @light;
 		font-family: FontAwesome;
-		color: @brand;
 		padding-left: 10px;
 	}
 	&:hover {
+		background-color: fade(@brand, 50%);		
 		text-decoration: none;
-		color: @highlight;
-	}
-	&.btn {
-		border: 1px solid;
-		border-radius: 0;
-		padding: 10px;
-		text-transform: uppercase;
 	}
 }
 
@@ -610,16 +599,3 @@ footer {
 	}
 }
 
-.popup-singlePageInline {
-	position: absolute;
-	z-index: 10;
-border: 1px solid red;	
-	.popup-navigation {
-		cursor: pointer;
-		display: block;
-		font-size: 2em;
-		position: absolute;
-		right: 0;
-		top: 0;
-	}
-}
