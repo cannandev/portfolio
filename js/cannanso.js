@@ -32,8 +32,8 @@ var gridCells = {
 	},
 	setHeights: function(a,b) {
 // console.log('b:' + b.outerHeight(true));
-		var marginHeight = 30;
-		return a.outerHeight(true) + b.outerHeight(true) + marginHeight;
+		var marginHeight = 16;
+		return a.outerHeight(true) + b.outerHeight(true) - marginHeight;
 	},
 	positionPreview: function() {
 		//scrollTop

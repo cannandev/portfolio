@@ -6402,6 +6402,7 @@ header .navbar-toggle .fa {
   }
 }
 .grid-cell img {
+  max-height: 375px;
   transition: all 0.2s ease-in-out;
 }
 .grid-cell > a {
@@ -6467,6 +6468,7 @@ header .navbar-toggle .fa {
 #expander {
   display: none;
   border-top: 5px solid #FFA200;
+  border-bottom: 5px solid #FFA200;
   cursor: crosshair;
   min-height: 200px;
   padding: 20px;
