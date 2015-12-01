@@ -24,10 +24,11 @@ var gridCells = {
 	},
 	expand: function() {    
     var activeCell = $(this.anchor).parent(), 
-    		expander = this.expander;
+    		expander = this.expander, 
+    		newHeight = this.setHeights(activeCell, expander);
 
     activeCell.addClass('expanded');
-    activeCell.css({'height': this.setHeights(activeCell, expander)});
+    activeCell.css({'height': newHeight});
     expander.slideDown(400);
 	},
 	setHeights: function(a,b) {
