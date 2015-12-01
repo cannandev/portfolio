@@ -31,7 +31,7 @@ var gridCells = {
     expander.slideDown(400);
 	},
 	setHeights: function(a,b) {
-console.log('expanded:' + a.outerHeight(true));
+console.log('grid-cell:' + a.outerHeight(true));
 console.log('expander:' + b.outerHeight(true));
 		var marginHeight = 16;
 		return a.outerHeight(true) + b.outerHeight(true) - marginHeight;

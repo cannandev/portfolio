@@ -6402,7 +6402,6 @@ header .navbar-toggle .fa {
   }
 }
 .grid-cell img {
-  max-height: 375px;
   transition: all 0.2s ease-in-out;
 }
 .grid-cell > a {
@@ -6488,6 +6487,16 @@ header .navbar-toggle .fa {
 }
 #expander a.btn {
   margin-top: 10px;
+}
+@media all and (max-width: 768px) {
+  #expander .col {
+    float: none;
+    display: block;
+    overflow: hidden;
+  }
+}
+#expander .img-preview img {
+  max-height: 375px;
 }
 #testimonials .wrapper {
   position: relative;
