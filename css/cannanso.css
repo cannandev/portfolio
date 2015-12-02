@@ -6489,6 +6489,9 @@ header .navbar-toggle .fa {
 #expander a.btn {
   margin-top: 10px;
 }
+#expander .img-responsive {
+  max-height: 400px;
+}
 #testimonials .wrapper {
   position: relative;
   text-align: center;
