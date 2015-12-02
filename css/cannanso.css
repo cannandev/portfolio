@@ -16,7 +16,7 @@
   color: #FFA200;
 }
 .darker {
-  background: #000;
+  background: #222;
   color: #fff;
 }
 /* Basic elements */
@@ -65,7 +65,7 @@ header {
   transition: all 0.5s ease;
 }
 header.fixed {
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(34, 34, 34, 0.1);
   position: fixed;
   top: 0;
   left: 0;
@@ -245,7 +245,7 @@ header .navbar-toggle .fa {
 }
 .grid-cell .caption {
   display: none;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(34, 34, 34, 0.8);
   color: #40ADE0;
   position: absolute;
   bottom: 0;
@@ -392,7 +392,7 @@ header .navbar-toggle .fa {
   padding: 4px;
 }
 #contact .form-control {
-  background-color: #1a1a1a;
+  background-color: #3c3c3c;
   border-color: #666666;
   border-top: 0;
   border-left: 0;
@@ -405,14 +405,14 @@ header .navbar-toggle .fa {
 #contact button[type=submit] {
   border-bottom: 0;
   background-color: #666666;
-  color: #000;
+  color: #222;
   transition: all 0.5s ease;
 }
 #contact button[type=submit]:hover {
   background-color: #F8F8F8;
 }
 #contact button[type=submit]:focus {
-  color: #000;
+  color: #222;
 }
 footer a {
   opacity: 0.4;
@@ -516,7 +516,7 @@ footer .top-link:hover {
   transition: all 0.8s ease;
 }
 .social a:hover {
-  color: #000;
+  color: #222;
   background: #FFA200;
 }
 @media (min-width: 768px) {
@@ -529,5 +529,5 @@ footer .top-link:hover {
   display: inline-block;
 }
 .social a:hover {
-  color: #000;
+  color: #222;
 }
