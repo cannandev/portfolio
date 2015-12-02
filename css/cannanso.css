@@ -78,6 +78,9 @@ header.fixed {
 header .logo {
   margin-top: 10px;
 }
+header .logo img {
+  height: 42px;
+}
 header .logo img[src*=black] {
   display: none;
 }
