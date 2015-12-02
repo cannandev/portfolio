@@ -1,12 +1,11 @@
-@import "../bower_components/bootstrap/less/bootstrap.less";
+@import "../bower_components/bootstrap/less/variables.less";
+@import "../bower_components/bootstrap/less/mixins.less";
 
-/* ##  Theme specific variables for cannanso.com ## */
-
-/* Fonts */
+// Fonts
 @cursive: 'Over the Rainbow', cursive;
 
 
-/* Colors */
+// Colors
 
 @brand: #FFA200; //yellow
 @brand-light: lighten(@brand, 25%); //#ffd180
@@ -17,6 +16,8 @@
 @medium: lighten(@dark, 20%); //#666
 @medium-light: #ccc;
 @highlight: #40ADE0;
+
+/* Layout Styles */
 
 .light {
 	background: @light;
@@ -38,9 +39,6 @@
 	background: @darker;
 	color: @lighter;
 }
-
-/* mixins */
-
 
 /* Basic elements */
 
@@ -196,14 +194,7 @@ header {
 	}
 	.text {
 		padding-left: 70px;
-		@media (max-width: @screen-xs-min) {
-			padding-left: 0;
-			h3 {
-				padding-left: 60px;
-				margin-bottom: 30px;
-				margin-top: 30px;
-			}
-		}
+
 		h3 {
 			color: @dark;
 		}
