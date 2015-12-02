@@ -6469,12 +6469,12 @@ header .navbar-toggle .fa {
   background: #F8F8F8;
   border-top: 5px solid #FFA200;
   border-bottom: 5px solid #FFA200;
-  min-height: 200px;
+  height: auto !important;
   padding: 20px;
-  position: absolute;
+  position: static;
   top: auto;
   left: 0;
-  overflow: hidden;
+  overflow: visible;
   text-align: left;
   width: 100%;
   z-index: 100;
@@ -6482,26 +6482,12 @@ header .navbar-toggle .fa {
 @media all and (min-width: 768px) {
   #expander {
     width: 97%;
+    position: absolute;
+    overflow: hidden;
   }
 }
 #expander a.btn {
   margin-top: 10px;
-}
-@media all and (max-width: 768px) {
-  #expander .col {
-    float: none;
-    display: block;
-    overflow: hidden;
-  }
-}
-#expander .img-preview img {
-  max-height: 375px;
-}
-@media all and (max-width: 768px) {
-  #expander .img-preview img {
-    height: 250px;
-    margin: 0 auto;
-  }
 }
 #testimonials .wrapper {
   position: relative;
