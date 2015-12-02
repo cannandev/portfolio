@@ -228,14 +228,11 @@ header {
 	.grid {
 		margin: 0 auto;
 		position: relative;
-    width: 400px;
+		max-width: 400px;
 	  @media all and (min-width: @screen-sm-min){ // use bootstrap screen size
-	    width: 100%;
+	    max-width: 100%;
     	text-align: center;		    
-	  }
-	  @media all and (min-width: @screen-lg-min){ // use bootstrap screen size
-	    text-align: left;
-	  }	  
+	  }  
 	}
 }
 
@@ -250,10 +247,10 @@ header {
  	width: 100%;
 
   @media all and (min-width: @screen-sm-min){
-    width: 40%;
-    margin: 0 3px 8px 0;
+    width: 49%;
+    margin: 0 1px 8px 2px;
   }
-  @media all and (min-width: @screen-lg-min){
+  @media all and (min-width: @screen-md-min){
     width: 32%;
   }
 
@@ -338,7 +335,6 @@ header {
 	width: 100%;
 	z-index: 100;
 	@media all and (min-width: @screen-sm-min){
-		width: 97%;
 		position: absolute;
 		overflow: hidden;
 	}

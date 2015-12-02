@@ -6367,17 +6367,12 @@ header .navbar-toggle .fa {
 #portfolio .grid {
   margin: 0 auto;
   position: relative;
-  width: 400px;
+  max-width: 400px;
 }
 @media all and (min-width: 768px) {
   #portfolio .grid {
-    width: 100%;
+    max-width: 100%;
     text-align: center;
-  }
-}
-@media all and (min-width: 1200px) {
-  #portfolio .grid {
-    text-align: left;
   }
 }
 .grid-cell {
@@ -6392,11 +6387,11 @@ header .navbar-toggle .fa {
 }
 @media all and (min-width: 768px) {
   .grid-cell {
-    width: 40%;
-    margin: 0 3px 8px 0;
+    width: 49%;
+    margin: 0 1px 8px 2px;
   }
 }
-@media all and (min-width: 1200px) {
+@media all and (min-width: 992px) {
   .grid-cell {
     width: 32%;
   }
@@ -6481,7 +6476,6 @@ header .navbar-toggle .fa {
 }
 @media all and (min-width: 768px) {
   #expander {
-    width: 97%;
     position: absolute;
     overflow: hidden;
   }
