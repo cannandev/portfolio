@@ -6497,6 +6497,12 @@ header .navbar-toggle .fa {
 #expander .img-preview img {
   max-height: 375px;
 }
+@media all and (max-width: 768px) {
+  #expander .img-preview img {
+    height: 250px;
+    margin: 0 auto;
+  }
+}
 #testimonials .wrapper {
   position: relative;
   text-align: center;

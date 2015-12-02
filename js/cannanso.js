@@ -32,9 +32,7 @@ var gridCells = {
     expander.slideDown(400);
 	},
 	setHeights: function(a,b) {
-console.log('grid-cell:' + a.outerHeight(true));
-console.log('expander:' + b.outerHeight(true));
-		var marginHeight = 16;
+		var marginHeight = 16;		
 		return a.outerHeight(true) + b.outerHeight(true) - marginHeight;
 	},
 	positionPreview: function() {
