@@ -28,7 +28,11 @@ var gridCells = {
     		newHeight = this.setHeights(activeCell, expander);
 
     activeCell.addClass('expanded');
-    activeCell.css({'height': newHeight});
+
+    //Only set a height on the active cell for wider screens
+    if(window.innerWidth >= 768){
+    	activeCell.css({'height': newHeight});
+    }
     expander.slideDown(400);
 	},
 	setHeights: function(a,b) {
