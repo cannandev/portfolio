@@ -1,30 +1,31 @@
-/* Tutorial at https://scotch.io/tutorials/angularjs-form-validation */
+//http://stackoverflow.com/questions/29543733/how-validate-the-formspree-with-jquery-validation
 
-// define angular module/app
-var formApp = angular.module('formApp', []);
+(function() {
 
-// create angular controller and pass in $scope and $http
-function formController($scope, $http) {
-	$scope.formData = {};
-
-	$scope.processForm = function() {
-		$http({
-			method	: 'POST',
-			url			: '../process.php',
-			data 		: $.param($scope.formData),
-			headers : {'Content-Type': 'application/x-www-form-urlencoded'},
-		})
-		.success(function(data) {
-			// console.log(data);
-
-			if (!data.success) {
-				$scope.errorContactName = data.errors.contactName;
-				$scope.errorContactEmail = data.errors.contactEmail;
-				$scope.errorContactMessage = data.errors.contactMessage;
-			}
-			else {
-				$scope.message = data.message;
-			}
-		});	
-	};
-}
+	var contactForm = $('#contactForm'), 
+			messages = $('#messages');
+	// VALIDATE FORM
+	// contactForm.validate(function(){
+	// validate fields here;
+	// return false;
+	// });
+	contactForm.submit(function(e) {
+	  e.preventDefault();
+	  //if validate() returns true, do the following...
+	  $.ajax({
+      url: '//formspree.io/me@cannanso.com',
+      method: 'POST',
+      data: $(this).serialize(),
+      dataType: 'json',
+      beforeSend: function() {
+          messages.text('Sending message...');
+      },
+      success: function(data) {
+          messages.text('Success! Thank you. Talk to you soon.');
+      },
+      error: function(err) {
+          messages.text('Oops, there was an error. See below fields.');
+      }
+	  });
+	});
+})();
