@@ -438,21 +438,17 @@ header {
 		border-top: 0;
 		border-left: 0;
 		border-right: 0;
-		border-radius: 0;
+		border-radius: 5px;
+		font-size: 16px;
+		padding: 20px;
 		&:focus {
 			color: @lighter;
 		}
 	}
 	button[type=submit] {
-		border-bottom: 0;
-		background-color: @medium;
-		color: @darker;		
-		transition: all 0.5s ease;
-		&:hover {
-			background-color: @light;
-		}
-		&:focus {
-			color: @darker;
+		color: @dark;
+		&::after {
+			color: @dark;
 		}
 	}
 }
