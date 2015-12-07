@@ -403,22 +403,18 @@ header .navbar-toggle .fa {
   border-top: 0;
   border-left: 0;
   border-right: 0;
-  border-radius: 0;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 20px;
 }
 #contact .form-control:focus {
   color: #fff;
 }
 #contact button[type=submit] {
-  border-bottom: 0;
-  background-color: #666666;
-  color: #222;
-  transition: all 0.5s ease;
+  color: #333;
 }
-#contact button[type=submit]:hover {
-  background-color: #F8F8F8;
-}
-#contact button[type=submit]:focus {
-  color: #222;
+#contact button[type=submit]::after {
+  color: #333;
 }
 footer a {
   opacity: 0.4;
