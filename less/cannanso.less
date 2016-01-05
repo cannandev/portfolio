@@ -77,22 +77,24 @@ img {
 /* Pages and Sections */
 
 body {
-	background: #130804 url('../img/background-laptops.jpg') 50% 0% fixed no-repeat;
-	background-size: cover;
 	font-size: 16px;
 }
 
 section, footer {
-	height: 100%;
+	height: 0;
 	width: 100%;
 	position: absolute;
 	top: 0;
 	padding: 3.1em 0 5em 0;
+	transition: height 0.9s ease;
+	&.active {
+		height: 100%;
+	}
 }
 
 header {
 	background: transparent; 	
-	position: relative;
+	position: fixed;
 	width: 100%;
 	z-index: 999;
 	transition: all 0.5s ease;
@@ -153,6 +155,9 @@ header {
 	}
 
 #intro {
+	z-index: 10;
+	background: #130804 url('../img/background-laptops.jpg') 50% 0% fixed no-repeat;
+	background-size: cover;	
 	p {
 		color: @dark;
 		font-size: 20px;
@@ -186,6 +191,7 @@ header {
 }
 
 #about {
+	z-index: 9;	
 	strong {
 		padding-right: .5em;
 	}
@@ -213,6 +219,7 @@ header {
 }
 
 #portfolio {
+	z-index: 7;	
 	position: relative;
 
 	h2 {
@@ -347,6 +354,7 @@ header {
 }
 
 #testimonials {
+	z-index: 8;	
 	.wrapper {
 		position: relative;
 		text-align: center;
@@ -428,6 +436,7 @@ header {
 .page-blog {}
 
 #contact {
+	z-index: 5;	
 	.location {
 		p {
 			margin: 0;

@@ -49,21 +49,24 @@ img {
 }
 /* Pages and Sections */
 body {
-  background: #130804 url('../img/background-laptops.jpg') 50% 0% fixed no-repeat;
-  background-size: cover;
   font-size: 16px;
 }
 section,
 footer {
-  height: 100%;
+  height: 0;
   width: 100%;
   position: absolute;
   top: 0;
   padding: 3.1em 0 5em 0;
+  transition: height 0.9s ease;
+}
+section.active,
+footer.active {
+  height: 100%;
 }
 header {
   background: transparent;
-  position: relative;
+  position: fixed;
   width: 100%;
   z-index: 999;
   transition: all 0.5s ease;
@@ -125,6 +128,11 @@ header .navbar-toggle .fa {
 .navbar-nav li:last-child a {
   border-bottom: 0;
 }
+#intro {
+  z-index: 10;
+  background: #130804 url('../img/background-laptops.jpg') 50% 0% fixed no-repeat;
+  background-size: cover;
+}
 #intro p {
   color: #333;
   font-size: 20px;
@@ -157,6 +165,9 @@ header .navbar-toggle .fa {
   -ms-transform: rotate(-5deg);
   transform: rotate(-5deg);
 }
+#about {
+  z-index: 9;
+}
 #about strong {
   padding-right: .5em;
 }
@@ -181,6 +192,7 @@ header .navbar-toggle .fa {
   font-size: 18px;
 }
 #portfolio {
+  z-index: 7;
   position: relative;
 }
 #portfolio h2 {
@@ -317,6 +329,9 @@ header .navbar-toggle .fa {
 #expander .img-responsive {
   max-height: 400px;
 }
+#testimonials {
+  z-index: 8;
+}
 #testimonials .wrapper {
   position: relative;
   text-align: center;
@@ -394,6 +409,9 @@ header .navbar-toggle .fa {
   font-size: 2em;
   width: 30%;
   text-decoration: none;
+}
+#contact {
+  z-index: 5;
 }
 #contact .location p {
   margin: 0;

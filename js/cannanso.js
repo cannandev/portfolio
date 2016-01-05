@@ -126,4 +126,13 @@ $(document).ready(function(){
 
 	$('#intro i').after('<span>line of code</span>');
 
+	$('.navbar-nav a').click(function(e){
+		e.preventDefault();
+		var selectedSection = $(this).attr('href');
+		$('section.active').removeClass('active');
+		$(selectedSection).addClass('active');
+		
+
+	});
+
 });
