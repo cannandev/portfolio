@@ -19,6 +19,15 @@
   background: #222;
   color: #fff;
 }
+.highlight {
+  background: #40ADE0;
+}
+.highlight a {
+  color: #FFA200;
+}
+.highlight a:hover {
+  color: #666666;
+}
 /* Basic elements */
 h2 {
   text-transform: uppercase;
@@ -55,14 +64,18 @@ section,
 footer {
   height: 0;
   width: 100%;
+  overflow: hidden;
+  padding: 0;
   position: absolute;
   top: 0;
-  padding: 3.1em 0 5em 0;
-  transition: height 0.9s ease;
+  opacity: 0;
+  transition: all 0.9s ease;
 }
 section.active,
 footer.active {
   height: 100%;
+  opacity: 1;
+  padding: 3.1em 0 5em 0;
 }
 header {
   background: transparent;

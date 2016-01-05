@@ -9,13 +9,13 @@
 
 @brand: #FFA200; //yellow
 @brand-light: lighten(@brand, 25%); //#ffd180
+@highlight: #40ADE0;
 @dark: #333; //slate gray
 @light: #F8F8F8; //super light gray
 @lighter: #fff; //white
 @darker: #222; //black
 @medium: lighten(@dark, 20%); //#666
 @medium-light: #ccc;
-@highlight: #40ADE0;
 
 /* Layout Styles */
 
@@ -38,6 +38,15 @@
 .darker {
 	background: @darker;
 	color: @lighter;
+}
+.highlight {
+	background: @highlight;
+	a{
+		color: @brand;
+		&:hover {
+			color: @medium;
+		}		
+	}
 }
 
 /* Basic elements */
@@ -83,12 +92,16 @@ body {
 section, footer {
 	height: 0;
 	width: 100%;
+	overflow: hidden;
+	padding: 0;
 	position: absolute;
 	top: 0;
-	padding: 3.1em 0 5em 0;
-	transition: height 0.9s ease;
+	opacity: 0;
+	transition: all 0.9s ease;
 	&.active {
 		height: 100%;
+		opacity: 1;
+		padding: 3.1em 0 5em 0;
 	}
 }
 
