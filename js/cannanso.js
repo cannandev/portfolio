@@ -70,6 +70,15 @@ var gridCells = {
 	}
 };
 
+var navItem = function() {
+	$('.navbar-nav a').click(function(e){
+		e.preventDefault();
+		var selectedSection = $(this).attr('href');
+		$('section.active').removeClass('active');
+		$(selectedSection).addClass('active');
+	});
+};
+
 var slideItem = function() {
 	var itemHeight = $('#testimonials .item').outerHeight();
 	$('#testimonials .wrapper').css('height', itemHeight);
@@ -113,26 +122,17 @@ var contactVal = function() {
 	});
 };
 
-// Should this be in doc.ready?
 $(window).resize(function() {
   gridCells.close();
 });
 
 $(document).ready(function(){
 
+	navItem();
 	gridCells.init();
 	slideItem();
 	contactVal();
 
 	$('#intro i').after('<span>line of code</span>');
-
-	$('.navbar-nav a').click(function(e){
-		e.preventDefault();
-		var selectedSection = $(this).attr('href');
-		$('section.active').removeClass('active');
-		$(selectedSection).addClass('active');
-		
-
-	});
 
 });
