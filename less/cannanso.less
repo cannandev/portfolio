@@ -92,15 +92,16 @@ body {
 section, footer {
 	height: 0;
 	width: 100%;
+	opacity: 0;	
 	overflow: hidden;
 	padding: 0;
 	position: absolute;
 	top: 0;
-	opacity: 0;
 	transition: all 0.9s ease;
 	&.active {
 		height: 100%;
 		opacity: 1;
+		overflow: auto;
 		padding: 3.1em 0 5em 0;
 	}
 }
@@ -232,8 +233,7 @@ header {
 }
 
 #portfolio {
-	z-index: 7;	
-
+	z-index: 7;
 	h2 {
 		margin-top: 1em;
 		margin-bottom: 1em;
