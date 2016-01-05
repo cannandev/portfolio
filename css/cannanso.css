@@ -26,7 +26,7 @@
   color: #FFA200;
 }
 .highlight a:hover {
-  color: #666666;
+  color: #ccc;
 }
 /* Basic elements */
 h2 {
@@ -206,7 +206,6 @@ header .navbar-toggle .fa {
 }
 #portfolio {
   z-index: 7;
-  position: relative;
 }
 #portfolio h2 {
   margin-top: 1em;
