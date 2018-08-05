@@ -1,0 +1,14 @@
+{
+  "name": "angularjs-bower",
+  "homepage": "https://github.com/mjaric/angularjs-bower",
+  "_release": "18255c8345",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "18255c834514adfe01e62c348c143f87d3403266"
+  },
+  "_source": "git://github.com/mjaric/angularjs-bower.git",
+  "_target": "*",
+  "_originalSource": "angularjs-bower",
+  "_direct": true
+}

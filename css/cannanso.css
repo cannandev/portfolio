@@ -10,7 +10,7 @@
   color: #F8F8F8;
 }
 .dark a {
-  color: #40ADE0;
+  color: #751f1f;
 }
 .dark a:hover {
   color: #FFA200;
@@ -20,7 +20,7 @@
   color: #fff;
 }
 .highlight {
-  background: #40ADE0;
+  background: #751f1f;
 }
 .highlight a {
   color: #FFA200;
@@ -30,14 +30,16 @@
 }
 /* Basic elements */
 h2 {
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   margin-bottom: 1.2em;
 }
 h3 {
   color: #666666;
+  font-family: 'Montserrat', sans-serif;
 }
 a {
-  color: #40ADE0;
+  color: #751f1f;
   transition: color 0.3s ease;
   text-decoration: none;
 }
@@ -46,7 +48,7 @@ a:hover {
   text-decoration: none;
 }
 p > a {
-  color: #40ADE0;
+  color: #751f1f;
 }
 p > a:hover {
   text-decoration: none;
@@ -59,7 +61,18 @@ img {
 /* Pages and Sections */
 body {
   font-size: 16px;
+  font-family: 'Istok Web', sans-serif;
 }
+.flex {
+  display: flex;
+  flex: auto;
+  flex-flow: column nowrap;
+}
+.flex-v {
+  align-items: center;
+  justify-content: center;
+}
+/* Sections */
 section,
 footer {
   height: 0;
@@ -107,6 +120,7 @@ header .logo img[src*=black] {
 }
 header .navbar {
   margin-bottom: 0;
+  background: rgba(51, 51, 51, 0.1);
 }
 header .navbar-toggle .fa {
   color: #FFA200;
@@ -117,7 +131,7 @@ header .navbar-toggle .fa {
   }
 }
 .navbar-nav li > a {
-  color: #333;
+  color: #F8F8F8;
   font-weight: bold;
   font-size: 1.2em;
   border-bottom: 1px solid #666666;
@@ -144,7 +158,7 @@ header .navbar-toggle .fa {
 }
 #intro {
   z-index: 10;
-  background: #130804 url('../img/background-laptops.jpg') 50% 0% fixed no-repeat;
+  background: #130804 url('../img/background-bonnie-kittle-186235-unsplash.jpg') 50% 0% fixed no-repeat;
   background-size: cover;
 }
 #intro p {
@@ -152,16 +166,9 @@ header .navbar-toggle .fa {
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-  text-transform: uppercase;
-}
-@media (min-width: 768px) {
-  #intro p {
-    margin-top: 50px;
-  }
 }
 #intro h2 {
   color: #666666;
-  margin: 2.5em 0;
   position: relative;
 }
 #intro i {
@@ -169,7 +176,7 @@ header .navbar-toggle .fa {
   font-style: normal;
 }
 #intro span {
-  font-family: 'Over the Rainbow', cursive;
+  font-family: 'Montserrat', cursive;
   text-transform: lowercase;
   position: absolute;
   margin-top: 40px;
@@ -281,7 +288,7 @@ header .navbar-toggle .fa {
 .grid-cell .caption {
   display: none;
   background: rgba(34, 34, 34, 0.8);
-  color: #40ADE0;
+  color: #751f1f;
   position: absolute;
   bottom: 0;
   padding: 15px;
@@ -373,7 +380,7 @@ header .navbar-toggle .fa {
   }
 }
 #testimonials .item .credit {
-  font-family: 'Over the Rainbow', cursive;
+  font-family: 'Montserrat', cursive;
   font-size: 1.2em;
 }
 #testimonials .active {
@@ -508,9 +515,9 @@ footer .top-link:hover {
   text-decoration: none;
 }
 .lead {
-  font-size: 1.8em;
+  font-size: 1.2em;
   font-weight: normal;
-  font-family: 'Over the Rainbow', cursive;
+  font-family: 'Montserrat', cursive;
 }
 .lead strong {
   color: #666666;

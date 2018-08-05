@@ -2,14 +2,17 @@
 @import "../bower_components/bootstrap/less/mixins.less";
 
 // Fonts
-@cursive: 'Over the Rainbow', cursive;
+// @cursive: 'Over the Rainbow', cursive;
+@cursive: 'Montserrat', cursive;
+@body: 'Istok Web', sans-serif;
+@title: 'Montserrat', sans-serif;
 
 
 // Colors
 
 @brand: #FFA200; //yellow
 @brand-light: lighten(@brand, 25%); //#ffd180
-@highlight: #40ADE0;
+@highlight: #751f1f;
 @dark: #333; //slate gray
 @light: #F8F8F8; //super light gray
 @lighter: #fff; //white
@@ -52,12 +55,14 @@
 /* Basic elements */
 
 h2 {
+	font-family: @title;
 	text-transform: uppercase;
 	margin-bottom: 1.2em;
 }
 
 h3 {
 	color: @medium;
+	font-family: @title;
 }
 
 a {
@@ -87,7 +92,22 @@ img {
 
 body {
 	font-size: 16px;
+	font-family: @body;
 }
+
+.flex {
+	display: flex;
+	flex: auto;
+	flex-flow: column nowrap;
+}
+
+.flex-v {
+	align-items: center;
+	justify-content: center;
+}
+
+
+/* Sections */
 
 section, footer {
 	height: 0;
@@ -132,6 +152,7 @@ header {
 	}
 	.navbar {
 		margin-bottom: 0;	
+		background: fade(@dark, 10%);
 	}
 	.navbar-toggle {
 		.fa {
@@ -145,7 +166,7 @@ header {
 			margin-top: .5em;	
 		}		
 		li > a {
-			color: @dark;
+			color: @light;
 			font-weight: bold;
 			font-size: 1.2em;
 			border-bottom: 1px solid @medium;
@@ -170,21 +191,21 @@ header {
 
 #intro {
 	z-index: 10;
-	background: #130804 url('../img/background-laptops.jpg') 50% 0% fixed no-repeat;
+	background: #130804 url('../img/background-bonnie-kittle-186235-unsplash.jpg') 50% 0% fixed no-repeat;
 	background-size: cover;	
 	p {
 		color: @dark;
 		font-size: 20px;
 		font-weight: bold;
 		text-align: center;
-		text-transform: uppercase;
+		// text-transform: uppercase;
 		@media ( min-width: @screen-sm-min ) {
-			margin-top: 50px;			
+			// margin-top: 50px;			
 		}
 	}
 	h2 {
 		color: @medium;
-		margin: 2.5em 0;
+		// margin: 2.5em 0;
 		position: relative;
 	}
 	i {
@@ -538,7 +559,7 @@ footer {
 }
 
 .lead {
-	font-size: 1.8em;
+	font-size: 1.2em;
 	font-weight: normal;
 	font-family: @cursive;
 	strong {

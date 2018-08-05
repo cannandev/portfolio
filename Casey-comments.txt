@@ -1,0 +1,4 @@
+Casey Olson1:44 pm
+Remove float from the picture inside the dropdown on single column
+Casey Olson1:45 pm
+When it's a single column, in the JS manually add the height of that image.
