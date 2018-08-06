@@ -340,6 +340,10 @@ header .navbar-toggle .fa {
     font-size: 1.3em;
   }
 }
+#testimonials .item span {
+  display: block;
+  font-size: small;
+}
 #testimonials .item .credit {
   font-family: 'Over the Rainbow', cursive;
   font-size: 1.2em;
