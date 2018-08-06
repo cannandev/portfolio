@@ -30,13 +30,13 @@
 }
 /* Basic elements */
 h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Laila', serif;
   text-transform: uppercase;
   margin-bottom: 1.2em;
 }
 h3 {
   color: #666666;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Laila', serif;
 }
 a {
   color: #751f1f;
@@ -125,8 +125,12 @@ header .navbar {
 header .navbar-toggle .fa {
   color: #FFA200;
 }
+.navbar-nav {
+  background: #333;
+}
 @media (min-width: 768px) {
   .navbar-nav {
+    background: none;
     margin-top: .5em;
   }
 }
