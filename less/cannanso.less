@@ -17,6 +17,9 @@
 @medium-light: #ccc;
 @highlight: #40ADE0;
 
+/* Layout vars */
+@global-radius: 5px;
+
 /* Layout Styles */
 
 .light {
@@ -77,7 +80,7 @@ img {
 /* Pages and Sections */
 
 body {
-	background: #130804 url('../img/background-laptops.jpg') 50% 0% fixed no-repeat;
+	background: #130804 url('../img/bgs/background-grovemade-239357-unsplash.jpg') 50% 0% fixed no-repeat;
 	background-size: cover;
 	font-size: 16px;
 }
@@ -87,11 +90,14 @@ section, footer {
 }
 
 header {
-	background: transparent; 	
+	background: fade(@darker, 90%); 	
 	position: relative;
 	width: 100%;
 	z-index: 999;
 	transition: all 0.5s ease;
+	@media ( min-width: @screen-sm-min ) {
+		background: transparent;
+	}	
 	&.fixed {
 		background: fade(@darker, 10%);
 		position: fixed;
@@ -99,6 +105,7 @@ header {
 		left: 0;
 		@media ( max-width: @screen-sm-max ) {
 			position: inherit;
+			background: transparent;
 		}
 	}
 	.logo {
@@ -125,7 +132,7 @@ header {
 			margin-top: .5em;	
 		}		
 		li > a {
-			color: @dark;
+			color: @light;
 			font-weight: bold;
 			font-size: 1.2em;
 			border-bottom: 1px solid @medium;
@@ -138,6 +145,7 @@ header {
 				background: fade(@lighter, 20%);
 			}
 			@media ( min-width: @screen-sm-min ) { 
+				color: @dark;
 				font-size: inherit;
 				border: 0;
 				margin: inherit;
@@ -149,6 +157,10 @@ header {
 	}
 
 #intro {
+	background: fade(@light, 50%);
+	@media ( min-width: @screen-sm-min ) {
+		background: transparent;
+	}	
 	p {
 		color: @dark;
 		font-size: 20px;
@@ -160,8 +172,8 @@ header {
 		}
 	}
 	h2 {
-		color: @medium;
-		margin: 2.5em 0;
+		color: @dark;
+		margin-bottom: 2.5em;
 		position: relative;
 	}
 	i {
@@ -172,13 +184,22 @@ header {
 		font-family: @cursive;
 		text-transform: lowercase;
 		position: absolute;
-		margin-top: 40px;
+		margin-top: 50px;
     margin-left: -100px;
 		-webkit-transform: rotate(-5deg);
 		-moz-transform: rotate(-5deg);
 		-ms-transform: rotate(-5deg);
 		transform: rotate(-5deg);		
-	}	
+	}
+	.intro-unit {
+		background: transparent;
+		border-radius: @global-radius;
+		padding: 2em 0;
+
+		@media ( min-width: @screen-sm-min ) {
+			background: fade(@light, 50%);
+		}	
+	}
 }
 
 #about {
@@ -365,6 +386,10 @@ header {
 		@media (min-width: @screen-sm-min) { 
 			font-size: 1.3em;
 		}
+		span {
+			display: block;
+			font-size: small;
+		}
 		.credit {
 			font-family: @cursive;
 			font-size: 1.2em;			
@@ -513,7 +538,7 @@ footer {
 }
 
 .lead {
-	font-size: 1.8em;
+	font-size: 1.4em;
 	font-weight: normal;
 	font-family: @cursive;
 	strong {

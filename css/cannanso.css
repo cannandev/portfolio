@@ -1,3 +1,4 @@
+/* Layout vars */
 /* Layout Styles */
 .light {
   background: #F8F8F8;
@@ -49,7 +50,7 @@ img {
 }
 /* Pages and Sections */
 body {
-  background: #130804 url('../img/background-laptops.jpg') 50% 0% fixed no-repeat;
+  background: #130804 url('../img/bgs/background-grovemade-239357-unsplash.jpg') 50% 0% fixed no-repeat;
   background-size: cover;
   font-size: 16px;
 }
@@ -58,11 +59,16 @@ footer {
   padding: 3.1em 0 5em 0;
 }
 header {
-  background: transparent;
+  background: rgba(34, 34, 34, 0.9);
   position: relative;
   width: 100%;
   z-index: 999;
   transition: all 0.5s ease;
+}
+@media (min-width: 768px) {
+  header {
+    background: transparent;
+  }
 }
 header.fixed {
   background: rgba(34, 34, 34, 0.1);
@@ -73,6 +79,7 @@ header.fixed {
 @media (max-width: 991px) {
   header.fixed {
     position: inherit;
+    background: transparent;
   }
 }
 header .logo {
@@ -96,7 +103,7 @@ header .navbar-toggle .fa {
   }
 }
 .navbar-nav li > a {
-  color: #333;
+  color: #F8F8F8;
   font-weight: bold;
   font-size: 1.2em;
   border-bottom: 1px solid #666666;
@@ -113,6 +120,7 @@ header .navbar-toggle .fa {
 }
 @media (min-width: 768px) {
   .navbar-nav li > a {
+    color: #333;
     font-size: inherit;
     border: 0;
     margin: inherit;
@@ -120,6 +128,14 @@ header .navbar-toggle .fa {
 }
 .navbar-nav li:last-child a {
   border-bottom: 0;
+}
+#intro {
+  background: rgba(248, 248, 248, 0.5);
+}
+@media (min-width: 768px) {
+  #intro {
+    background: transparent;
+  }
 }
 #intro p {
   color: #333;
@@ -134,8 +150,8 @@ header .navbar-toggle .fa {
   }
 }
 #intro h2 {
-  color: #666666;
-  margin: 2.5em 0;
+  color: #333;
+  margin-bottom: 2.5em;
   position: relative;
 }
 #intro i {
@@ -146,12 +162,22 @@ header .navbar-toggle .fa {
   font-family: 'Over the Rainbow', cursive;
   text-transform: lowercase;
   position: absolute;
-  margin-top: 40px;
+  margin-top: 50px;
   margin-left: -100px;
   -webkit-transform: rotate(-5deg);
   -moz-transform: rotate(-5deg);
   -ms-transform: rotate(-5deg);
   transform: rotate(-5deg);
+}
+#intro .intro-unit {
+  background: transparent;
+  border-radius: 5px;
+  padding: 2em 0;
+}
+@media (min-width: 768px) {
+  #intro .intro-unit {
+    background: rgba(248, 248, 248, 0.5);
+  }
 }
 #about strong {
   padding-right: .5em;
@@ -340,6 +366,10 @@ header .navbar-toggle .fa {
     font-size: 1.3em;
   }
 }
+#testimonials .item span {
+  display: block;
+  font-size: small;
+}
 #testimonials .item .credit {
   font-family: 'Over the Rainbow', cursive;
   font-size: 1.2em;
@@ -473,7 +503,7 @@ footer .top-link:hover {
   text-decoration: none;
 }
 .lead {
-  font-size: 1.8em;
+  font-size: 1.4em;
   font-weight: normal;
   font-family: 'Over the Rainbow', cursive;
 }
