@@ -1,6 +1,8 @@
 .mov
 .DS_Store
 .codekit-cache/
+.htaccess
+node_modules/
 
 # minified js files #
 #####################
