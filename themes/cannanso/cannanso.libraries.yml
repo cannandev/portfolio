@@ -3,3 +3,8 @@ global-styling:
   css:
     base:
       css/style.css: {}
+global-scripts:
+  version: 1.x
+  js: 
+    js/cannanso.js: {}
+    js/app.js: {}
