@@ -1,14 +1,30 @@
 .mov
 .DS_Store
-.codekit-cache/
+.codekit-cache
 .htaccess
-node_modules/
+
+# node files #
+#####################
+node_modules
 
 # minified js files #
 #####################
 min/
 
-# php files #
-#############
-*.php
-=======
+# Ignore core when managing all of a project's dependencies with Composer
+# including Drupal core.
+web/core
+web/modules
+web/libraries
+
+# Core's dependencies are managed with Composer.
+vendor
+composer.phar
+
+# Ignore configuration files that may contain sensitive information.
+*/settings*.php
+*/services*.yml
+
+# Ignore paths that contain user-generated content.
+*/files/*
+*/private
