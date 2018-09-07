@@ -113,12 +113,13 @@ var contactVal = function() {
 	});
 };
 
-// Should this be in doc.ready?
-$(window).resize(function() {
-  gridCells.close();
-});
 
-$(document).ready(function(){
+(function ($, Drupal) {
+	console.log('inside');	// this works
+
+	$(window).resize(function() {
+	  gridCells.close();
+	});	
 
 	gridCells.init();
 	slideItem();
@@ -126,4 +127,4 @@ $(document).ready(function(){
 
 	$('#intro i').after('<span>line of code</span>');
 
-});
+})(jQuery, Drupal);
