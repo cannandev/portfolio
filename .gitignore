@@ -22,8 +22,8 @@ vendor
 composer.phar
 
 # Ignore configuration files that may contain sensitive information.
-*/settings*.php
-*/services*.yml
+*/services.yml
+*/settings.php
 
 # Ignore paths that contain user-generated content.
 */files/*
