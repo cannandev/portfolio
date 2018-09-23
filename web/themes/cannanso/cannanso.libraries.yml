@@ -10,6 +10,7 @@ global-styling:
 global-scripts:
   version: 1.x
   js: 
+    js/bootstrap.min.js: {}
     js/cannanso.js: {}
     js/app.js: {}
   dependencies:
