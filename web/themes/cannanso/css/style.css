@@ -50,7 +50,7 @@ img {
 }
 /* Pages and Sections */
 body {
-  background: #130804 url('../img/bgs/bonnie-kittle-186235-unsplash.jpg') 50% 0% fixed no-repeat;
+  background: #130804 url('../img/bgs/background-grovemade-239357-unsplash.jpg') 50% 0% fixed no-repeat;
   background-size: cover;
   font-size: 16px;
 }
@@ -138,15 +138,17 @@ header .navbar-toggle .fa {
   }
 }
 #intro p {
-  color: #333;
+  /* color: #333; */
   font-size: 20px;
   font-weight: bold;
-  text-align: center;
+  /* text-align: center; */
   text-transform: uppercase;
+  background: #33333382;
+  display: inline;
 }
 @media (min-width: 768px) {
   #intro p {
-    margin-top: 50px;
+    /* margin-top: 50px; */
   }
 }
 #intro h2 {
@@ -172,12 +174,20 @@ header .navbar-toggle .fa {
 #intro .intro-unit {
   background: transparent;
   border-radius: 5px;
-  padding: 2em 0;
+  padding: 4em;
+  color: floralwhite;
 }
 @media (min-width: 768px) {
   #intro .intro-unit {
-    background: rgba(248, 248, 248, 0.5);
+    /* background: #f8f8f800; */
   }
+}
+#intro h1 {
+  font-size: 32px;
+  font-weight: normal;
+  width: 75%;
+  margin: 1em 0;
+  background: #3333331c;  
 }
 #about strong {
   padding-right: .5em;

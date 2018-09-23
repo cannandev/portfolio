@@ -2,7 +2,11 @@ global-styling:
   version: VERSION
   css:
     base:
+      css/bootstrap.min.css: {}
       css/style.css: {}
+      css/font-awesome.min.css: {}
+      'https://fonts.googleapis.com/css?family=Over+the+Rainbow': { type: external }
+      '//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css': { type: external }
 global-scripts:
   version: 1.x
   js: 

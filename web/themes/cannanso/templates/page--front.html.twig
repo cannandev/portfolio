@@ -48,29 +48,28 @@
         <div class="navbar-header">
           <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#main-menu"><i class="fa fa-bars fa-2x"></i></button>
           <h1 class="logo"><a href="index.html">
-            <img src="/{{ directory }}/img/logo-white.png" alt="logo">
-          </a></h1>
-          {{ page.header }}
+            <img src="/{{ directory }}/img/logo-white.png" alt="logo"></a>
+          </h1>
         </div>
-        
-        {{ page.primary_menu }}
-        
+        {{ page.header }}
       </div>
     </div>
   </header>
 
-  {{ page.breadcrumb }}
-
   {{ page.highlighted }}
 
   {{ page.help }}
+          
 
   <section id="intro" role="main">
-    <div class="container text-center">
+    <div class="container">
       <div class="intro-unit">
+
+        {{ page.hero }}
+
         <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
         <p>Freelancer / Senior Web Developer</p>
-        <h2>Building sites one <i>page</i> at a time.</h2>
+        <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur exercitationem excepturi facere eveniet facilis.</h1>
         <a class="btn more" href="#portfolio">View My Work</a>
       </div>
     </div>    
@@ -80,9 +79,9 @@
     <div class="container">
       <div class="row">
         <div class="col-md-8 col-md-offset-2 text-center">
+          {{ page.content }}
           <h2>About</h2>
           <p class="lead">Hi! I'm Claire Annan, otherwise known as <a href="https://www.linkedin.com/in/ClaireAnnan">cannanso</a>.<br>Based in Atlanta, GA, I build web sites and applications for a living. Here are some of my skills:</p>
-          {{ page.content }}
         </div>
       </div>
       <div class="row">
