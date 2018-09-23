@@ -1,6 +1,6 @@
 //http://stackoverflow.com/questions/29543733/how-validate-the-formspree-with-jquery-validation
 
-(function() {
+(function($) {
 
 	var contactForm = $('#contactForm');
 
@@ -56,4 +56,4 @@
 	  }
 
 	});
-})();
+})(jQuery);

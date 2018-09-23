@@ -139,12 +139,13 @@ header .navbar-toggle .fa {
 }
 #intro p {
   /* color: #333; */
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   /* text-align: center; */
   text-transform: uppercase;
   background: #33333382;
   display: inline;
+  letter-spacing: 1px;
 }
 @media (min-width: 768px) {
   #intro p {
