@@ -347,8 +347,13 @@ header .navbar-toggle .fa {
 #expander a.btn {
   margin-top: 10px;
 }
-#expander .img-responsive {
+#expander .img-responsive,
+#expander > img {
   max-height: 400px;
+  display: block;
+  width: 100% \9;
+  max-width: 100%;
+  height: auto;  
 }
 #testimonials .wrapper {
   position: relative;
