@@ -1,1 +1,21 @@
-{{ content }}
+<article class="row content-inline" {{ attributes }}>
+  <div class="col col-sm-6 col-xs-12 img-preview">
+    {{ content.field_portfolio_image }}
+  </div>
+  <div class="col col-sm-6 col-xs-12">
+    <h2>{{ label }}</h2>
+    <span class="block-label">The Challenge</span>
+    {{ content.field_portfolio_text_challenge }}
+    <span class="block-label">The Work</span>
+    {{ content.field_portfolio_text_work }}
+    {% if content.field_portfolio_link_project|render %}
+    <a href="{{ content.field_portfolio_link_project[0]['#url'] }}" class="btn more">{{ content.field_portfolio_link_project['#title'] }}</a>
+    {% endif %}
+
+    {% if content.field_portfolio_link_case_study|render %}
+    <a href="{{ content.field_portfolio_link_case_study['#url'] }}" class="btn more">{{ content.field_portfolio_link_case_study['#title'] }}</a>
+    {% endif %}    
+  </div>              
+</article>
+
+
