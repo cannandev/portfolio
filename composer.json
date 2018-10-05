@@ -20,8 +20,11 @@
         }
     ],
     "require": {
+        "bower-asset/ckeditor": "4.5.11",
+        "bower-asset/dropzone": "^5.1",
+        "bower-asset/jquery.easing": "^1.3",
+        "bower-asset/slick-carousel": "^1.7",
         "composer/installers": "^1.2",
-        "oomphinc/composer-installers-extender": "^1.1",
         "cweagans/composer-patches": "^1.6",
         "drupal-composer/drupal-scaffold": "^2.2",
         "drupal/admin_toolbar": "^1.23",
@@ -60,16 +63,14 @@
         "drupal/stage_file_proxy": "^1.0@alpha",
         "drupal/taxonomy_access_fix": "^2.5",
         "drupal/token": "^1.1",
+        "drupal/twig_field_value": "^1.1",
         "drupal/viewsreference": "^1.2",
         "drush/drush": "^9.0.0",
+        "oomphinc/composer-installers-extender": "^1.1",
+        "vardot/blazy": "1.8.2.1",
         "vlucas/phpdotenv": "^2.4",
         "webflo/drupal-finder": "^1.0.0",
-        "webmozart/path-util": "^2.3",
-        "vardot/blazy": "1.8.2.1",
-        "bower-asset/dropzone": "^5.1",
-        "bower-asset/ckeditor": "4.5.11",
-        "bower-asset/slick-carousel": "^1.7",
-        "bower-asset/jquery.easing": "^1.3"
+        "webmozart/path-util": "^2.3"
     },
     "require-dev": {
         "webflo/drupal-core-require-dev": "~8.5"
