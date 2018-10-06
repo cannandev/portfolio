@@ -122,6 +122,9 @@
         "patches": {
             "drupal/slick": {
                 "2907371 - Update slick paths to correspond to bower asset paths": "https://www.drupal.org/files/issues/slick-bower-paths-1.patch"
+            },
+            "drupal/media_bulk_upload": {
+                "Notice when navigating to Bulk upload media page #2": "https://www.drupal.org/files/issues/2018-08-09/notice_undefined_index%20-2991604-2.patch"
             }
         }
     }
