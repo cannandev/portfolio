@@ -43,6 +43,7 @@
         "drupal/extlink": "^1.0",
         "drupal/field_group": "^1.0",
         "drupal/focal_point": "^1.0@beta",
+        "drupal/fontawesome_menu_icons": "^1.4",
         "drupal/geolocation": "^1.11",
         "drupal/google_analytics": "^2.2",
         "drupal/honeypot": "^1.27",
