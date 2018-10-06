@@ -9,9 +9,10 @@ libraries:
   - cannanso/global-styling
   - cannanso/global-scripts
 regions:
-  header: Header Navigation
+  header: Header Menus
   hero: Hero
   content: Main Content
-  sidebar_first: 'Sidebar first'
-  sidebar_second: 'Sidebar second'
-  footer: Footer
+  sidebar_first: Sidebar first
+  sidebar_second: Sidebar second
+  footer_menu: Footer Menus
+  footer: Footer Copyright
