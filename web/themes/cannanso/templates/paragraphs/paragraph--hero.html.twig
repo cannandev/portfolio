@@ -2,16 +2,16 @@
   {% set bg_url = file_url(paragraph.field_background_image.entity.field_media_image.entity.fileuri) %}
 {% endif %}
 
-  <section id="intro" role="main" style="background-image: url({{ bg_url }})">
+  <section id="intro" role="main" style="background-image: url({{ bg_url }}); background-position-y: {{ content.field_bg_image_position }};">
     <div class="container">
       <div class="intro-unit">
         <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
         {% if content.field_label is not empty %}
-        <p>{{content.field_label}}</p>
+        <p>{{ content.field_label }}</p>
         {% endif %}
-        <h1>{{content.field_description}}</h1>
+        <h1>{{ content.field_description }}</h1>
         {% if content.field_cta.0 is not empty %}
-        <a class="btn more" href="{{content.field_cta.0['#url']}}">{{content.field_cta.0['#title']}}</a>
+        <a class="btn more" href="{{content.field_cta.0['#url']}}">{{ content.field_cta.0['#title'] }}</a>
         {% endif %}
       </div>
     </div>    
