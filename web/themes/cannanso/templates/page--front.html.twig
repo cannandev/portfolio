@@ -1,9 +1,9 @@
-<header role="banner">
+<header role="banner" class="abs">
     <div class="navbar">
       <div class="container">
         <div class="navbar-header">
           <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#main-menu"><i class="fa fa-bars fa-2x"></i></button>
-          <h1 class="logo"><a href="index.html">
+          <h1 class="logo"><a href="{{ front_page }}">
             <img src="/{{ directory }}/img/logo-white.png" alt="logo"></a>
           </h1>
         </div>
@@ -17,25 +17,12 @@
   {{ page.help }}
           
 
-  <section id="intro" role="main">
-    <div class="container">
-      <div class="intro-unit">
-
-        {{ page.hero }}
-
-        <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
-        <p>Freelancer / Senior Web Developer</p>
-        <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur exercitationem excepturi facere eveniet facilis.</h1>
-        <a class="btn more" href="#portfolio">View My Work</a>
-      </div>
-    </div>    
-  </section>
+  {{ page.content }}
 
   <section id="about" class="light">
     <div class="container">
       <div class="row">
         <div class="col-md-8 col-md-offset-2 text-center">
-          {{ page.content }}
           <h2>About</h2>
           <p class="lead">Hi! I'm Claire Annan, otherwise known as <a href="https://www.linkedin.com/in/ClaireAnnan">cannanso</a>.<br>Based in Atlanta, GA, I build web sites and applications for a living. Here are some of my skills:</p>
         </div>

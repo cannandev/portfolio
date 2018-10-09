@@ -50,19 +50,16 @@ img {
 }
 /* Pages and Sections */
 body {
-  background: #130804 url('../img/bgs/background-grovemade-239357-unsplash.jpg') 50% 0% fixed no-repeat;
-  background-size: cover;
-  font-size: 16px;
 }
 section,
 footer {
   padding: 3.1em 0 5em 0;
 }
 header {
-  background: rgba(34, 34, 34, 0.9);
+  background: transparent;
   position: relative;
   width: 100%;
-  z-index: 999;
+  z-index: 2;
   transition: all 0.5s ease;
 }
 @media (min-width: 768px) {
@@ -75,6 +72,12 @@ header.fixed {
   position: fixed;
   top: 0;
   left: 0;
+}
+header.abs {
+  background: rgba(34, 34, 34, 0.1);
+  position: absolute;
+  top: 0;
+  left: 0;  
 }
 @media (max-width: 991px) {
   header.fixed {
@@ -130,11 +133,14 @@ header .navbar-toggle .fa {
   border-bottom: 0;
 }
 #intro {
-  background: rgba(248, 248, 248, 0.5);
+  /* background: rgba(248, 248, 248, 0.5); */
+  background: #130804 50% 0% fixed no-repeat;
+  background-size: cover;
+  font-size: 16px;  
 }
 @media (min-width: 768px) {
   #intro {
-    background: transparent;
+    background-color: transparent;
   }
 }
 #intro p {
