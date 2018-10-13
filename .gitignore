@@ -14,7 +14,7 @@ min/
 # Ignore core when managing all of a project's dependencies with Composer
 # including Drupal core.
 web/core
-web/modules
+web/modules/contrib
 web/libraries
 
 # Core's dependencies are managed with Composer.
@@ -22,9 +22,10 @@ vendor
 composer.phar
 
 # Ignore configuration files that may contain sensitive information.
-*/services.yml
-*/settings.php
+*services.yml
+*settings.php
 
 # Ignore paths that contain user-generated content.
 */files/*
 */private
+web/sites/**/files/**/*
