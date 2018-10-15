@@ -29,9 +29,11 @@
         "drupal-composer/drupal-scaffold": "^2.2",
         "drupal/admin_toolbar": "^1.23",
         "drupal/ckeditor_media_embed": "^1.1",
+        "drupal/classy_paragraphs": "^1.0@beta",
         "drupal/colorbox": "^1.4",
         "drupal/commerce": "^2.5",
         "drupal/components": "^1.0",
+        "drupal/conditional_fields": "^1.0@alpha",
         "drupal/console": "^1.0.2",
         "drupal/core": "~8.5",
         "drupal/crop": "^1.5",
@@ -126,6 +128,9 @@
             },
             "drupal/media_bulk_upload": {
                 "Notice when navigating to Bulk upload media page #2": "https://www.drupal.org/files/issues/2018-08-09/notice_undefined_index%20-2991604-2.patch"
+            },
+            "drupal/entity_reference": {
+                "Allow view output for entity reference": "https://www.drupal.org/files/issues/2018-03-09/drupal-use_view_output_for_entityreference_options-2174633-206.patch"
             }
         }
     }
