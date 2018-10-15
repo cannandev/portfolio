@@ -199,9 +199,9 @@ header .navbar-toggle .fa {
 #about strong {
   padding-right: .5em;
 }
-#about .fa {
+#about .fa,
+#about svg {
   color: #FFA200;
-  font-size: 3em;
   position: absolute;
   margin: 20px 4px 0;
   transition: all 0.5s ease;
@@ -513,12 +513,6 @@ footer .top-link:hover {
   outline: 0;
   text-transform: uppercase;
   transition: all  0.5s ease;
-}
-.more.btn:after {
-  content: "\f054";
-  color: #F8F8F8;
-  font-family: FontAwesome;
-  padding-left: 10px;
 }
 .more.btn:hover {
   background-color: rgba(255, 162, 0, 0.5);

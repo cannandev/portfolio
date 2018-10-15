@@ -11,7 +11,7 @@
         {% endif %}
         <h1>{{ content.field_description }}</h1>
         {% if content.field_cta.0 is not empty %}
-        <a class="btn more" href="{{content.field_cta.0['#url']}}">{{ content.field_cta.0['#title'] }}</a>
+        <a class="btn more" href="{{ content.field_cta.0['#url'] }}">{{ content.field_cta.0['#title'] }} {{ content.field_cta_icon }}</a>
         {% endif %}
       </div>
     </div>    
