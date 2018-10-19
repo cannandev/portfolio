@@ -279,14 +279,22 @@ header .navbar-toggle .fa {
   -webkit-filter: sepia(100%) hue-rotate(160deg);
   filter: sepia(100%) hue-rotate(160deg);
 }
-.grid-cell.expanded > a::after {
-  content: '\f0d8';
+/*.grid-cell.expanded > a::after {*/
+  /*content: '\f0d8';*/
+  /*color: #FFA200;*/
+  /*font: normal normal normal 48px/1 "Font Awesome 5 Free";*/
+  /*position: absolute;*/
+  /*left: 50%;*/
+  /*top: auto;*/
+  /*margin-top: -30px;*/
+  /*z-index: 10;*/
+/*}*/
+.grid-cell svg[data-icon="caret-up"] {
   color: #FFA200;
-  font: normal normal normal 48px/1 FontAwesome;
   position: absolute;
   left: 50%;
   top: auto;
-  margin-top: -30px;
+  margin-top: -27px;
   z-index: 10;
 }
 .grid-cell .img-responsive.light {

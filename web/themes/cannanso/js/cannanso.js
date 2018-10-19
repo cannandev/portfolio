@@ -31,7 +31,9 @@
 
 	    activeCell.addClass('expanded');
 
-	    //Only set a height on the active cell for wider screens
+			$(this.anchor).append('<i class="fas fa-caret-up fa-3x"></i>');
+
+      //Only set a height on the active cell for wider screens
 	    if(window.innerWidth >= 768){
 	    	activeCell.css({'height': newHeight});
 	    }
@@ -49,12 +51,14 @@
 	    $('.grid-cell.expanded').removeClass('expanded').css({'height': 'auto'});
 	    $('#expander').slideUp(400);
 	    $('#expander').remove();
-		},
+      $('.grid-cell svg[data-icon="caret-up"]').remove();
+
+    },
 		init: function() {
 		  $('.grid-cell a').on('click', function(e) {
 		  	e.preventDefault();
 				gridCells.anchor = this;
-				gridCells.setPage(this.getAttribute('href'));
+        gridCells.setPage(this.getAttribute('href'));
 		  })
 		  .mouseenter(function(e){
 		    e.preventDefault();
@@ -62,13 +66,13 @@
 		  })
 		  .mouseleave(function(e){
 		    e.preventDefault();
-		    $(this).children('.caption').slideUp('slow');  
+		    $(this).children('.caption').slideUp('slow');
 		  });
 		  
 		  $('.grid-cell').on('click', ' .close', function(e){
 		    e.preventDefault();
-		    gridCells.close();  
-		  });
+        gridCells.close();
+      });
 		}
 	};
 
