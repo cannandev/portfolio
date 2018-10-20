@@ -15,53 +15,8 @@
   {{ page.highlighted }}
 
   {{ page.help }}
-          
 
   {{ page.content }}
-
-
-  <section id="contact" class="darker">
-    <div class="container">
-      <h2 class="text-center">Contact</h2>
-      <div class="row">
-        <div class="col-md-4 col-xs-12">
-          <h3>Locate</h3>
-          <div class="location">
-            <p>Based in Marietta, GA - USA. </p>
-            <p>Will work remotely. Sometimes from a Starbucks.</p>
-            <a href="https://www.starbucks.com/tweet-a-coffee/gift" alt="Tweet a Coffee">Tweet me a Coffee</a>
-          </div>
-          <h3>Connect</h3>
-          {% if page.footer_menu %}
-            {{ page.footer_menu }}
-          {% endif %}
-        </div>
-        <div class="col-md-8 col-xs-12">
-          <h3>Communicate</h3>
-          
-          <form id="contactForm" novalidate>
-            <div class="col col-md-6 has-error">
-              <label class="sr-only" for="contactName">Your Name</label>
-              <input class="form-control name" type="text" name="contactName" placeholder="Your Name:" required>
-            </div>
-            <div class="col col-md-6 has-error">
-              <label class="sr-only" for="_replyto">Your Email</label>
-              <input type="email" class="form-control email" name="_replyto" placeholder="Your Email:" required>
-            </div>
-            <div class="col col-md-12 has-error">
-              <label class="sr-only" for="contactMessage">Your Message</label>
-              <textarea rows="4" class="form-control message" name="contactMessage" placeholder="Your Message:" required></textarea>
-            </div>
-            <input type="hidden" name="_subject" value="Incoming! formspree.io Contact Form Submission" />
-            <input type="text" name="_gotcha" style="display:none" />
-            <div class="col col-md-12 text-center">
-              <button type="submit" class="btn more">Send</button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </section>
 
 {% if page.footer %}
   <footer class="darker" role="contentinfo">
@@ -71,7 +26,6 @@
           {{ page.footer }}
         </div>
         <a href="#" class="top-link"><i class="fa fa-chevron-circle-up fa-3x" alt="Back to Top"></i><span class="sr-only">Top</span></a>
-
       </div>
     </div>
   </footer>
