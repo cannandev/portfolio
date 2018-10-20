@@ -21,7 +21,7 @@
 			this.close();
 			this.expander = $('<div id="expander"></div>').appendTo($(this.anchor).parent());
 			this.expander.html(content);
-			this.expander.prepend('<a href="#" class="close">Close <i class="fa fa-times-circle-o"></i></a>');
+			this.expander.prepend('<a href="#" class="close">Close <i class="fa fa-times-circle-o fa-2x"></i></a>');
 			this.expand();
 		},
 		expand: function() {    
@@ -79,7 +79,7 @@
 	var slideItem = function() {
 		var itemHeight = $('#testimonials .item').outerHeight();
 		$('#testimonials .wrapper').css('height', itemHeight);
-
+		$('#testimonials .item').first().addClass('active');
 	 	$('#testimonials .next').click(function(){
 	 		var activeItem = $('#testimonials .active'),
 	 				nextItem = activeItem.next();
@@ -127,7 +127,5 @@
 	gridCells.init();
 	slideItem();
 	contactVal();
-
-	$('#intro i').after('<span>line of code</span>');
 
 })(jQuery);
