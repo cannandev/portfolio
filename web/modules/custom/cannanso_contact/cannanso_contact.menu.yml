@@ -1,0 +1,6 @@
+cannanso_contact.form:
+  title: 'Contact Form'
+  description: 'Setup cannanso.com contact form.'
+  route_name: cannanso_contact.form
+  menu_name: main
+  weight: 0
