@@ -11,8 +11,38 @@ namespace Drupal\cannanso_contact\Plugin\Block;
 use Drupal\Core\Block\BlockBase;
 use Drupal\Core\Plugin\ContainerFactoryPluginInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
+use Drupal\cannanso_contact\Form\SiteContactForm as SiteContactFormService;
 
+/**
+ * Class SiteContactFormBlock
+ *
+ * @Block(
+ *  id = "cannanso_contact_form_block",
+ *  admin_label = @Translation("Site Contact Form"),
+ * )
+ *
+ * @package Drupal\cannanso_contact\Plugin\Block
+ */
 class SiteContactFormBlock extends BlockBase implements ContainerFactoryPluginInterface {
+
+  /**
+   * @var $contact_form;
+   */
+  protected $contact_form;
+
+  /**
+   * SiteContactFormBlock constructor.
+   *
+   * @param array $configuration
+   * @param $plugin_id
+   * @param $plugin_definition
+   * @param \Drupal\cannanso_contact\Form\SiteContactForm $contact_form
+   */
+  public function __construct(array $configuration, $plugin_id, $plugin_definition, SiteContactFormService $contact_form) {
+    parent::__construct($configuration, $plugin_id, $plugin_definition);
+    $this->contact_form = $contact_form;
+  }
+
   /**
    * Creates an instance of the plugin.
    *
@@ -29,25 +59,28 @@ class SiteContactFormBlock extends BlockBase implements ContainerFactoryPluginIn
    *   Returns an instance of this plugin.
    */
   public static function create(ContainerInterface $container, array $configuration, $plugin_id, $plugin_definition) {
-    // TODO: Implement create() method.
+    return new static (
+      $configuration,
+      $plugin_id,
+      $plugin_definition,
+      $container->get('cannanso_contact.form')
+    );
   }
 
   /**
-   * Builds and returns the renderable array for this block plugin.
-   *
-   * If a block should not be rendered because it has no content, then this
-   * method must also ensure to return no content: it must then only return an
-   * empty array, or an empty array with #cache set (with cacheability metadata
-   * indicating the circumstances for it being empty).
-   *
-   * @return array
-   *   A renderable array representing the content of the block.
-   *
-   * @see \Drupal\block\BlockViewBuilder
+   * {@inheritdoc}
    */
   public function build() {
-    // TODO: Implement build() method.
+    $form['name'] = [
+      '#type' => 'textfield',
+      '#title' => t('Your Name'),
+    ];
+
+    $form['submit'] = [
+      '#type' => 'submit',
+      '#value' => $this->t('Send'),
+    ];
+
+    return $form;
   }
-
-
 }
