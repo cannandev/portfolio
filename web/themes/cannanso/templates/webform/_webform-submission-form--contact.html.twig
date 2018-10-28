@@ -1,0 +1,21 @@
+{% set classes = [
+    'form-control',
+] %}
+
+<form id="contactForm" novalidate {{ attributes }}>
+    {{ title_prefix }}
+    {{ title_suffix }}
+    <div class="col col-md-6 has-error">
+        {{ form.elements.name }}
+    </div>
+    <div class="col col-md-6 has-error">
+        {{ form.elements.email }}
+    </div>
+    <div class="col col-md-12 has-error">
+        {{ form.elements.message }}
+    </div>
+    <input type="text" name="_gotcha" style="display:none" />
+    <div class="col col-md-12 text-center">
+        {{ form.elements.actions }}
+    </div>
+</form>

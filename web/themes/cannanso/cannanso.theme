@@ -11,3 +11,4 @@ function cannanso_theme_suggestions_page_alter(&$suggestions, $variables) {
     $suggestions[] = 'page__' . $node->getType();
   }
 }
+

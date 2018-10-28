@@ -14,5 +14,5 @@ regions:
   content: Main Content
   sidebar_first: Sidebar first
   sidebar_second: Sidebar second
-  footer_menu: Footer Menus
-  footer: Footer Copyright
+  footer: Footer Blocks
+  footer_copy: Footer Copyright
