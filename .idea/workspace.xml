@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e408659-a912-4c6d-8ed1-d242cf9c8fb9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/web/themes/cannanso/templates/pages/page--article.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/cannanso/templates/paragraphs/paragraph--basic-content.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/cannanso/templates/webform/webform.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/default.services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/sites/default/default.services.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/default.settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/sites/default/default.settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/sites/default/settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/themes/cannanso/cannanso.theme" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/cannanso/cannanso.theme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/themes/cannanso/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/cannanso/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/themes/cannanso/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/cannanso/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/themes/cannanso/img/logo-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/cannanso/img/logo-white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/themes/cannanso/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/themes/cannanso/templates/pages/inc/header.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/cannanso/templates/pages/inc/header.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/themes/cannanso/templates/pages/page.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/cannanso/templates/pages/page.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/themes/cannanso/templates/paragraphs/paragraph--column.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/cannanso/templates/paragraphs/paragraph--column.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,38 +43,38 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="2" />
+          <entry key="css" value="3" />
           <entry key="dtesting while driving" value="1" />
           <entry key="engine" value="3" />
           <entry key="gitignore" value="2" />
           <entry key="html" value="7" />
           <entry key="ini" value="1" />
           <entry key="js" value="4" />
-          <entry key="json" value="1" />
+          <entry key="json" value="2" />
           <entry key="module" value="2" />
-          <entry key="php" value="110" />
-          <entry key="theme" value="8" />
-          <entry key="twig" value="127" />
+          <entry key="php" value="112" />
+          <entry key="theme" value="9" />
+          <entry key="twig" value="141" />
           <entry key="yml" value="51" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="2" />
+          <entry key="CSS" value="3" />
           <entry key="HTML" value="7" />
           <entry key="Ini" value="1" />
-          <entry key="JSON" value="1" />
+          <entry key="JSON" value="2" />
           <entry key="JavaScript" value="4" />
-          <entry key="PHP" value="123" />
+          <entry key="PHP" value="126" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Twig" value="127" />
+          <entry key="Twig" value="141" />
           <entry key="YAML" value="51" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="JavaScript Console" value="3" />
-          <entry key="css" value="99" />
+          <entry key="css" value="101" />
           <entry key="dtesting while driving" value="130" />
           <entry key="dummy" value="5" />
           <entry key="gitignore" value="16" />
@@ -72,23 +83,23 @@
           <entry key="js" value="316" />
           <entry key="json" value="77" />
           <entry key="php" value="4952" />
-          <entry key="theme" value="430" />
-          <entry key="twig" value="3730" />
+          <entry key="theme" value="499" />
+          <entry key="twig" value="3895" />
           <entry key="txt" value="105" />
-          <entry key="yml" value="1483" />
+          <entry key="yml" value="1503" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="99" />
+          <entry key="CSS" value="101" />
           <entry key="HTML" value="33" />
           <entry key="Ini" value="1" />
           <entry key="JSON" value="77" />
           <entry key="JavaScript" value="319" />
-          <entry key="PHP" value="5382" />
+          <entry key="PHP" value="5451" />
           <entry key="PLAIN_TEXT" value="256" />
-          <entry key="Twig" value="3730" />
-          <entry key="YAML" value="1483" />
+          <entry key="Twig" value="3895" />
+          <entry key="YAML" value="1503" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
@@ -103,7 +114,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/sites/default/services.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
@@ -113,53 +124,55 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/themes/cannanso/cannanso.theme">
+        <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/pages/inc/footer.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="13" selection-start-line="13" selection-end-line="14" />
+            <state relative-caret-position="255">
+              <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/sites/default/settings.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-8871">
+              <caret line="139" column="69" lean-forward="true" selection-start-line="139" selection-start-column="69" selection-end-line="139" selection-end-column="69" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/menus/menu-local-tasks.html.twig">
+        <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+            <state relative-caret-position="401">
+              <caret line="117" column="23" lean-forward="true" selection-start-line="117" selection-start-column="23" selection-end-line="117" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/themes/_bootstrap/bootstrap.theme">
+        <entry file="file://$PROJECT_DIR$/web/sites/settings.local.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1295" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/menus/menu-local-task.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+            <state relative-caret-position="1710">
+              <caret line="119" column="65" selection-start-line="119" selection-start-column="57" selection-end-line="119" selection-end-column="65" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/core/themes/classy/templates/navigation/menu-local-tasks.html.twig">
+        <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/pages/page--article.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-117">
-              <caret selection-end-line="21" />
+            <state relative-caret-position="502">
+              <caret line="70" selection-start-line="70" selection-end-line="70" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/core/modules/system/tests/modules/menu_test/menu_test.module">
+        <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/paragraphs/paragraph--column.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10">
-              <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+            <state>
+              <caret column="25" selection-start-column="25" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -186,6 +199,11 @@
       <find>SHOWN TABS</find>
       <find>local_task</find>
       <find>menu_local_tasks</find>
+      <find>logo</find>
+      <find>database</find>
+      <find>conf</find>
+      <find>config_</find>
+      <find>1.9</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -203,10 +221,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/themes/cannanso/templates/node/node--portfolio-entry--default.html.twig" />
-        <option value="$PROJECT_DIR$/web/themes/cannanso/templates/node/node--portfolio-entry--full.html.twig" />
-        <option value="$PROJECT_DIR$/web/themes/cannanso/templates/node/node--portfolio-entry.html.twig" />
-        <option value="$PROJECT_DIR$/web/themes/cannanso/css/style.css" />
         <option value="$PROJECT_DIR$/web/themes/cannanso/templates/system/node.html.twig" />
         <option value="$PROJECT_DIR$/web/themes/_cannanso/index.html" />
         <option value="$PROJECT_DIR$/web/sites/settings.local.php" />
@@ -220,7 +234,6 @@
         <option value="$PROJECT_DIR$/web/themes/cannanso/templates/menus/menu--main-menu.html.twig" />
         <option value="$PROJECT_DIR$/web/themes/cannanso/templates/menus/menu.html.twig" />
         <option value="$PROJECT_DIR$/web/themes/cannanso/templates/paragraphs/paragraph--contact-form.html.twig" />
-        <option value="$PROJECT_DIR$/web/themes/cannanso/templates/paragraphs/paragraph--column.html.twig" />
         <option value="$PROJECT_DIR$/web/themes/cannanso/templates/paragraphs/paragraph--columns.html.twig" />
         <option value="$PROJECT_DIR$/web/modules/custom/hello_world/src/HelloWorldSalutation.php" />
         <option value="$PROJECT_DIR$/web/modules/custom/cannanso_contact/cannanso_contact.info.yml" />
@@ -238,8 +251,6 @@
         <option value="$PROJECT_DIR$/web/themes/cannanso/templates/pages/inc/footer.html" />
         <option value="$PROJECT_DIR$/web/themes/cannanso/templates/pages/inc/footer.html.twig" />
         <option value="$PROJECT_DIR$/web/themes/cannanso/templates/pages/page--front.html.twig" />
-        <option value="$PROJECT_DIR$/web/themes/cannanso/templates/pages/inc/header.html.twig" />
-        <option value="$PROJECT_DIR$/web/themes/cannanso/templates/pages/page.html.twig" />
         <option value="$PROJECT_DIR$/web/themes/cannanso/templates/webform/webform--contact.html.twig" />
         <option value="$PROJECT_DIR$/web/themes/cannanso/templates/paragraphs/paragraph--testimonial-slider.html.twig" />
         <option value="$PROJECT_DIR$/web/themes/cannanso/templates/system/block.html.twig" />
@@ -250,9 +261,16 @@
         <option value="$PROJECT_DIR$/web/core/lib/Drupal/Core/Field/Plugin/Field/FieldType/EntityReferenceItem.php" />
         <option value="$PROJECT_DIR$/web/themes/cannanso/cannanso.info.yml" />
         <option value="$PROJECT_DIR$/web/core/modules/block_content/src/BlockContentAccessControlHandler.php" />
-        <option value="$PROJECT_DIR$/web/themes/cannanso/cannanso.theme" />
         <option value="$PROJECT_DIR$/web/themes/cannanso/templates/menus/menu-local-tasks.html.twig" />
         <option value="$PROJECT_DIR$/web/themes/cannanso/templates/menus/menu-local-task.html.twig" />
+        <option value="$PROJECT_DIR$/web/themes/cannanso/css/style.css" />
+        <option value="$PROJECT_DIR$/web/themes/cannanso/templates/pages/page--article.html.twig" />
+        <option value="$PROJECT_DIR$/web/themes/cannanso/templates/pages/inc/header.html.twig" />
+        <option value="$PROJECT_DIR$/web/themes/cannanso/templates/pages/page.html.twig" />
+        <option value="$PROJECT_DIR$/web/themes/cannanso/templates/webform/webform.html.twig" />
+        <option value="$PROJECT_DIR$/web/themes/cannanso/cannanso.theme" />
+        <option value="$PROJECT_DIR$/web/themes/cannanso/templates/paragraphs/paragraph--column.html.twig" />
+        <option value="$PROJECT_DIR$/web/themes/cannanso/templates/paragraphs/paragraph--basic-content.html.twig" />
         <option value="$PROJECT_DIR$/web/sites/default/services.yml" />
       </list>
     </option>
@@ -280,248 +298,6 @@
       <path value="$PROJECT_DIR$/web/libraries/jquery/package.json" />
       <path value="$PROJECT_DIR$/web/libraries/slick-carousel/package.json" />
       <path value="$PROJECT_DIR$/web/modules/contrib/paragraphs/css/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_bootstrap/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/ansi-regex/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/ansi-styles/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/anymatch/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/arr-diff/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/arr-flatten/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/array-unique/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/async-each/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-cli/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-code-frame/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-core/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-generator/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-helper-builder-binary-assignment-operator-visitor/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-helper-call-delegate/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-helper-define-map/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-helper-explode-assignable-expression/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-helper-function-name/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-helper-get-function-arity/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-helper-hoist-variables/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-helper-optimise-call-expression/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-helper-regex/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-helper-remap-async-to-generator/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-helper-replace-supers/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-helpers/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-messages/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-plugin-check-es2015-constants/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-plugin-syntax-async-functions/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-plugin-syntax-exponentiation-operator/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-plugin-syntax-trailing-function-commas/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-plugin-transform-async-to-generator/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-plugin-transform-es2015-arrow-functions/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-plugin-transform-es2015-block-scoped-functions/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-plugin-transform-es2015-block-scoping/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-plugin-transform-es2015-classes/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-plugin-transform-es2015-computed-properties/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-plugin-transform-es2015-destructuring/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-plugin-transform-es2015-duplicate-keys/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-plugin-transform-es2015-for-of/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-plugin-transform-es2015-function-name/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-plugin-transform-es2015-literals/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-plugin-transform-es2015-modules-amd/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-plugin-transform-es2015-modules-commonjs/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-plugin-transform-es2015-modules-systemjs/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-plugin-transform-es2015-modules-umd/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-plugin-transform-es2015-object-super/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-plugin-transform-es2015-parameters/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-plugin-transform-es2015-shorthand-properties/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-plugin-transform-es2015-spread/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-plugin-transform-es2015-sticky-regex/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-plugin-transform-es2015-template-literals/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-plugin-transform-es2015-typeof-symbol/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-plugin-transform-es2015-unicode-regex/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-plugin-transform-exponentiation-operator/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-plugin-transform-regenerator/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-plugin-transform-strict-mode/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-polyfill/node_modules/regenerator-runtime/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-polyfill/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-preset-env/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-register/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-runtime/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-template/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-traverse/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babel-types/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/babylon/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/balanced-match/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/binary-extensions/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/brace-expansion/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/braces/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/browserslist/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/caniuse-lite/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/chalk/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/chokidar/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/commander/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/concat-map/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/convert-source-map/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/core-js/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/core-util-is/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/detect-indent/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/electron-to-chromium/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/escape-string-regexp/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/esutils/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/expand-brackets/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/expand-range/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/extglob/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/filename-regex/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fill-range/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/for-in/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/for-own/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fs-readdir-recursive/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fs.realpath/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/abbrev/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/ansi-regex/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/aproba/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/are-we-there-yet/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/balanced-match/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/brace-expansion/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/chownr/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/code-point-at/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/concat-map/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/console-control-strings/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/core-util-is/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/deep-extend/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/delegates/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/detect-libc/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/fs-minipass/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/fs.realpath/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/gauge/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/glob/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/has-unicode/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/iconv-lite/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/ignore-walk/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/inflight/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/inherits/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/ini/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/is-fullwidth-code-point/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/isarray/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/minimatch/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/minimist/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/minipass/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/minizlib/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/mkdirp/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/ms/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/needle/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/node-pre-gyp/lib/util/nw-pre-gyp/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/node-pre-gyp/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/nopt/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/npm-bundled/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/npm-packlist/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/npmlog/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/number-is-nan/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/object-assign/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/once/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/os-homedir/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/os-tmpdir/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/osenv/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/path-is-absolute/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/process-nextick-args/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/rc/node_modules/minimist/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/rc/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/readable-stream/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/rimraf/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/safe-buffer/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/safer-buffer/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/sax/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/semver/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/set-blocking/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/signal-exit/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/string-width/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/string_decoder/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/strip-ansi/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/strip-json-comments/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/tar/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/util-deprecate/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/wide-align/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/wrappy/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/node_modules/yallist/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/fsevents/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/glob-base/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/glob-parent/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/glob/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/globals/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/graceful-fs/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/has-ansi/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/home-or-tmp/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/inflight/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/inherits/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/invariant/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/is-binary-path/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/is-buffer/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/is-dotfile/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/is-equal-shallow/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/is-extendable/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/is-extglob/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/is-finite/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/is-glob/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/is-number/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/is-posix-bracket/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/is-primitive/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/isarray/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/isobject/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/js-tokens/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/jsesc/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/json5/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/lodash/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/loose-envify/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/math-random/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/micromatch/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/minimatch/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/minimist/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/mkdirp/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/ms/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/nan/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/nan/tools/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/normalize-path/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/number-is-nan/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/object-assign/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/object.omit/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/once/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/os-homedir/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/os-tmpdir/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/output-file-sync/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/parse-glob/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/path-is-absolute/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/preserve/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/private/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/process-nextick-args/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/randomatic/node_modules/is-number/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/randomatic/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/randomatic/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/readable-stream/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/readdirp/examples/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/readdirp/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/regenerate/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/regenerator-runtime/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/regenerator-transform/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/regex-cache/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/regexpu-core/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/regjsgen/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/regjsparser/node_modules/jsesc/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/regjsparser/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/remove-trailing-separator/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/repeat-element/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/repeat-string/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/repeating/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/safe-buffer/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/semver/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/set-immediate-shim/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/slash/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/source-map-support/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/source-map/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/string_decoder/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/strip-ansi/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/supports-color/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/to-fast-properties/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/trim-right/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/user-home/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/util-deprecate/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/v8flags/package.json" />
-      <path value="$PROJECT_DIR$/web/themes/_cannanso/node_modules/wrappy/package.json" />
     </packageJsonPaths>
   </component>
   <component name="PhpDebugGeneral" break_at_first_line="true" />
@@ -667,8 +443,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1280" />
-    <option name="height" value="722" />
+    <option name="width" value="1920" />
+    <option name="height" value="1002" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -695,55 +471,14 @@
               <item name="cannanso" type="b2602c69:ProjectViewProjectNode" />
               <item name="cannanso" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="sites" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cannanso" type="b2602c69:ProjectViewProjectNode" />
               <item name="cannanso" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="_bootstrap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cannanso" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cannanso" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="_bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cannanso" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cannanso" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="_bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="menu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cannanso" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cannanso" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="cannanso" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cannanso" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cannanso" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="cannanso" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cannanso" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cannanso" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="cannanso" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="menus" type="462c0819:PsiDirectoryNode" />
+              <item name="sites" type="462c0819:PsiDirectoryNode" />
+              <item name="default" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -761,6 +496,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/themes/cannanso/templates/webform" />
+      <recent name="$PROJECT_DIR$/web/themes/cannanso/templates/pages" />
       <recent name="$PROJECT_DIR$/web/themes/cannanso/templates/menus" />
       <recent name="$PROJECT_DIR$/web/themes/cannanso/templates/views" />
       <recent name="$PROJECT_DIR$/web/themes/cannanso/templates" />
@@ -802,12 +539,12 @@
       <updated>1539372827414</updated>
       <workItem from="1539372828779" duration="34723000" />
       <workItem from="1539638794064" duration="20415000" />
-      <workItem from="1539995752962" duration="68131000" />
+      <workItem from="1539995752962" duration="75819000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123269000" />
+    <option name="totallyTimeSpent" value="130957000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -819,12 +556,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="722" extended-state="0" />
+    <frame x="0" y="22" width="1920" height="1002" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.50151056" side_tool="true" weight="0.3529887" />
       <window_info id="npm" order="1" sideWeight="0.50151056" side_tool="true" weight="0.3529887" />
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49848944" visible="true" weight="0.3529887" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49848944" visible="true" weight="0.23269436" />
       <window_info id="Structure" order="3" sideWeight="0.50151056" side_tool="true" weight="0.3529887" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50080776" side_tool="true" weight="0.4" />
@@ -837,7 +574,7 @@
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32857144" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49919224" visible="true" weight="0.53650796" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49919224" weight="0.53650796" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -882,89 +619,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/paragraphs/paragraph--blurb.html.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/core/core.services.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="648" column="130" selection-start-line="648" selection-start-column="130" selection-end-line="648" selection-end-column="145" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/core/lib/Drupal/Core/Menu/Plugin/Block/LocalTasksBlock.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2025">
-          <caret line="136" column="20" selection-start-line="136" selection-start-column="20" selection-end-line="136" selection-end-column="20" />
-          <folding>
-            <element signature="e#49#81#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/modules/custom/cannanso_contact/cannanso_contact.services.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/core/lib/Drupal/Core/Block/BlockBase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-791">
-          <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/core/lib/Drupal/Core/Block/BlockPluginInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="141" column="18" selection-start-line="141" selection-start-column="18" selection-end-line="141" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/modules/custom/hello_world/src/Plugin/Block/HelloWorldSalutationBlock.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="68" column="18" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
-          <folding>
-            <element signature="e#6#93#0#PHP" expanded="true" />
-            <element signature="e#139#171#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/modules/custom/hello_world/src/HelloWorldSalutation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/modules/custom/cannanso_contact/src/Plugin/Block/SiteContactFormBlock.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
-          <folding>
-            <element signature="e#144#176#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/modules/custom/hello_world/src/Form/SalutationConfigurationForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="68" column="4" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/modules/custom/cannanso_contact/cannanso_contact.routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/modules/custom/cannanso_contact/src/Form/SiteContactForm.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
@@ -992,9 +646,6 @@
     <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/regions/region--footer.html.twig">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/pages/inc/footer.html.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/pages/page--front.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1012,13 +663,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/modules/contrib/webform/templates/webform.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/paragraphs/paragraph--testimonial-slider.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1033,20 +677,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/modules/contrib/webform/templates/webform-submission-form.html.twig">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/pages/page.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/pages/inc/header.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/modules/contrib/devel/src/Twig/Extension/Debug.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -1079,13 +709,6 @@
     <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/system/region.html.twig">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/system/block.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/system/node.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1086" />
@@ -1110,16 +733,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/webform/_webform-submission-form--contact.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-          <folding>
-            <element signature="n#style#0;n#input#1;n#form#1;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1181,13 +794,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/cannanso.theme">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="13" selection-start-line="13" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/themes/_bootstrap/bootstrap.theme">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1295" />
@@ -1207,10 +813,132 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="92" column="1" selection-start-line="92" selection-start-column="1" selection-end-line="92" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/pages/inc/header.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/pages/page.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/modules/contrib/webform/templates/webform-container-base-html.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/webform/webform.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/modules/contrib/webform/templates/webform.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/cannanso.theme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/webform/_webform-submission-form--contact.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/paragraphs/paragraph--blurb.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/paragraphs/paragraph--hero.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/paragraphs/paragraph--column.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/pages/page--article.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/paragraphs/paragraph--basic-content.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/sites/default/services.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/system/block.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/pages/inc/footer.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/sites/settings.local.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1710">
+          <caret line="119" column="65" selection-start-line="119" selection-start-column="57" selection-end-line="119" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="117" column="23" lean-forward="true" selection-start-line="117" selection-start-column="23" selection-end-line="117" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/sites/default/settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8871">
+          <caret line="139" column="69" lean-forward="true" selection-start-line="139" selection-start-column="69" selection-end-line="139" selection-end-column="69" />
         </state>
       </provider>
     </entry>
