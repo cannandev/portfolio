@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e408659-a912-4c6d-8ed1-d242cf9c8fb9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/themes/cannanso/templates/pages/page--article.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/themes/cannanso/templates/paragraphs/paragraph--basic-content.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/themes/cannanso/templates/webform/webform.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/default.services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/sites/default/default.services.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/default.settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/sites/default/default.settings.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/sites/default/settings.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/themes/cannanso/cannanso.theme" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/cannanso/cannanso.theme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/themes/cannanso/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/cannanso/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/themes/cannanso/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/cannanso/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/themes/cannanso/img/logo-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/cannanso/img/logo-white.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/themes/cannanso/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/themes/cannanso/templates/pages/inc/header.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/cannanso/templates/pages/inc/header.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/themes/cannanso/templates/pages/page.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/cannanso/templates/pages/page.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/themes/cannanso/templates/paragraphs/paragraph--column.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/cannanso/templates/paragraphs/paragraph--column.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +20,7 @@
     <session id="-664821567">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.9" value="1" />
@@ -47,12 +33,13 @@
           <entry key="dtesting while driving" value="1" />
           <entry key="engine" value="3" />
           <entry key="gitignore" value="2" />
+          <entry key="htaccess" value="2" />
           <entry key="html" value="7" />
           <entry key="ini" value="1" />
           <entry key="js" value="4" />
           <entry key="json" value="2" />
           <entry key="module" value="2" />
-          <entry key="php" value="112" />
+          <entry key="php" value="113" />
           <entry key="theme" value="9" />
           <entry key="twig" value="141" />
           <entry key="yml" value="51" />
@@ -65,10 +52,11 @@
           <entry key="Ini" value="1" />
           <entry key="JSON" value="2" />
           <entry key="JavaScript" value="4" />
-          <entry key="PHP" value="126" />
+          <entry key="PHP" value="127" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="Twig" value="141" />
           <entry key="YAML" value="51" />
+          <entry key="htaccess" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -78,6 +66,7 @@
           <entry key="dtesting while driving" value="130" />
           <entry key="dummy" value="5" />
           <entry key="gitignore" value="16" />
+          <entry key="htaccess" value="5" />
           <entry key="html" value="33" />
           <entry key="ini" value="1" />
           <entry key="js" value="316" />
@@ -100,6 +89,7 @@
           <entry key="PLAIN_TEXT" value="256" />
           <entry key="Twig" value="3895" />
           <entry key="YAML" value="1503" />
+          <entry key="htaccess" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
@@ -113,71 +103,7 @@
     <favorites_list name="cannanso" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/sites/default/services.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/pages/inc/footer.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/sites/default/settings.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8871">
-              <caret line="139" column="69" lean-forward="true" selection-start-line="139" selection-start-column="69" selection-end-line="139" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/composer.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="117" column="23" lean-forward="true" selection-start-line="117" selection-start-column="23" selection-end-line="117" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/sites/settings.local.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1710">
-              <caret line="119" column="65" selection-start-line="119" selection-start-column="57" selection-end-line="119" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/pages/page--article.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="70" selection-start-line="70" selection-end-line="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/paragraphs/paragraph--column.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="25" selection-start-column="25" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -204,6 +130,7 @@
       <find>conf</find>
       <find>config_</find>
       <find>1.9</find>
+      <find>Rewritebase</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -221,7 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/themes/cannanso/templates/system/node.html.twig" />
         <option value="$PROJECT_DIR$/web/themes/_cannanso/index.html" />
         <option value="$PROJECT_DIR$/web/sites/settings.local.php" />
         <option value="$PROJECT_DIR$/web/themes/cannanso/templates/paragraphs/paragraph--grid.html.twig" />
@@ -272,6 +198,7 @@
         <option value="$PROJECT_DIR$/web/themes/cannanso/templates/paragraphs/paragraph--column.html.twig" />
         <option value="$PROJECT_DIR$/web/themes/cannanso/templates/paragraphs/paragraph--basic-content.html.twig" />
         <option value="$PROJECT_DIR$/web/sites/default/services.yml" />
+        <option value="/private/var/folders/b4/jbps0q354fs8n2h1gn9kmmw00000gn/T/fz3temp-2/.htaccess" />
       </list>
     </option>
   </component>
@@ -443,8 +370,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1920" />
-    <option name="height" value="1002" />
+    <option name="width" value="1280" />
+    <option name="height" value="722" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -503,11 +430,11 @@
       <recent name="$PROJECT_DIR$/web/themes/cannanso/templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/sites/default" />
       <recent name="$PROJECT_DIR$/web/themes/cannanso/templates/pages/inc" />
       <recent name="$PROJECT_DIR$/web/themes/cannanso/templates/pages" />
       <recent name="$PROJECT_DIR$/web/modules/custom/cannanso_contact/src/Plugin" />
       <recent name="$PROJECT_DIR$/web/modules/custom/cannanso_contact/src" />
-      <recent name="$PROJECT_DIR$/web/modules/custom/cannanso_contact" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -539,12 +466,12 @@
       <updated>1539372827414</updated>
       <workItem from="1539372828779" duration="34723000" />
       <workItem from="1539638794064" duration="20415000" />
-      <workItem from="1539995752962" duration="75819000" />
+      <workItem from="1539995752962" duration="77034000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130957000" />
+    <option name="totallyTimeSpent" value="132172000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -556,12 +483,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="1002" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="22" width="1280" height="722" extended-state="0" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.50151056" side_tool="true" weight="0.3529887" />
       <window_info id="npm" order="1" sideWeight="0.50151056" side_tool="true" weight="0.3529887" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49848944" visible="true" weight="0.23269436" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49848944" visible="true" weight="0.3529887" />
       <window_info id="Structure" order="3" sideWeight="0.50151056" side_tool="true" weight="0.3529887" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50080776" side_tool="true" weight="0.4" />
@@ -619,16 +545,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/modules/custom/cannanso_contact/src/Form/SiteContactForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="50" column="90" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="90" />
-          <folding>
-            <element signature="e#136#166#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/modules/custom/hello_world/hello_world.services.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -886,13 +802,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/pages/page--article.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/paragraphs/paragraph--basic-content.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -914,13 +823,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/pages/inc/footer.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/sites/settings.local.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1710">
@@ -928,17 +830,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
+    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/pages/inc/footer.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="117" column="23" lean-forward="true" selection-start-line="117" selection-start-column="23" selection-end-line="117" selection-end-column="23" />
+        <state relative-caret-position="255">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///private/var/folders/b4/jbps0q354fs8n2h1gn9kmmw00000gn/T/fz3temp-2/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="119" column="4" selection-start-line="119" selection-start-column="4" selection-end-line="119" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/sites/default/settings.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8871">
-          <caret line="139" column="69" lean-forward="true" selection-start-line="139" selection-start-column="69" selection-end-line="139" selection-end-column="69" />
+        <state relative-caret-position="-1207">
+          <caret line="139" column="2" selection-start-line="139" selection-start-column="2" selection-end-line="139" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/pages/page--article.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="117" column="23" selection-start-line="117" selection-start-column="23" selection-end-line="117" selection-end-column="23" />
         </state>
       </provider>
     </entry>
