@@ -128,8 +128,8 @@ header .navbar-toggle .fa {
 }
 @media (min-width: 768px) {
   .navbar-nav li > a {
-    color: #333;
-    font-size: inherit;
+    color: #fff;
+    font-size: 18px;
     border: 0;
     margin: inherit;
   }
