@@ -49,6 +49,9 @@ img {
   height: auto;
 }
 /* Pages and Sections */
+body {
+  font-family: 'Libre Franklin', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+}
 section,
 footer {
   padding: 3.1em 0 5em 0;
@@ -78,7 +81,6 @@ header.fixed {
   }
 }
 header.abs {
-  background: rgba(34, 34, 34, 0.1);
   position: absolute;
   top: 0;
   left: 0;
@@ -175,7 +177,7 @@ header .navbar-toggle .fa {
   font-style: normal;
 }
 #intro span {
-  font-family: 'Over the Rainbow', cursive;
+  font-family: 'Libre Baskerville', serif;
   text-transform: lowercase;
   position: absolute;
   margin-top: 50px;
@@ -387,7 +389,7 @@ header .navbar-toggle .fa {
   font-size: small;
 }
 #testimonials .item .credit {
-  font-family: 'Over the Rainbow', cursive;
+  font-family: 'Libre Baskerville', serif;
   font-size: 1.2em;
 }
 #testimonials .active {
@@ -513,9 +515,9 @@ footer .top-link:hover {
   text-decoration: none;
 }
 .lead {
-  font-size: 1.4em;
+  font-size: 1.5em;
   font-weight: normal;
-  font-family: 'Over the Rainbow', cursive;
+  font-family: 'Libre Baskerville', serif;
 }
 .lead strong {
   color: #666666;

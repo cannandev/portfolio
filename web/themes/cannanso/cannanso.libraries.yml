@@ -4,7 +4,8 @@ global-styling:
     base:
       css/bootstrap.min.css: {}
       css/style.css: {}
-      'https://fonts.googleapis.com/css?family=Over+the+Rainbow': { type: external }
+      'https://fonts.googleapis.com/css?family=Libre+Baskerville:400i': { type: external }
+      'https://fonts.googleapis.com/css?family=Libre+Franklin': { type: external }
 global-scripts:
   version: 1.x
   js: 
