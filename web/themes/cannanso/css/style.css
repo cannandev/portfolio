@@ -49,8 +49,6 @@ img {
   height: auto;
 }
 /* Pages and Sections */
-body {
-}
 section,
 footer {
   padding: 3.1em 0 5em 0;
@@ -73,17 +71,17 @@ header.fixed {
   top: 0;
   left: 0;
 }
-header.abs {
-  background: rgba(34, 34, 34, 0.1);
-  position: absolute;
-  top: 0;
-  left: 0;  
-}
 @media (max-width: 991px) {
   header.fixed {
     position: inherit;
     background: transparent;
   }
+}
+header.abs {
+  background: rgba(34, 34, 34, 0.1);
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 header .logo {
   margin-top: 10px;
@@ -94,6 +92,14 @@ header .logo img {
 header .navbar {
   margin-bottom: 0;
 }
+header .navbar-collapse {
+  background: #000000de;
+}
+@media (min-width: 768px) {
+  header .navbar-collapse {
+    background: none;
+  }
+}
 header .navbar-toggle .fa {
   color: #FFA200;
 }
@@ -102,18 +108,10 @@ header .navbar-toggle .fa {
     margin-top: .5em;
   }
 }
-.navbar-collapse {
-  background: #000000de;
-}
-@media (min-width: 768px) {
-  .navbar-collapse {
-    background: none;
-  }
-}
 .navbar-nav li > a {
   color: #F8F8F8;
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1.125em;
   border-bottom: 1px solid #666666;
   margin: 0 10px;
   transition: all 0.5s ease;
@@ -128,8 +126,6 @@ header .navbar-toggle .fa {
 }
 @media (min-width: 768px) {
   .navbar-nav li > a {
-    color: #fff;
-    font-size: 18px;
     border: 0;
     margin: inherit;
   }
@@ -138,11 +134,10 @@ header .navbar-toggle .fa {
   border-bottom: 0;
 }
 #intro {
-  /* background: rgba(248, 248, 248, 0.5); */
   background: #130804 50% 0% fixed no-repeat;
   background-size: cover;
-  font-size: 16px;  
-    height: 100vh;
+  font-size: 16px;
+  height: 100vh;
 }
 @media (min-width: 768px) {
   #intro {
@@ -150,18 +145,24 @@ header .navbar-toggle .fa {
   }
 }
 #intro p {
-  /* color: #333; */
-  font-size: 18px;
+  color: #333;
+  font-size: 1.125em;
   font-weight: bold;
-  /* text-align: center; */
   text-transform: uppercase;
-  background: #33333382;
   display: inline;
   letter-spacing: 1px;
 }
+#intro h1 {
+  font-size: 18px;
+  font-weight: normal;
+  margin: 1em 0;
+  line-height: 1.25;
+}
 @media (min-width: 768px) {
-  #intro p {
-    /* margin-top: 50px; */
+  #intro h1 {
+    font-size: 32px;
+    width: 75%;
+    line-height: normal;
   }
 }
 #intro h2 {
@@ -185,30 +186,7 @@ header .navbar-toggle .fa {
   transform: rotate(-5deg);
 }
 #intro .intro-unit {
-  background: transparent;
-  border-radius: 5px;
-  padding: 2em 1em;
-  color: floralwhite;
-}
-@media (min-width: 768px) {
-  #intro .intro-unit {
-    padding: 4em;
-  }
-}
-#intro h1 {
-  font-size: 18px;  
-  font-weight: normal;
-  margin: 1em 0;
-  background: #33333382;
-  line-height: 1.25;
-}
-@media (min-width: 768px) {
-  #intro h1 {
-    background: #3333333c;
-    font-size: 32px;
-    width: 75%;
-    line-height: normal;
-  }
+  padding: 4em 3em;
 }
 #about strong {
   padding-right: .5em;
@@ -216,11 +194,13 @@ header .navbar-toggle .fa {
 #about .fa,
 #about svg {
   color: #FFA200;
+  font-size: 3em;
   position: absolute;
   margin: 20px 4px 0;
   transition: all 0.5s ease;
 }
-#about .fa:hover {
+#about .fa:hover,
+#about svg:hover {
   color: #666666;
 }
 #about .text {
@@ -293,18 +273,10 @@ header .navbar-toggle .fa {
   -webkit-filter: sepia(100%) hue-rotate(160deg);
   filter: sepia(100%) hue-rotate(160deg);
 }
-/*.grid-cell.expanded > a::after {*/
-  /*content: '\f0d8';*/
-  /*color: #FFA200;*/
-  /*font: normal normal normal 48px/1 "Font Awesome 5 Free";*/
-  /*position: absolute;*/
-  /*left: 50%;*/
-  /*top: auto;*/
-  /*margin-top: -30px;*/
-  /*z-index: 10;*/
-/*}*/
 .grid-cell svg[data-icon="caret-up"] {
+  content: '\f0d8';
   color: #FFA200;
+  font: normal normal normal 48px/1 "Font Awesome 5 Free";
   position: absolute;
   left: 50%;
   top: auto;
@@ -375,13 +347,13 @@ header .navbar-toggle .fa {
 #expander a.btn {
   margin-top: 10px;
 }
-#expander .img-responsive,
-#expander > img {
+#expander #expander .img-responsive,
+#expander #expander > img {
   max-height: 400px;
   display: block;
   width: 100% \9;
   max-width: 100%;
-  height: auto;  
+  height: auto;
 }
 #testimonials .wrapper {
   position: relative;
