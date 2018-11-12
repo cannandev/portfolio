@@ -24,6 +24,8 @@ composer.phar
 # Ignore configuration files that may contain sensitive information.
 *services.yml
 *settings.php
+web/sites/default/services.yml
+web/sites/default/settings.php
 
 # Ignore paths that contain user-generated content.
 */files/*

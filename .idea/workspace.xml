@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6e408659-a912-4c6d-8ed1-d242cf9c8fb9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/sites/default/services.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/sites/default/settings.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,11 +22,12 @@
     <session id="-664821567">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -33,15 +36,15 @@
           <entry key="dtesting while driving" value="1" />
           <entry key="engine" value="3" />
           <entry key="gitignore" value="2" />
-          <entry key="htaccess" value="2" />
+          <entry key="htaccess" value="3" />
           <entry key="html" value="7" />
           <entry key="ini" value="1" />
           <entry key="js" value="4" />
           <entry key="json" value="2" />
           <entry key="module" value="2" />
-          <entry key="php" value="113" />
+          <entry key="php" value="114" />
           <entry key="theme" value="9" />
-          <entry key="twig" value="141" />
+          <entry key="twig" value="142" />
           <entry key="yml" value="51" />
         </counts>
       </usages-collector>
@@ -52,11 +55,11 @@
           <entry key="Ini" value="1" />
           <entry key="JSON" value="2" />
           <entry key="JavaScript" value="4" />
-          <entry key="PHP" value="127" />
+          <entry key="PHP" value="128" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Twig" value="141" />
+          <entry key="Twig" value="142" />
           <entry key="YAML" value="51" />
-          <entry key="htaccess" value="2" />
+          <entry key="htaccess" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -66,7 +69,7 @@
           <entry key="dtesting while driving" value="130" />
           <entry key="dummy" value="5" />
           <entry key="gitignore" value="16" />
-          <entry key="htaccess" value="5" />
+          <entry key="htaccess" value="9" />
           <entry key="html" value="33" />
           <entry key="ini" value="1" />
           <entry key="js" value="316" />
@@ -89,7 +92,7 @@
           <entry key="PLAIN_TEXT" value="256" />
           <entry key="Twig" value="3895" />
           <entry key="YAML" value="1503" />
-          <entry key="htaccess" value="5" />
+          <entry key="htaccess" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
@@ -103,7 +106,17 @@
     <favorites_list name="cannanso" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/modules/contrib/devel/src/Twig/Extension/Debug.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="177" column="7" selection-start-line="177" selection-start-column="7" selection-end-line="177" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -115,7 +128,6 @@
       <find>\</find>
       <find>close</find>
       <find>grid-cell</find>
-      <find>debug</find>
       <find>'active</find>
       <find>;</find>
       <find>messenger-&gt;addMessage</find>
@@ -131,6 +143,9 @@
       <find>config_</find>
       <find>1.9</find>
       <find>Rewritebase</find>
+      <find>debug</find>
+      <find>breakpoint</find>
+      <find>RewriteB</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -140,6 +155,9 @@
       <dir>$PROJECT_DIR$/web/modules/contrib</dir>
       <dir>$PROJECT_DIR$/web/core</dir>
       <dir>$PROJECT_DIR$/web/themes/_bootstrap</dir>
+      <dir>$PROJECT_DIR$/web/modules</dir>
+      <dir>$PROJECT_DIR$/web/themes/cannanso</dir>
+      <dir>$PROJECT_DIR$/web/themes</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -369,7 +387,7 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
+    <option name="y" value="302" />
     <option name="width" value="1280" />
     <option name="height" value="722" />
   </component>
@@ -398,6 +416,27 @@
               <item name="cannanso" type="b2602c69:ProjectViewProjectNode" />
               <item name="cannanso" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cannanso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cannanso" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cannanso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cannanso" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="cannanso_contact" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cannanso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cannanso" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="sites" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -406,6 +445,27 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="sites" type="462c0819:PsiDirectoryNode" />
               <item name="default" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cannanso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cannanso" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cannanso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cannanso" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="cannanso" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cannanso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cannanso" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="cannanso" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -467,11 +527,12 @@
       <workItem from="1539372828779" duration="34723000" />
       <workItem from="1539638794064" duration="20415000" />
       <workItem from="1539995752962" duration="77034000" />
+      <workItem from="1541133200151" duration="684000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132172000" />
+    <option name="totallyTimeSpent" value="132856000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -483,11 +544,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="722" extended-state="0" />
+    <frame x="0" y="302" width="1280" height="722" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.50151056" side_tool="true" weight="0.3529887" />
       <window_info id="npm" order="1" sideWeight="0.50151056" side_tool="true" weight="0.3529887" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49848944" visible="true" weight="0.3529887" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49848944" visible="true" weight="0.35864297" />
       <window_info id="Structure" order="3" sideWeight="0.50151056" side_tool="true" weight="0.3529887" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50080776" side_tool="true" weight="0.4" />
@@ -545,13 +607,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/modules/custom/hello_world/hello_world.services.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/paragraphs/paragraph--contact-form.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -559,16 +614,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/regions/region--footer.html.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/pages/page--front.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="23" lean-forward="true" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/regions/region--footer.html.twig" />
+    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/pages/page--front.html.twig" />
     <entry file="file://$PROJECT_DIR$/web/modules/contrib/webform/templates/webform-message.html.twig">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -593,13 +640,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/modules/contrib/webform/templates/webform-submission-form.html.twig">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/modules/contrib/devel/src/Twig/Extension/Debug.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="179" selection-start-line="179" selection-end-line="179" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/core/lib/Drupal/Core/Template/TwigExtension.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -639,19 +679,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#input#1;n#form#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/dtesting while driving">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/dtesting while driving" />
     <entry file="file://$PROJECT_DIR$/web/core/misc/announce.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="349">
@@ -710,11 +741,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/themes/_bootstrap/bootstrap.theme">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1295" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/_bootstrap/bootstrap.theme" />
     <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/menus/menu-local-tasks.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -837,13 +864,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///private/var/folders/b4/jbps0q354fs8n2h1gn9kmmw00000gn/T/fz3temp-2/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="119" column="4" selection-start-line="119" selection-start-column="4" selection-end-line="119" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/sites/default/settings.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1207">
@@ -862,6 +882,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="401">
           <caret line="117" column="23" selection-start-line="117" selection-start-column="23" selection-end-line="117" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/views/views-view-fields--entity_reference_1.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///private/var/folders/b4/jbps0q354fs8n2h1gn9kmmw00000gn/T/fz3temp-2/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="119" selection-start-line="119" selection-end-line="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/modules/contrib/devel/src/Twig/Extension/Debug.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="177" column="7" selection-start-line="177" selection-start-column="7" selection-end-line="177" selection-end-column="7" />
         </state>
       </provider>
     </entry>
