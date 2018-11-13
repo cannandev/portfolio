@@ -367,9 +367,6 @@ header .navbar-toggle .fa {
   margin-left: auto;
   margin-right: auto;
 }
-#testimonials .wrapper a {
-  font-style: italic;
-}
 #testimonials .item {
   display: none;
   opacity: 0;
@@ -384,12 +381,15 @@ header .navbar-toggle .fa {
     font-size: 1.3em;
   }
 }
+#testimonials .item p {
+  font-family: 'Libre Baskerville', serif;
+  color: #fff6e5;
+}
 #testimonials .item span {
   display: block;
   font-size: small;
 }
 #testimonials .item .credit {
-  font-family: 'Libre Baskerville', serif;
   font-size: 1.2em;
 }
 #testimonials .active {

@@ -8,7 +8,7 @@
 // Colors
 
 @brand: #FFA200; //yellow
-@brand-light: lighten(@brand, 25%); //#ffd180
+@brand-light: lighten(@brand, 45%); //#ffd180
 @dark: #333; //slate gray
 @light: #F8F8F8; //super light gray
 @lighter: #fff; //white
@@ -392,9 +392,6 @@ header {
 		margin-bottom: 1em;
 		width: 65%;
 		.center-block();
-		a {
-			font-style: italic;
-		}
 	}
 	.item {
 		display: none;
@@ -407,12 +404,15 @@ header {
 		@media (min-width: @screen-sm-min) { 
 			font-size: 1.3em;
 		}
+		p {
+			font-family: @cursive;
+			color: @brand-light;
+		}
 		span {
 			display: block;
 			font-size: small;
 		}
 		.credit {
-			font-family: @cursive;
 			font-size: 1.2em;			
 		}
 	}
