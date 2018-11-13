@@ -6,6 +6,7 @@
   "dependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
+    "less": "^3.8.1",
     "requirejs": "^2.3.5"
   },
   "devDependencies": {},
