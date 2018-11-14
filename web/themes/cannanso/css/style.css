@@ -21,6 +21,9 @@
   color: #fff;
 }
 /* Basic elements */
+html {
+  scroll-behavior: smooth;
+}
 h2 {
   text-transform: uppercase;
   margin-bottom: 1.2em;
