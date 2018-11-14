@@ -4,6 +4,7 @@
   "description": "This project extends the [drupal-composer/drupal-project](https://github.com/drupal-composer/drupal-project) by adding modules from the popular \"Top modules\" blog series on [Mediacurrent.com](Mediacurrent.com). Most of the instructions from that project [readme](https://github.com/drupal-composer/drupal-project) apply here as well.",
   "main": "index.js",
   "dependencies": {
+    "aos": "^3.0.0-beta.6",
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "requirejs": "^2.3.5"

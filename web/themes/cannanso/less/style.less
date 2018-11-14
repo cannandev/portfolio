@@ -123,6 +123,10 @@ header {
 		display: block;
 		img {
 			height: 36px;
+			margin-left: 10px;
+			@media ( min-width: @screen-sm-min ) {
+				margin-left: 0;
+			}			
 		}
 	}
 	.navbar {
@@ -136,6 +140,7 @@ header {
 		}
 	}
 	.navbar-toggle {
+		margin-right: 0;
 		.fa {
 			color: @brand;
 		}
@@ -193,10 +198,12 @@ header {
 		letter-spacing: 1px;
 	}
 	h1 {
+		background-image: linear-gradient(to right, #0000 25%, #ffffff63 75%);
 		font-size: 1.5em;  
 		font-weight: normal;
 		margin: 1em 0;
 		@media ( min-width: @screen-md-min ) {
+			background-image: none;
 			font-size: 32px;
 			width: 65%;
 		}			
@@ -418,7 +425,7 @@ header {
 		}
 		p {
 			font-family: @cursive;
-			color: @brand-light;
+			color: @light;
 		}
 		span {
 			display: block;

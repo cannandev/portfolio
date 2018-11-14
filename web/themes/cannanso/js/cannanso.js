@@ -123,7 +123,7 @@
 	$(window).resize(function() {
 	  gridCells.close();
 	});	
-
+	AOS.init();
 	gridCells.init();
 	slideItem();
 	contactVal();

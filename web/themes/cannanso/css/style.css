@@ -95,6 +95,12 @@ header .logo {
 }
 header .logo img {
   height: 36px;
+  margin-left: 10px;
+}
+@media (min-width: 768px) {
+  header .logo img {
+    margin-left: 0;
+  }
 }
 header .navbar {
   margin-bottom: 0;
@@ -106,6 +112,9 @@ header .navbar-collapse {
   header .navbar-collapse {
     background: none;
   }
+}
+header .navbar-toggle {
+  margin-right: 0;
 }
 header .navbar-toggle .fa {
   color: #FFA200;
@@ -170,12 +179,14 @@ header .navbar-toggle .fa {
   letter-spacing: 1px;
 }
 #intro h1 {
+  background-image: linear-gradient(to right, #0000 25%, #ffffff63 75%);
   font-size: 1.5em;
   font-weight: normal;
   margin: 1em 0;
 }
 @media (min-width: 992px) {
   #intro h1 {
+    background-image: none;
     font-size: 32px;
     width: 65%;
   }
@@ -401,7 +412,7 @@ header .navbar-toggle .fa {
 }
 #testimonials .item p {
   font-family: 'Libre Baskerville', serif;
-  color: #fff6e5;
+  color: #F8F8F8;
 }
 #testimonials .item span {
   display: block;
