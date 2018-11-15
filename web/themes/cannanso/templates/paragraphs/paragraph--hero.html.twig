@@ -1,9 +1,9 @@
 {% if paragraph.field_background_image.0 is not empty %}
-  {% set bg_gradient = '280deg, #dae1e8 -35%, #00204000 45%' %}
+  {# {% set bg_gradient = '280deg, #dae1e8 -35%, #00204000 45%' %} #}
   {% set bg_url = file_url(paragraph.field_background_image.entity.field_media_image.entity.fileuri) %}
 {% endif %}
 
-  <section id="intro" role="main" style="background-image: linear-gradient({{ bg_gradient }}), url({{ bg_url }}); background-position-y: {{ content.field_bg_image_position }};">
+  <section id="intro" role="main" style="background-image: url({{ bg_url }}); background-position-y: {{ content.field_bg_image_position }};">
     <div class="container">
       <div class="intro-unit">
         <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}

@@ -55,6 +55,10 @@ img {
 body {
   font-family: 'Libre Franklin', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
 }
+body[data-aos-delay='1000'] [data-aos],
+body [data-aos][data-aos][data-aos-delay='1000'] {
+  transition-delay: 1000ms;
+}
 section,
 .section {
   padding: 3.1em 0 5em 0;
@@ -181,7 +185,8 @@ header .navbar-toggle .fa {
 #intro h1 {
   background-image: linear-gradient(to right, #0000 25%, #ffffff63 75%);
   font-size: 1.5em;
-  font-weight: normal;
+  font-weight: 400;
+  font-style: italic;
   margin: 1em 0;
 }
 @media (min-width: 992px) {
