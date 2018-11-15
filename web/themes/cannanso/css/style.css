@@ -417,6 +417,8 @@ header .navbar-toggle .fa {
 }
 #testimonials .item p {
   font-family: 'Libre Baskerville', serif;
+  font-weight: 400;
+  font-style: italic;
   color: #F8F8F8;
 }
 #testimonials .item span {
@@ -545,9 +547,10 @@ footer .top-link:hover {
   text-decoration: none;
 }
 .lead {
-  font-size: 1.5em;
-  font-weight: normal;
   font-family: 'Libre Baskerville', serif;
+  font-size: 1.5em;
+  font-weight: 400;
+  font-style: italic;
 }
 .lead strong {
   color: #666666;
