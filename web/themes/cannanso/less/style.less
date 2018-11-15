@@ -35,12 +35,18 @@
 		color: @highlight;
 		&:hover {
 			color: @brand;
-		}		
+		}
 	}
 }
 .darker {
 	background: @darker;
 	color: @lighter;
+}
+.overlay {
+	background:#00204000;
+	opacity:0.5;
+	filter:alpha(opacity=50);
+	position: absolute;
 }
 
 /* Basic elements */
@@ -64,8 +70,8 @@ a {
 	text-decoration: none;
 	&:hover {
 		color: @brand;
-		text-decoration: none;		
-	}	
+		text-decoration: none;
+	}
 }
 
 p > a {
@@ -73,7 +79,7 @@ p > a {
 	&:hover {
 		text-decoration: none;
 		color: @brand;
-	}		
+	}
 }
 
 img {
@@ -93,6 +99,7 @@ body {
 
 section,
 .section {
+	position: relative;
 	padding: 3.1em 0 5em 0;
 }
 
@@ -104,7 +111,7 @@ header {
 	transition: all 0.5s ease;
 	@media ( min-width: @screen-sm-min ) {
 		background: transparent;
-	}	
+	}
 	&.fixed {
 		background: fade(@darker, 10%);
 		position: fixed;
@@ -119,7 +126,7 @@ header {
 		// background: rgba(34, 34, 34, 0.1);
 		position: absolute;
 		top: 0;
-		left: 0;	
+		left: 0;
 	}
 	.logo {
 		margin-top: 10px;
@@ -130,7 +137,7 @@ header {
 			margin-left: 10px;
 			@media ( min-width: @screen-sm-min ) {
 				margin-left: 0;
-			}			
+			}
 		}
 	}
 	.navbar {
@@ -140,7 +147,7 @@ header {
 			background: #000000de;
 			@media ( min-width: @screen-sm-min ) {
 				background: none;
-			}				
+			}
 		}
 	}
 	.navbar-toggle {
@@ -153,8 +160,8 @@ header {
 
 .navbar-nav {
 	@media ( min-width: @screen-sm-min ) {
-		margin-top: .5em;	
-	}		
+		margin-top: .5em;
+	}
 	li > a {
 		color: @lighter;
 		font-weight: bold;
@@ -167,19 +174,19 @@ header {
 		}
 		&:hover, &:focus {
 			background: fade(@lighter, 30%);
-			@media ( min-width: @screen-sm-min ) { 
+			@media ( min-width: @screen-sm-min ) {
 				border-bottom: 3px solid @brand;
 				color: @dark;
 				margin: inherit;
 			}
 		}
-		@media ( min-width: @screen-sm-min ) { 
+		@media ( min-width: @screen-sm-min ) {
 			border: 0;
 			margin: inherit;
-		}				
+		}
 	}
 	li:last-child a {
-		@media ( max-width: @screen-sm-min ) {		
+		@media ( max-width: @screen-sm-min ) {
 			border-bottom: 0;
 		}
 	}
@@ -188,11 +195,11 @@ header {
 #intro {
 	background: @light 50% 0% no-repeat;
 	background-size: cover;
-	font-size: 16px;  
+	font-size: 16px;
 	height: 100vh;
 	@media ( min-width: @screen-sm-min ) {
 		background-color: transparent;
-	}	
+	}
 	p {
 		color: @dark;
 		font-size: 1.125em;
@@ -202,8 +209,8 @@ header {
 		letter-spacing: 1px;
 	}
 	h1 {
-		background-image: linear-gradient(to right, #0000 25%, #ffffff63 75%);
-		font-size: 1.5em;  
+		background-image: linear-gradient(to right, #0000 25%, #ffffff95 75%);
+		font-size: 1.5em;
 		font-weight: 400;
 		font-style: italic;
 		margin: 1em 0;
@@ -211,7 +218,7 @@ header {
 			background-image: none;
 			font-size: 32px;
 			width: 65%;
-		}			
+		}
 	}
 	h2 {
 		color: @dark;
@@ -231,13 +238,13 @@ header {
 		-webkit-transform: rotate(-5deg);
 		-moz-transform: rotate(-5deg);
 		-ms-transform: rotate(-5deg);
-		transform: rotate(-5deg);		
+		transform: rotate(-5deg);
 	}
 	.intro-unit {
 		padding: 4em 2em;
 		@media ( min-width: @screen-sm-min ) {
 			padding: 4em 3em;
-		}	
+		}
 	}
 }
 
@@ -277,8 +284,8 @@ header {
 		margin-bottom: 1em;
 		@media ( min-width: @screen-sm-min ) {
 			margin-top: 0;
-			margin-bottom: 1.5em;				
-		}	
+			margin-bottom: 1.5em;
+		}
 	}
 	.grid {
 		margin: 0 auto;
@@ -286,18 +293,18 @@ header {
 		max-width: 400px;
 	  @media all and (min-width: @screen-sm-min){ // use bootstrap screen size
 	    max-width: 100%;
-    	text-align: center;		    
-	  }  
+    	text-align: center;
+	  }
 	}
 }
 
-.grid-cell {	
+.grid-cell {
   display: inline-block;
   margin: 0 0 8px 0;
   padding: 0;
   vertical-align: top;
   overflow: hidden;
-  transition: all 0.4s ease; 
+  transition: all 0.4s ease;
  	width: 100%;
 
   @media all and (min-width: @screen-sm-min){
@@ -323,18 +330,18 @@ header {
     img {
       transform: scale(1.3);
 			-webkit-filter: sepia(100%) hue-rotate(160deg);
-	  	filter: sepia(100%) hue-rotate(160deg);    
+	  	filter: sepia(100%) hue-rotate(160deg);
 	    }
 	  }
 	}
 	svg[data-icon="caret-up"] {
     content: '\f0d8';
-    color: @brand;    
+    color: @brand;
     font: normal normal normal 48px/1 "Font Awesome 5 Free";
     position: absolute;
     left: 50%;
     top: auto;
-    margin-top: -27px;    
+    margin-top: -27px;
     z-index: 10;
 	}
 	.img-responsive.light {
@@ -362,7 +369,7 @@ header {
 			text-transform: uppercase;
 			font-size: 12px;
 		}
-	}  
+	}
 	.close {
 	  display: block;
 	  text-align: right;
@@ -378,7 +385,7 @@ header {
 }
 
 #expander {
-  display: none;		
+  display: none;
 	background: @light;
   border-top: 5px solid @brand;
   border-bottom: 5px solid @brand;
@@ -401,10 +408,10 @@ header {
 	#expander .img-responsive,
 	#expander > img {
 		max-height: 400px;
-		display: block;	
-		width: 100% \9;	
-		max-width: 100%;	
-		height: auto;		
+		display: block;
+		width: 100% \9;
+		max-width: 100%;
+		height: auto;
 	}
 }
 
@@ -425,13 +432,13 @@ header {
 		top: 0;
 		left: 0;
 		overflow: hidden;
-		@media (min-width: @screen-sm-min) { 
+		@media (min-width: @screen-sm-min) {
 			font-size: 1.3em;
 		}
 		p {
 			font-family: @cursive;
 			font-weight: 400;
-			font-style: italic;			
+			font-style: italic;
 			color: @light;
 		}
 		span {
@@ -439,7 +446,7 @@ header {
 			font-size: small;
 		}
 		.credit {
-			font-size: 1.2em;			
+			font-size: 1.2em;
 		}
 	}
 	.active {
@@ -463,7 +470,7 @@ header {
 		:hover{
 			color: fade(@brand, 20%);
 			}
-		}	
+		}
 	}
 }
 
@@ -552,7 +559,7 @@ footer {
 	text-transform: uppercase;
 	margin-top: -1em;
 	margin-bottom: 1.5em;
-	@media (min-width: @screen-sm-min) { 
+	@media (min-width: @screen-sm-min) {
 		margin-top: 0;
 		margin-bottom: 2em;
 	}
@@ -570,7 +577,7 @@ footer {
 	text-transform: uppercase;
 	transition: all  0.5s ease;
 	&:hover {
-		background-color: fade(@brand, 50%);		
+		background-color: fade(@brand, 50%);
 		text-decoration: none;
 	}
 }
@@ -582,7 +589,7 @@ footer {
     font-style: italic;
 	strong {
 		color: @medium;
-		font-weight: bolder;	
+		font-weight: bolder;
 	}
 }
 
@@ -602,7 +609,7 @@ footer {
 	left: 0;
 	.month {
 		background: @brand;
-		font-size: 1.2em;		
+		font-size: 1.2em;
 		display: block;
 		padding: 20px;
 	}
@@ -610,7 +617,7 @@ footer {
 		background: @dark;
 		color: @light;
 		display: block;
-		font-size: 1.5em;		
+		font-size: 1.5em;
 		padding: 17px;
 	}
 }
@@ -627,14 +634,14 @@ footer {
 		&:hover {
 			color: @darker;
 			background: @brand;
-		}	
-		@media (min-width: @screen-sm-min) { 
+		}
+		@media (min-width: @screen-sm-min) {
 			font-size: 2em;
 		}
 		.ie & {
 			border: 0;
 			display: inline-block;
-		}	
+		}
 	}
 	a:hover {
 		color: @darker;

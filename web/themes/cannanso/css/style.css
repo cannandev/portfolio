@@ -20,6 +20,12 @@
   background: #222;
   color: #fff;
 }
+.overlay {
+  background: #00204000;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  position: absolute;
+}
 /* Basic elements */
 html {
   scroll-behavior: smooth;
@@ -61,6 +67,7 @@ body [data-aos][data-aos][data-aos-delay='1000'] {
 }
 section,
 .section {
+  position: relative;
   padding: 3.1em 0 5em 0;
 }
 header {
@@ -183,7 +190,7 @@ header .navbar-toggle .fa {
   letter-spacing: 1px;
 }
 #intro h1 {
-  background-image: linear-gradient(to right, #0000 25%, #ffffff63 75%);
+  background-image: linear-gradient(to right, #0000 25%, #ffffff95 75%);
   font-size: 1.5em;
   font-weight: 400;
   font-style: italic;
