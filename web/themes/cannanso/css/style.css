@@ -190,7 +190,6 @@ header .navbar-toggle .fa {
   letter-spacing: 1px;
 }
 #intro h1 {
-  background-image: linear-gradient(to right, #0000 25%, #ffffff95 75%);
   font-size: 1.5em;
   font-weight: 400;
   font-style: italic;
@@ -224,7 +223,23 @@ header .navbar-toggle .fa {
   -ms-transform: rotate(-5deg);
   transform: rotate(-5deg);
 }
+#intro::before {
+  content: "";
+  background-color: #e4e9f5b3;
+  display: block;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  #intro::before {
+    background-color: #f4f5f84d;
+  }
+}
 #intro .intro-unit {
+  position: relative;
   padding: 4em 2em;
 }
 @media (min-width: 768px) {
