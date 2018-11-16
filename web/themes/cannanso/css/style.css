@@ -235,7 +235,7 @@ header .navbar-toggle .fa {
 }
 @media (min-width: 768px) {
   #intro::before {
-    background-color: #f4f5f84d;
+    background-color: #8ea7ef4d;
   }
 }
 #intro .intro-unit {
