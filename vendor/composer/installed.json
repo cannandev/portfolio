@@ -464,7 +464,7 @@
         "version_normalized": "3.3.1.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/jquery/jquery-dist.git",
+            "url": "git@github.com:jquery/jquery-dist.git",
             "reference": "9e8ec3d10fad04748176144f108d7355662ae75e"
         },
         "dist": {
@@ -2537,6 +2537,55 @@
         }
     },
     {
+        "name": "drupal/checklistapi",
+        "version": "1.8.0",
+        "version_normalized": "1.8.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/checklistapi",
+            "reference": "8.x-1.8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/checklistapi-8.x-1.8.zip",
+            "reference": "8.x-1.8",
+            "shasum": "f81a2110d80105ff7da834f8aeedda5cfb6247cb"
+        },
+        "require": {
+            "drupal/core": "~8.0"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.8",
+                "datestamp": "1532389981",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "TravisCarden",
+                "homepage": "https://www.drupal.org/user/236758"
+            }
+        ],
+        "description": "Provides an API for creating fillable, persistent checklists.",
+        "homepage": "https://www.drupal.org/project/checklistapi",
+        "support": {
+            "source": "http://cgit.drupalcode.org/checklistapi"
+        }
+    },
+    {
         "name": "drupal/ckeditor_media_embed",
         "version": "1.3.0",
         "version_normalized": "1.3.0.0",
@@ -2686,6 +2735,79 @@
             "phpcs",
             "standards"
         ]
+    },
+    {
+        "name": "drupal/coffee",
+        "version": "1.0.0-beta2",
+        "version_normalized": "1.0.0.0-beta2",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/coffee",
+            "reference": "8.x-1.0-beta2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/coffee-8.x-1.0-beta2.zip",
+            "reference": "8.x-1.0-beta2",
+            "shasum": "92631b9ea65298a057cc4143e0939bb156ef5e8d"
+        },
+        "require": {
+            "drupal/core": "~8.0"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev",
+                "dev-8.x-1.x": "8.1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.0-beta2",
+                "datestamp": "1477414741",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Beta releases are not covered by Drupal security advisories."
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Michael Mol",
+                "homepage": "https://www.drupal.org/u/michaelmol",
+                "role": "Maintainer"
+            },
+            {
+                "name": "Marco",
+                "homepage": "https://www.drupal.org/u/willzyx",
+                "role": "Maintainer"
+            },
+            {
+                "name": "Oliver Köhler",
+                "homepage": "https://www.drupal.org/u/nebel54",
+                "role": "Maintainer"
+            },
+            {
+                "name": "Alli Price",
+                "homepage": "https://www.drupal.org/u/heylookalive",
+                "role": "Maintainer"
+            },
+            {
+                "name": "See other contributors",
+                "homepage": "https://www.drupal.org/node/1356930/committers",
+                "role": "contributor"
+            }
+        ],
+        "description": "Provides an Alfred like search box to navigate within your site.",
+        "homepage": "https://drupal.org/project/coffee",
+        "support": {
+            "source": "https://cgit.drupalcode.org/coffee",
+            "issues": "https://drupal.org/project/issues/coffee",
+            "irc": "irc://irc.freenode.org/drupal-contribute"
+        }
     },
     {
         "name": "drupal/colorbox",
@@ -5658,6 +5780,64 @@
         }
     },
     {
+        "name": "drupal/seo_checklist",
+        "version": "4.1.0",
+        "version_normalized": "4.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/seo_checklist",
+            "reference": "8.x-4.1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/seo_checklist-8.x-4.1.zip",
+            "reference": "8.x-4.1",
+            "shasum": "b290b4a681b37ffc5785e75c0125b983e379158a"
+        },
+        "require": {
+            "drupal/checklistapi": "*",
+            "drupal/core": "~8.0"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-4.x": "4.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-4.1",
+                "datestamp": "1512797885",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Ben Finklea",
+                "homepage": "https://www.drupal.org/user/46676"
+            },
+            {
+                "name": "TravisCarden",
+                "homepage": "https://www.drupal.org/user/236758"
+            }
+        ],
+        "description": "Uses best practices to check for proper search engine optimization.",
+        "homepage": "https://www.drupal.org/project/seo_checklist",
+        "keywords": [
+            "SEO"
+        ],
+        "support": {
+            "source": "http://drupalcode.org/seo_checklist",
+            "issues": "https://www.drupal.org/project/issues/seo_checklist"
+        }
+    },
+    {
         "name": "drupal/simple_sitemap",
         "version": "2.12.0",
         "version_normalized": "2.12.0.0",
@@ -6515,6 +6695,56 @@
         }
     },
     {
+        "name": "drupal/w3c_validator",
+        "version": "1.3.0",
+        "version_normalized": "1.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/w3c_validator",
+            "reference": "8.x-1.3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/w3c_validator-8.x-1.3.zip",
+            "reference": "8.x-1.3",
+            "shasum": "367073d15626b5f1c2b7b7b903a7c092b9131dbf"
+        },
+        "require": {
+            "drupal/core": "~8.0",
+            "rexxars/html-validator": "^2.1.0"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.3",
+                "datestamp": "1503991745",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Dom.",
+                "homepage": "https://www.drupal.org/user/801982"
+            }
+        ],
+        "description": "Validate pages using the W3C Markup Validator.",
+        "homepage": "https://www.drupal.org/project/w3c_validator",
+        "support": {
+            "source": "http://cgit.drupalcode.org/w3c_validator"
+        }
+    },
+    {
         "name": "drupal/webform",
         "version": "5.0.0-rc24",
         "version_normalized": "5.0.0.0-RC24",
@@ -6616,6 +6846,84 @@
             "issues": "https://www.drupal.org/project/issues/webform?version=8.x",
             "docs": "https://www.drupal.org/docs/8/modules/webform",
             "forum": "https://drupal.stackexchange.com/questions/tagged/webform"
+        }
+    },
+    {
+        "name": "drupal/yoast_seo",
+        "version": "1.4.0",
+        "version_normalized": "1.4.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/yoast_seo",
+            "reference": "8.x-1.4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/yoast_seo-8.x-1.4.zip",
+            "reference": "8.x-1.4",
+            "shasum": "c54ebbeef22679efe5dd0c068a5e5abdb94fad94"
+        },
+        "require": {
+            "drupal/core": "*",
+            "drupal/metatag": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.4",
+                "datestamp": "1540886284",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "GoalGorilla",
+                "homepage": "https://www.drupal.org/user/272162"
+            },
+            {
+                "name": "Kingdutch",
+                "homepage": "https://www.drupal.org/user/1868952"
+            },
+            {
+                "name": "RobertRagas",
+                "homepage": "https://www.drupal.org/user/2723261"
+            },
+            {
+                "name": "bramtenhove",
+                "homepage": "https://www.drupal.org/user/1549848"
+            },
+            {
+                "name": "jaapjan",
+                "homepage": "https://www.drupal.org/user/555428"
+            },
+            {
+                "name": "jochemvn",
+                "homepage": "https://www.drupal.org/user/2521788"
+            },
+            {
+                "name": "naveenvalecha",
+                "homepage": "https://www.drupal.org/user/2665733"
+            },
+            {
+                "name": "ronaldtebrake",
+                "homepage": "https://www.drupal.org/user/2314038"
+            }
+        ],
+        "description": "Adds Real-time SEO page analysis and configuration.",
+        "homepage": "https://www.drupal.org/project/yoast_seo",
+        "support": {
+            "source": "http://cgit.drupalcode.org/yoast_seo"
         }
     },
     {
@@ -8832,6 +9140,49 @@
             "interactive",
             "shell"
         ]
+    },
+    {
+        "name": "rexxars/html-validator",
+        "version": "2.1.0",
+        "version_normalized": "2.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/rexxars/html-validator.git",
+            "reference": "0efbde751442773c820e2525fb9fcd05a0618a23"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/rexxars/html-validator/zipball/0efbde751442773c820e2525fb9fcd05a0618a23",
+            "reference": "0efbde751442773c820e2525fb9fcd05a0618a23",
+            "shasum": ""
+        },
+        "require": {
+            "ext-json": "*",
+            "guzzlehttp/guzzle": "^6.2.1",
+            "php": ">=5.5.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^5.5.0"
+        },
+        "time": "2017-02-21T23:30:36+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "HtmlValidator": "library"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Espen Hovlandsdal",
+                "email": "espen@hovlandsdal.com"
+            }
+        ],
+        "description": "Validates HTML using Validator.nu"
     },
     {
         "name": "sebastian/code-unit-reverse-lookup",
