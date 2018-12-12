@@ -1,0 +1,5 @@
+name: Cannanso.com Contact Form
+description: Contact Form in site footer.
+type: module
+package: Custom
+core: 8.x

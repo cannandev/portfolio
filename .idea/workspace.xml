@@ -1,0 +1,910 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6e408659-a912-4c6d-8ed1-d242cf9c8fb9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/sites/default/services.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/sites/default/settings.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="DrupalConfiguration" enabled="true" version="8">
+    <drupalPath />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-664821567">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="3" />
+          <entry key="dtesting while driving" value="1" />
+          <entry key="engine" value="3" />
+          <entry key="gitignore" value="2" />
+          <entry key="htaccess" value="3" />
+          <entry key="html" value="7" />
+          <entry key="ini" value="1" />
+          <entry key="js" value="4" />
+          <entry key="json" value="2" />
+          <entry key="module" value="2" />
+          <entry key="php" value="114" />
+          <entry key="theme" value="9" />
+          <entry key="twig" value="142" />
+          <entry key="yml" value="51" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="3" />
+          <entry key="HTML" value="7" />
+          <entry key="Ini" value="1" />
+          <entry key="JSON" value="2" />
+          <entry key="JavaScript" value="4" />
+          <entry key="PHP" value="128" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Twig" value="142" />
+          <entry key="YAML" value="51" />
+          <entry key="htaccess" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="JavaScript Console" value="3" />
+          <entry key="css" value="101" />
+          <entry key="dtesting while driving" value="130" />
+          <entry key="dummy" value="5" />
+          <entry key="gitignore" value="16" />
+          <entry key="htaccess" value="9" />
+          <entry key="html" value="33" />
+          <entry key="ini" value="1" />
+          <entry key="js" value="316" />
+          <entry key="json" value="77" />
+          <entry key="php" value="4952" />
+          <entry key="theme" value="499" />
+          <entry key="twig" value="3895" />
+          <entry key="txt" value="105" />
+          <entry key="yml" value="1503" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="101" />
+          <entry key="HTML" value="33" />
+          <entry key="Ini" value="1" />
+          <entry key="JSON" value="77" />
+          <entry key="JavaScript" value="319" />
+          <entry key="PHP" value="5451" />
+          <entry key="PLAIN_TEXT" value="256" />
+          <entry key="Twig" value="3895" />
+          <entry key="YAML" value="1503" />
+          <entry key="htaccess" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.php.new.class">
+        <counts>
+          <entry key="PHP Class.type" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="cannanso" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/modules/contrib/devel/src/Twig/Extension/Debug.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="177" column="7" selection-start-line="177" selection-start-column="7" selection-end-line="177" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>#about</find>
+      <find>context</find>
+      <find>Font</find>
+      <find>caption</find>
+      <find>fadeOut</find>
+      <find>\</find>
+      <find>close</find>
+      <find>grid-cell</find>
+      <find>'active</find>
+      <find>;</find>
+      <find>messenger-&gt;addMessage</find>
+      <find>submitForm</find>
+      <find>construct</find>
+      <find>@config.factory</find>
+      <find>SHOWN TABS</find>
+      <find>local_task</find>
+      <find>menu_local_tasks</find>
+      <find>logo</find>
+      <find>database</find>
+      <find>conf</find>
+      <find>config_</find>
+      <find>1.9</find>
+      <find>Rewritebase</find>
+      <find>debug</find>
+      <find>breakpoint</find>
+      <find>RewriteB</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/web/modules/contribfff</dir>
+      <dir>$PROJECT_DIR$/web/modules/contrib</dir>
+      <dir>$PROJECT_DIR$/web/core</dir>
+      <dir>$PROJECT_DIR$/web/themes/_bootstrap</dir>
+      <dir>$PROJECT_DIR$/web/modules</dir>
+      <dir>$PROJECT_DIR$/web/themes/cannanso</dir>
+      <dir>$PROJECT_DIR$/web/themes</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/web/themes/_cannanso/index.html" />
+        <option value="$PROJECT_DIR$/web/sites/settings.local.php" />
+        <option value="$PROJECT_DIR$/web/themes/cannanso/templates/paragraphs/paragraph--grid.html.twig" />
+        <option value="$PROJECT_DIR$/web/themes/cannanso/templates/node/node--testimonial--slider.html.twig" />
+        <option value="$PROJECT_DIR$/web/themes/cannanso/js/cannanso.js" />
+        <option value="$PROJECT_DIR$/web/sites/development.services.yml" />
+        <option value="$PROJECT_DIR$/web/core/modules/system/templates/menu.html.twig" />
+        <option value="$PROJECT_DIR$/web/themes/cannanso/templates/menus/menu--connect-menu.html.twig" />
+        <option value="$PROJECT_DIR$/web/themes/cannanso/templates/menus/test.html.twig" />
+        <option value="$PROJECT_DIR$/web/themes/cannanso/templates/menus/menu--main-menu.html.twig" />
+        <option value="$PROJECT_DIR$/web/themes/cannanso/templates/menus/menu.html.twig" />
+        <option value="$PROJECT_DIR$/web/themes/cannanso/templates/paragraphs/paragraph--contact-form.html.twig" />
+        <option value="$PROJECT_DIR$/web/themes/cannanso/templates/paragraphs/paragraph--columns.html.twig" />
+        <option value="$PROJECT_DIR$/web/modules/custom/hello_world/src/HelloWorldSalutation.php" />
+        <option value="$PROJECT_DIR$/web/modules/custom/cannanso_contact/cannanso_contact.info.yml" />
+        <option value="$PROJECT_DIR$/web/modules/custom/hello_world/hello_world.links.menu.yml" />
+        <option value="$PROJECT_DIR$/web/modules/custom/cannanso_contact/cannanso_contact.menu.yml" />
+        <option value="$PROJECT_DIR$/web/themes/cannanso/templates/node/node--portfolio-entry--grid.html.twig" />
+        <option value="$PROJECT_DIR$/web/themes/cannanso/templates/paragraphs/paragraph--blurb.html.twig" />
+        <option value="$PROJECT_DIR$/web/modules/custom/hello_world/hello_world.services.yml" />
+        <option value="$PROJECT_DIR$/web/modules/custom/cannanso_contact/cannanso_contact.services.yml" />
+        <option value="$PROJECT_DIR$/web/modules/custom/cannanso_contact/cannanso_contact.routing.yml" />
+        <option value="$PROJECT_DIR$/web/modules/custom/hello_world/src/Plugin/Block/HelloWorldSalutationBlock.php" />
+        <option value="$PROJECT_DIR$/web/modules/custom/cannanso_contact/src/Plugin/Block/SiteContactFormBlock.php" />
+        <option value="$PROJECT_DIR$/web/modules/custom/cannanso_contact/src/Form/SiteContactForm.php" />
+        <option value="$PROJECT_DIR$/web/themes/cannanso/templates/regions/region--footer.html.twig" />
+        <option value="$PROJECT_DIR$/web/themes/cannanso/templates/pages/inc/footer.html" />
+        <option value="$PROJECT_DIR$/web/themes/cannanso/templates/pages/inc/footer.html.twig" />
+        <option value="$PROJECT_DIR$/web/themes/cannanso/templates/pages/page--front.html.twig" />
+        <option value="$PROJECT_DIR$/web/themes/cannanso/templates/webform/webform--contact.html.twig" />
+        <option value="$PROJECT_DIR$/web/themes/cannanso/templates/paragraphs/paragraph--testimonial-slider.html.twig" />
+        <option value="$PROJECT_DIR$/web/themes/cannanso/templates/system/block.html.twig" />
+        <option value="$PROJECT_DIR$/web/themes/cannanso/templates/block--contact-form.html.twig" />
+        <option value="$PROJECT_DIR$/web/themes/cannanso/templates/webform/webform-submission-form--contact.html.twig" />
+        <option value="$PROJECT_DIR$/web/themes/cannanso/templates/dtesting while driving" />
+        <option value="$PROJECT_DIR$/web/core/misc/announce.js" />
+        <option value="$PROJECT_DIR$/web/core/lib/Drupal/Core/Field/Plugin/Field/FieldType/EntityReferenceItem.php" />
+        <option value="$PROJECT_DIR$/web/themes/cannanso/cannanso.info.yml" />
+        <option value="$PROJECT_DIR$/web/core/modules/block_content/src/BlockContentAccessControlHandler.php" />
+        <option value="$PROJECT_DIR$/web/themes/cannanso/templates/menus/menu-local-tasks.html.twig" />
+        <option value="$PROJECT_DIR$/web/themes/cannanso/templates/menus/menu-local-task.html.twig" />
+        <option value="$PROJECT_DIR$/web/themes/cannanso/css/style.css" />
+        <option value="$PROJECT_DIR$/web/themes/cannanso/templates/pages/page--article.html.twig" />
+        <option value="$PROJECT_DIR$/web/themes/cannanso/templates/pages/inc/header.html.twig" />
+        <option value="$PROJECT_DIR$/web/themes/cannanso/templates/pages/page.html.twig" />
+        <option value="$PROJECT_DIR$/web/themes/cannanso/templates/webform/webform.html.twig" />
+        <option value="$PROJECT_DIR$/web/themes/cannanso/cannanso.theme" />
+        <option value="$PROJECT_DIR$/web/themes/cannanso/templates/paragraphs/paragraph--column.html.twig" />
+        <option value="$PROJECT_DIR$/web/themes/cannanso/templates/paragraphs/paragraph--basic-content.html.twig" />
+        <option value="$PROJECT_DIR$/web/sites/default/services.yml" />
+        <option value="/private/var/folders/b4/jbps0q354fs8n2h1gn9kmmw00000gn/T/fz3temp-2/.htaccess" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+      <path value="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/package.json" />
+      <path value="$PROJECT_DIR$/web/core/package.json" />
+      <path value="$PROJECT_DIR$/web/libraries/blazy/package.json" />
+      <path value="$PROJECT_DIR$/web/libraries/ckeditor/package.json" />
+      <path value="$PROJECT_DIR$/web/libraries/dropzone/package.json" />
+      <path value="$PROJECT_DIR$/web/libraries/fontawesome-iconpicker/package.json" />
+      <path value="$PROJECT_DIR$/web/libraries/jquery/package.json" />
+      <path value="$PROJECT_DIR$/web/libraries/slick-carousel/package.json" />
+      <path value="$PROJECT_DIR$/web/modules/contrib/paragraphs/css/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="PhpDebugGeneral" break_at_first_line="true" />
+  <component name="PhpServers">
+    <servers>
+      <server host="cannanso" id="a39b5e4f-a861-4673-b924-d04e04342110" name="cannanso" port="8888" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="MAMP PHP 7.18">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/drupal-composer/drupal-scaffold" />
+      <path value="$PROJECT_DIR$/vendor/cweagans/composer-patches" />
+      <path value="$PROJECT_DIR$/vendor/commerceguys/addressing" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-escaper" />
+      <path value="$PROJECT_DIR$/vendor/commerceguys/intl" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-feed" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-stdlib" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-diactoros" />
+      <path value="$PROJECT_DIR$/vendor/consolidation/self-update" />
+      <path value="$PROJECT_DIR$/vendor/grasmash/yaml-expander" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/grasmash/expander" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/reflection" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/container-interop/container-interop" />
+      <path value="$PROJECT_DIR$/vendor/instaclick/php-webdriver" />
+      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/vendor/jcalderonzumba/mink-phantomjs-driver" />
+      <path value="$PROJECT_DIR$/vendor/jcalderonzumba/gastonjs" />
+      <path value="$PROJECT_DIR$/vendor/dflydev/dot-access-configuration" />
+      <path value="$PROJECT_DIR$/vendor/dflydev/dot-access-data" />
+      <path value="$PROJECT_DIR$/vendor/dflydev/placeholder-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/mikey179/vfsStream" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/consolidation/output-formatters" />
+      <path value="$PROJECT_DIR$/vendor/consolidation/log" />
+      <path value="$PROJECT_DIR$/vendor/consolidation/site-alias" />
+      <path value="$PROJECT_DIR$/vendor/consolidation/config" />
+      <path value="$PROJECT_DIR$/vendor/consolidation/annotated-command" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/masterminds/html5" />
+      <path value="$PROJECT_DIR$/vendor/stack/builder" />
+      <path value="$PROJECT_DIR$/vendor/fabpot/goutte" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/vendor/league/container" />
+      <path value="$PROJECT_DIR$/vendor/drupal/coder" />
+      <path value="$PROJECT_DIR$/vendor/drupal/console-en" />
+      <path value="$PROJECT_DIR$/vendor/drupal/console-core" />
+      <path value="$PROJECT_DIR$/vendor/drupal/console-extend-plugin" />
+      <path value="$PROJECT_DIR$/vendor/easyrdf/easyrdf" />
+      <path value="$PROJECT_DIR$/vendor/g1a/composer-test-scenarios" />
+      <path value="$PROJECT_DIR$/vendor/chi-teck/drupal-code-generator" />
+      <path value="$PROJECT_DIR$/vendor/stecman/symfony-console-completion" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/path-util" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/oomphinc/composer-installers-extender" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/consolidation/robo" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/drush/drush" />
+      <path value="$PROJECT_DIR$/vendor/symfony-cmf/routing" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/webflo/drupal-finder" />
+      <path value="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/serializer" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/browser-kit" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/alchemy/zippy" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/asm89/stack-cors" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/vendor/behat/mink-browserkit-driver" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/behat/mink-goutte-driver" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/behat/mink-selenium2-driver" />
+      <path value="$PROJECT_DIR$/vendor/symfony/class-loader" />
+      <path value="$PROJECT_DIR$/vendor/behat/mink" />
+      <path value="$PROJECT_DIR$/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/vendor/symfony/psr-http-message-bridge" />
+      <path value="$PROJECT_DIR$/vendor/drupal/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/ajgl/breakpoint-twig-extension" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="302" />
+    <option name="width" value="1280" />
+    <option name="height" value="722" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="cannanso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cannanso" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cannanso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cannanso" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cannanso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cannanso" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cannanso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cannanso" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cannanso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cannanso" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="cannanso_contact" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cannanso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cannanso" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="sites" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cannanso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cannanso" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="sites" type="462c0819:PsiDirectoryNode" />
+              <item name="default" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cannanso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cannanso" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cannanso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cannanso" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="cannanso" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cannanso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cannanso" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="cannanso" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Constants" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/themes/cannanso/templates/webform" />
+      <recent name="$PROJECT_DIR$/web/themes/cannanso/templates/pages" />
+      <recent name="$PROJECT_DIR$/web/themes/cannanso/templates/menus" />
+      <recent name="$PROJECT_DIR$/web/themes/cannanso/templates/views" />
+      <recent name="$PROJECT_DIR$/web/themes/cannanso/templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/sites/default" />
+      <recent name="$PROJECT_DIR$/web/themes/cannanso/templates/pages/inc" />
+      <recent name="$PROJECT_DIR$/web/themes/cannanso/templates/pages" />
+      <recent name="$PROJECT_DIR$/web/modules/custom/cannanso_contact/src/Plugin" />
+      <recent name="$PROJECT_DIR$/web/modules/custom/cannanso_contact/src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Debug" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="cannanso">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6e408659-a912-4c6d-8ed1-d242cf9c8fb9" name="Default Changelist" comment="" />
+      <created>1539372827414</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539372827414</updated>
+      <workItem from="1539372828779" duration="34723000" />
+      <workItem from="1539638794064" duration="20415000" />
+      <workItem from="1539995752962" duration="77034000" />
+      <workItem from="1541133200151" duration="684000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="132856000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="302" width="1280" height="722" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" order="0" sideWeight="0.50151056" side_tool="true" weight="0.3529887" />
+      <window_info id="npm" order="1" sideWeight="0.50151056" side_tool="true" weight="0.3529887" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49848944" visible="true" weight="0.35864297" />
+      <window_info id="Structure" order="3" sideWeight="0.50151056" side_tool="true" weight="0.3529887" />
+      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50080776" side_tool="true" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32967034" />
+      <window_info anchor="bottom" id="Run" order="6" />
+      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.49946752" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.32857144" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49919224" weight="0.53650796" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" sideWeight="0.50151056" side_tool="true" weight="0.3529887" />
+      <window_info id="npm" order="1" sideWeight="0.50151056" side_tool="true" weight="0.3529887" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49848944" visible="true" weight="0.3529887" />
+      <window_info id="Structure" order="3" sideWeight="0.50151056" side_tool="true" weight="0.3529887" />
+      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50080776" side_tool="true" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32967034" />
+      <window_info anchor="bottom" id="Run" order="6" />
+      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.49946752" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.32857144" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49919224" weight="0.53650796" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>$context['content']['field_grid_view']['#bundle']</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/paragraphs/paragraph--contact-form.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="10" selection-end-line="18" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/regions/region--footer.html.twig" />
+    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/pages/page--front.html.twig" />
+    <entry file="file://$PROJECT_DIR$/web/modules/contrib/webform/templates/webform-message.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/node/node--testimonial--slider.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="59" lean-forward="true" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/paragraphs/paragraph--testimonial-slider.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/modules/contrib/webform/templates/webform-submission.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-196" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/modules/contrib/webform/templates/webform-submission-form.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/core/lib/Drupal/Core/Template/TwigExtension.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="435" selection-start-line="435" selection-end-line="435" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/twig/twig/lib/Twig/Extension/Sandbox.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/system/region.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/system/node.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1086" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/core/themes/stable/templates/form/form-element.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1139" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/block--contact-form.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/dtesting while driving" />
+    <entry file="file://$PROJECT_DIR$/web/core/misc/announce.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="48" column="53" selection-start-line="48" selection-start-column="53" selection-end-line="48" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/core/modules/entity_reference/entity_reference.module">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/core/lib/Drupal/Core/Field/Plugin/Field/FieldType/EntityReferenceItem.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2205">
+          <caret line="177" column="61" selection-start-line="177" selection-start-column="61" selection-end-line="177" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/core/modules/entity_reference/entity_reference.info.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/core/modules/block_content/block_content.links.action.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/core/modules/entity_reference/src/ConfigurableEntityReferenceItem.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="55" lean-forward="true" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/cannanso.info.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/core/modules/block_content/src/BlockContentAccessControlHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="32" column="51" lean-forward="true" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/core/modules/system/tests/modules/menu_test/menu_test.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/core/themes/classy/templates/navigation/menu-local-tasks.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-117">
+          <caret selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/_bootstrap/bootstrap.theme" />
+    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/menus/menu-local-tasks.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/menus/menu-local-task.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="92" column="1" selection-start-line="92" selection-start-column="1" selection-end-line="92" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/pages/inc/header.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/pages/page.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/modules/contrib/webform/templates/webform-container-base-html.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/webform/webform.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/modules/contrib/webform/templates/webform.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/cannanso.theme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/webform/_webform-submission-form--contact.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/paragraphs/paragraph--blurb.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/paragraphs/paragraph--hero.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/paragraphs/paragraph--column.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/paragraphs/paragraph--basic-content.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/sites/default/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/system/block.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/sites/settings.local.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1710">
+          <caret line="119" column="65" selection-start-line="119" selection-start-column="57" selection-end-line="119" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/pages/inc/footer.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/sites/default/settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1207">
+          <caret line="139" column="2" selection-start-line="139" selection-start-column="2" selection-end-line="139" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/pages/page--article.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="117" column="23" selection-start-line="117" selection-start-column="23" selection-end-line="117" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/cannanso/templates/views/views-view-fields--entity_reference_1.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///private/var/folders/b4/jbps0q354fs8n2h1gn9kmmw00000gn/T/fz3temp-2/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="119" selection-start-line="119" selection-end-line="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/modules/contrib/devel/src/Twig/Extension/Debug.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="177" column="7" selection-start-line="177" selection-start-column="7" selection-end-line="177" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

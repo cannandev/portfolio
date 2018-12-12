@@ -1,0 +1,13 @@
+<?php 
+
+function cannanso_theme_suggestions_html_alter(&$suggestions, $variables) {
+  if (($node = \Drupal::routeMatch()->getParameter('node')) && $node instanceof \Drupal\node\NodeInterface) {
+    $suggestions[] = 'html__' . $node->getType();
+  }
+}
+
+function cannanso_theme_suggestions_page_alter(&$suggestions, $variables) {
+  if (($node = \Drupal::routeMatch()->getParameter('node')) && $node instanceof \Drupal\node\NodeInterface) {
+    $suggestions[] = 'page__' . $node->getType();
+  }
+}

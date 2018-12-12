@@ -1,0 +1,19 @@
+global-styling:
+  version: VERSION
+  css:
+    base:
+      css/bootstrap.min.css: {}
+      css/style.css: {}
+      css/aos.css: {}
+      'https://fonts.googleapis.com/css?family=Libre+Baskerville:400i': { type: external }
+      'https://fonts.googleapis.com/css?family=Libre+Franklin:400, 700': { type: external }
+global-scripts:
+  version: 1.x
+  js: 
+    js/bootstrap.min.js: {}
+    js/aos.js: {}
+    js/cannanso.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/jquery.ui

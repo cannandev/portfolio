@@ -1,0 +1,7 @@
+cannanso_contact.form:
+  path: '/contact'
+  defaults:
+    _form: '\Drupal\cannanso_contact\Form\SiteContactForm'
+    _title: 'Cannanso.com site form'
+  requirements:
+    _permission: 'access content'

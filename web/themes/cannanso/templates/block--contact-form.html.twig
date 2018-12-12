@@ -1,0 +1,19 @@
+<form id="contactForm" novalidate>
+    <div class="col col-md-6 has-error">
+        <label class="sr-only" for="contactName">Your Name</label>
+        <input class="form-control name" type="text" name="contactName" placeholder="Your Name:" required>
+    </div>
+    <div class="col col-md-6 has-error">
+        <label class="sr-only" for="_replyto">Your Email</label>
+        <input type="email" class="form-control email" name="_replyto" placeholder="Your Email:" required>
+    </div>
+    <div class="col col-md-12 has-error">
+        <label class="sr-only" for="contactMessage">Your Message</label>
+        <textarea rows="4" class="form-control message" name="contactMessage" placeholder="Your Message:" required></textarea>
+    </div>
+    <input type="hidden" name="_subject" value="Incoming! formspree.io Contact Form Submission" />
+    <input type="text" name="_gotcha" style="display:none" />
+    <div class="col col-md-12 text-center">
+        <button type="submit" class="btn more">Send</button>
+    </div>
+</form>a

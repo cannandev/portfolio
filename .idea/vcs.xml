@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/behat/mink" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/behat/mink-selenium2-driver" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/drupal/coder" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/web/libraries/fontawesome-iconpicker" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/web/modules/custom/hello_world" vcs="Git" />
+  </component>
+</project>
