@@ -9,10 +9,11 @@ global-styling:
       'https://fonts.googleapis.com/css?family=Libre+Franklin:400, 700': { type: external }
 global-scripts:
   version: 1.x
-  js: 
+  js:
     js/bootstrap.min.js: {}
     js/aos.js: {}
     js/cannanso.js: {}
+    js/index.js: {}
   dependencies:
     - core/jquery
     - core/jquery.once

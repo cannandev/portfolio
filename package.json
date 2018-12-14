@@ -11,7 +11,16 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel web/themes/cannanso/js -d web/themes/cannanso/lib",
+    "babel": {
+      "presets": [
+        "es2015"
+      ]
+    },
+    "browserify": {
+      "transform": ["babelify"]
+    }
   },
   "repository": {
     "type": "git",
