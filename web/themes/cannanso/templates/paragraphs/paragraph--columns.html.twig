@@ -1,9 +1,13 @@
 {% set bg = content.field_background_color[0]['#markup'] %}
-<section id="about" {{ attributes.addClass(bg) }}>
+<section {{ attributes.setAttribute('id', 'about').addClass(bg) }}>
     <div class="container">
         <div class="row">
             <div class="col-md-8 col-md-offset-2 text-center">
                 <h2>{{ content.field_title }}</h2>
+                {# {% if paragraph.field_blog_image.0 is not empty %} #}
+                <img src="/themes/cannanso/img/blog1.jpg"
+                    class="blog-img img-responsive img-circle" />
+                {# {% endif %} #}
                 <p class="lead">{{ content.field_description }}</p>
             </div>
         </div>
