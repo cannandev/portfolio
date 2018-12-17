@@ -10,7 +10,7 @@
         {% if content.field_label is not empty %}
         <p>{{ content.field_label }}</p>
         {% endif %}
-        <h1 class="lead" data-aos="fade-right" data-aos-duration="1000">{{ content.field_description }}</h1>
+        <h1 class="lead">{{ content.field_description }}</h1>
         {% if content.field_cta.0 is not empty %}
         <a class="btn more" href="{{ content.field_cta.0['#url'] }}">{{ content.field_cta.0['#title'] }} {{ content.field_cta_icon }}</a>
         {% endif %}
